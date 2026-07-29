@@ -67,6 +67,14 @@ Se algum comando não puder ser executado, informe o motivo; não declare sucess
 - Não altere regra de negócio, autenticação ou autorização.
 - Para qualquer necessidade fora desses limites, pare e solicite decisão.
 
+## Automação, ferramentas e higiene (GOV-007, GOV-008, DOC-004)
+- Reutilize automação existente antes de criar Action ou script; justifique qualquer criação.
+- Só crie Action ou script se for diretamente útil ao objetivo desta etapa.
+- Declare a ferramenta externa utilizada, seu custo incremental (deve ser zero) e as cotas/limitações aplicáveis.
+- Informe dados ou arquivos transmitidos e as permissões/autenticação utilizadas.
+- Pare e solicite decisão antes de OAuth, conta, token, instalação de app, cobrança ou ampliação de permissão.
+- Indique arquivos removidos com evidência de obsolescência; se nenhuma remoção foi necessária, declare isso explicitamente.
+
 ## Relatório final obrigatório
 Use exatamente:
 1. Resumo executivo
@@ -103,6 +111,20 @@ Use exatamente:
 | Arquivo | Ação | Motivo |
 | --- | --- | --- |
 | ... | criado/alterado/removido | ... |
+
+## 4.1 Automações e ferramentas externas
+| Item | Reutilizou existente? | Justificativa | Ferramenta externa | Dados/arquivos transmitidos | Permissões/autenticação | Cota/limite | Custo incremental |
+| --- | --- | --- | --- | --- | --- | --- | ---: |
+| ... | sim/não | ... | ... | ... | ... | ... | 0 |
+
+Se nenhuma Action, script ou ferramenta externa foi utilizada, declarar explicitamente.
+
+## 4.2 Remoções
+| Caminho | Evidência de obsolescência | Referências verificadas | Consolidação/substituto | Motivo |
+| --- | --- | --- | --- | --- |
+| ... | ... | ... | ... | ... |
+
+Se nenhuma remoção foi necessária, declarar explicitamente: "Nenhum arquivo removido."
 
 ## 5. Decisões
 | Decisão | Motivo | Impacto |
@@ -302,3 +324,19 @@ Procure especialmente:
 
 Não altere arquivos. Entregue achados classificados em crítico, alto, médio e baixo, sempre com evidência verificável.
 ```
+
+## 7. Requisitos de automação, ferramentas e higiene
+
+Origem: `GOV-007`, `GOV-008` e `DOC-004` (Bruno, 29/07/2026). Limites detalhados em [09 — Governança de IA e GitHub](09_GOVERNANCA_IA_GITHUB.md).
+
+Todo prompt de execução e todo relatório de agente devem, a partir de agora, exigir:
+
+- reutilizar automações existentes antes de criar novas;
+- justificar a criação de qualquer GitHub Action ou script Python;
+- indicar a ferramenta externa utilizada;
+- declarar o custo incremental (que deve ser zero);
+- informar dados ou arquivos transmitidos;
+- informar permissões e autenticação utilizadas;
+- informar cotas ou limitações relevantes;
+- indicar arquivos removidos e a evidência de obsolescência;
+- declarar explicitamente quando nenhuma remoção foi necessária.

@@ -48,6 +48,18 @@ Sem autorização explícita e presente na etapa, não:
 
 Uma autorização documental não autoriza implementação.
 
+## Automações, ferramentas e hospedagem
+
+Bruno autorizou em 29/07/2026 (`GOV-007`, `GOV-008`, `INFRA-001`, `DOC-004`; fonte primária: `docs/governanca/REGISTRO_DECISOES.md`, limites em `docs/governanca/09_GOVERNANCA_IA_GITHUB.md`):
+
+- **GitHub Actions e scripts Python** podem ser criados quando diretamente úteis ao objetivo autorizado de uma etapa (verificação, validação, teste, qualidade, segurança, auditoria, desempenho, redução de trabalho e tokens). Autorização para criá-los **não** significa autorização para criá-los em qualquer etapa.
+- **Ferramentas gratuitas ou já incluídas** de Claude/Anthropic, OpenAI e GitHub podem ser usadas com custo incremental zero e menor privilégio. Recursos pagos, trials com conversão e excedentes continuam bloqueados.
+- Nenhuma automação pode, por si só, realizar deploy, mutation remota, migration ou alteração de dados/schema sem autorização específica (`GOV-005`).
+- Pare e relate antes de OAuth, conta, token, instalação de app, cobrança ou ampliação de permissão não autorizada.
+- **Vercel** é a hospedagem preferencial sob custo zero, mas **não está configurada** e não há autorização de deploy; configuração de conta/projeto/integração exige autorização posterior e específica (detalhe técnico no `ADR-008`).
+- **Higiene do repositório é controlada**: remova arquivos apenas com evidência (referências, substituto, impacto e valor histórico verificados); registre toda remoção; não versione arquivos temporários ou gerados.
+- Sincronize a documentação afetada na mesma etapa. Na dúvida, interrompa e relate.
+
 ## Documentação
 
 - Atualize somente documentos afetados pela etapa.

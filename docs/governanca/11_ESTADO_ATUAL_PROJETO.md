@@ -4,7 +4,7 @@
 
 **Fase:** 0 — descoberta e validação
 
-**Status geral:** decisões iniciais registradas; D0 parcialmente concluída; preparação da coleta pendente; produto ainda não validado
+**Status geral:** decisões iniciais e operacionais registradas; D0 parcialmente concluída; preparação da coleta pendente; produto ainda não validado
 
 ## 1. Resumo
 
@@ -33,6 +33,10 @@ O próximo gate é preparar, para aprovação de Bruno, os instrumentos e as reg
 | DOC-001 | Organizar documentos por área (`produto`, `descoberta`, `arquitetura`, `qualidade`, `governanca`) | Merge do PR #1 (29/07/2026) |
 | DOC-002 | Manter `README.md` e `AGENTS.md` na raiz | Merge do PR #1 (29/07/2026) |
 | DOC-003 | Usar o registro de decisões como fonte primária das decisões confirmadas | Merge do PR #1 (29/07/2026) |
+| GOV-007 | GitHub Actions e scripts Python autorizados quando diretamente úteis a uma etapa, gratuitos, determinísticos, documentados e seguros; sem conceder deploy, push, PR, migration ou mudança sensível | Bruno (29/07/2026) |
+| GOV-008 | Ferramentas gratuitas ou já incluídas de Claude/Anthropic, OpenAI e GitHub autorizadas com custo incremental zero e menor privilégio | Bruno (29/07/2026) |
+| INFRA-001 | Vercel como hospedagem preferencial sob custo zero; sem deploy nesta etapa; detalhamento no `ADR-008` | Bruno (29/07/2026) |
+| DOC-004 | Higiene contínua e controlada do repositório; remoção somente com evidência registrada | Bruno (29/07/2026) |
 
 A fonte primária dessas decisões é o [registro de decisões](REGISTRO_DECISOES.md).
 
@@ -116,6 +120,13 @@ Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 - fonte-mestra, escopo, plano de descoberta e índices atualizados com o recorte de descoberta;
 - decisões 1–4 marcadas como respondidas; 5–10 mantidas pendentes.
 
+### EO-GOV-001
+
+- decisões operacionais `GOV-007`, `GOV-008`, `INFRA-001` e `DOC-004` registradas em [Registro de decisões](REGISTRO_DECISOES.md);
+- governança (`09`), templates (`10`), instruções dos agentes (`AGENTS.md`), arquitetura (`06`) e roadmap (`08`) sincronizados com os novos limites;
+- etapa exclusivamente de consolidação documental; nenhuma Action, script persistente, aplicação ou configuração Vercel criada; nenhum deploy;
+- **PR #2** (`agent/registrar-decisoes-iniciais`, draft, conflitante) analisada em modo somente leitura e registrada como pendência operacional candidata a encerramento — **não** encerrada nesta etapa.
+
 ## 7. Não iniciado
 
 - recrutamento ou entrevistas;
@@ -128,7 +139,10 @@ Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 - ADRs homologados;
 - scaffold ou implementação;
 - schema ou migration;
-- CI/CD e infraestrutura.
+- CI/CD e infraestrutura;
+- GitHub Actions ou scripts Python persistentes (autorizados por `GOV-007`, mas não criados);
+- configuração de conta, projeto ou integração Vercel (`INFRA-001` registra a direção, sem ativação);
+- deploy de preview, staging ou produção.
 
 ## 8. Riscos abertos
 
@@ -142,7 +156,12 @@ Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 - retenção e tratamento de dados;
 - coleta iniciada antes de consentimento, anonimização e retenção aprovados (mitigado pelo gate atual);
 - viés retrospectivo caso os critérios congelados sejam alterados após ver resultados;
-- crescimento de escopo antes da validação.
+- crescimento de escopo antes da validação;
+- custo não previsto ou conversão automática ao usar plataformas gratuitas (mitigado por `GOV-008` e `INFRA-001`, custo incremental zero exigido);
+- lock-in de fornecedor de hospedagem (mitigado pelos critérios de portabilidade de `INFRA-001`);
+- ampliação indevida de permissões, tokens ou integrações (mitigado pela exigência de menor privilégio e interrupção);
+- vazamento de segredos ou dados pessoais em prompts, logs, artefatos ou Actions (proibido por `GOV-007`/`GOV-008`);
+- acúmulo ou obsolescência documental sem higiene controlada (mitigado por `DOC-004`).
 
 ## 9. Próximo passo recomendado
 
@@ -183,6 +202,17 @@ As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** sã
 - roteiro de entrevistas lido e verificado, sem alteração (permanece proposta, não aprovado);
 - nenhuma pesquisa, recrutamento, contato ou implementação autorizado;
 - etapa exclusivamente documental, sem commit, push ou PR.
+
+### 29/07/2026 — EO-GOV-001
+
+- consolidação documental das decisões operacionais recentes de Bruno;
+- `GOV-007`, `GOV-008`, `INFRA-001` e `DOC-004` registrados como decisões confirmadas;
+- governança, templates, `AGENTS.md`, arquitetura e roadmap sincronizados sem ampliar autorizações;
+- Vercel registrada como direção de hospedagem preferencial sob custo zero, sem configuração nem deploy;
+- auditoria de obsolescência e links executada em modo somente leitura; nenhuma remoção necessária;
+- produto mantido não validado; `H-01` a `H-07` mantidas não validadas; próximo gate de descoberta inalterado;
+- PR #2 classificada como candidata a encerramento, sem alteração remota;
+- etapa exclusivamente documental, sem commit, push, PR, merge ou deploy.
 
 ## 11. Modelo para próxima atualização
 

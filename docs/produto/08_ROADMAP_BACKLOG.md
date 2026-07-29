@@ -59,6 +59,7 @@ Gate:
 
 - fluxo principal compreendido por usuários de teste;
 - ADRs bloqueadores aprovados;
+- hospedagem e limites do plano gratuito definidos no gate arquitetural (`INFRA-001`, detalhados no `ADR-008`);
 - sem pendência crítica de regra.
 
 ### Fase 2 — Fundação do repositório
@@ -67,7 +68,8 @@ Objetivos:
 
 - criar monorepo;
 - configurar frontend, backend, banco local e CI;
-- estabelecer padrões, testes e documentação.
+- estabelecer padrões, testes e documentação;
+- consolidar automações e verificações reutilizáveis do repositório (`GOV-007`), sem ativar recurso pago silenciosamente.
 
 Entregáveis:
 
@@ -148,6 +150,7 @@ Gate:
 - checklist de release aprovado;
 - riscos críticos resolvidos;
 - rollback ensaiado;
+- portabilidade, limites de execução e custos de hospedagem validados antes do piloto, sem excedente ou recurso pago ativado silenciosamente;
 - documentação operacional disponível.
 
 ### Fase 7 — Piloto controlado
