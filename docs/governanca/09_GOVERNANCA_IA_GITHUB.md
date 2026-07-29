@@ -156,3 +156,63 @@ Ao final de uma etapa:
 ## 12. Princípio de prestação de contas
 
 Relatório é evidência, não cerimônia. Se uma ação não foi executada, deve constar como não executada. Se um teste falhou, o resultado deve ser preservado no relatório. Se houver incerteza, ela deve ser explicitada.
+
+## 13. Automações internas e ferramentas externas (`GOV-007` e `GOV-008`)
+
+Origem: Bruno, 29/07/2026. Fonte primária: [Registro de decisões](REGISTRO_DECISOES.md).
+
+`GOV-007` autoriza criar **GitHub Actions** e **scripts Python** quando forem diretamente necessários ao escopo de uma etapa, para verificação, validação, teste, análise de qualidade e segurança, auditoria documental, melhoria de desempenho, redução de trabalho repetitivo e economia de tempo e tokens.
+
+`GOV-008` autoriza usar **ferramentas e recursos gratuitos ou já incluídos** das plataformas Claude/Anthropic, OpenAI e GitHub.
+
+Limites obrigatórios em ambos os casos:
+
+- a autorização é condicional e por etapa: criar Action ou script só é permitido quando útil ao objetivo autorizado daquela etapa, nunca por antecipação;
+- **menor privilégio**: solicitar e usar o mínimo de permissões necessário;
+- **custo incremental zero**: proibido ativar plano pago, trial com conversão automática ou excedente; confirmar o custo antes de usar;
+- proibido expor segredos ou dados pessoais em prompts, logs, artefatos, Actions ou relatórios;
+- nenhuma automação pode, por si só, realizar commit, push, PR, merge, deploy, mutation remota, migration, alteração de schema ou de dados sem autorização específica (`GOV-005`);
+- **interromper e relatar** antes de qualquer OAuth, criação de conta/token, instalação de aplicativo, cobrança ou ampliação de permissão não autorizada — salvo quando a conexão já estiver aprovada e a operação não ampliar permissões;
+- informar no relatório: ferramenta, finalidade, dados ou arquivos transmitidos, permissões e autenticação utilizadas, cotas ou limitações aplicáveis e custo incremental.
+
+Antes de criar uma nova automação, reutilizar automação equivalente já existente e justificar a criação.
+
+## 14. Requisitos para futuras GitHub Actions
+
+Toda Action criada sob `GOV-007` deve:
+
+- declarar `permissions` mínimos e explícitos (negar por padrão, conceder só o necessário);
+- fixar ações de terceiros em versão confiável (SHA ou tag verificada), sem referências móveis;
+- definir `timeout` por job;
+- prevenir execução desnecessária (filtros de path, evento e concorrência);
+- não emitir segredos em logs;
+- não mascarar falhas (código de saída coerente; sem `|| true` que oculte erro);
+- ter comando equivalente executável localmente quando aplicável;
+- ter consumo compatível com as cotas do plano gratuito;
+- gerar artefatos e definir retenção somente quando necessários.
+
+## 15. Requisitos para futuros scripts Python
+
+Todo script criado sob `GOV-007` deve:
+
+- documentar entrada e saída;
+- executar de forma determinística e reproduzível;
+- retornar código de saída coerente (zero em sucesso, diferente de zero em falha);
+- emitir mensagens de erro úteis;
+- evitar dependências desnecessárias (preferir biblioteca padrão);
+- suportar uso local e em CI quando aplicável;
+- não alterar arquivos ou dados silenciosamente;
+- oferecer modo somente leitura para auditorias, quando pertinente.
+
+## 16. Limpeza controlada de arquivos (`DOC-004`)
+
+Origem: Bruno, 29/07/2026. A higiene do repositório é contínua e controlada:
+
+- documentos afetados por uma etapa são atualizados na mesma etapa;
+- arquivos obsoletos, duplicados ou desnecessários só são removidos com evidência suficiente;
+- nenhuma exclusão ocorre apenas pelo nome, idade ou aparente duplicidade;
+- antes de excluir, verificar referências, substitutos e impacto em build, testes, links e valor histórico;
+- consolidar o conteúdo relevante na fonte correta antes de remover;
+- registrar toda remoção no relatório, com motivo e evidência;
+- preservar histórico útil de forma recuperável pelo Git;
+- não versionar arquivos temporários, gerados ou acidentais.

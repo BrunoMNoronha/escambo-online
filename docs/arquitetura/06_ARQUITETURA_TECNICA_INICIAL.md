@@ -227,3 +227,28 @@ Nenhum scaffold deve ser criado antes de:
 - aprovar a arquitetura por ADR;
 - definir critérios de sucesso e piloto;
 - definir licença e política de contribuição no repositório oficial.
+
+## 15. Hospedagem preferencial sob custo zero (`INFRA-001`)
+
+Origem: Bruno, 29/07/2026. Fonte primária: [Registro de decisões](../governanca/REGISTRO_DECISOES.md).
+
+A **Vercel** é a **direção preferencial** de hospedagem do protótipo ou MVP sob restrição de custo zero. Esta é uma direção de arquitetura; **não** homologa a stack proposta na seção 2, **não** autoriza deploy e **não** escolhe serviços adicionais de banco, storage, e-mail, observabilidade ou autenticação.
+
+Condições registradas:
+
+- custo incremental igual a zero; sem cobrança automática; sem contratação de plano pago;
+- elegibilidade do uso confirmada conforme os termos vigentes no momento da ativação;
+- nenhum deploy nesta etapa; configuração por variáveis de ambiente; segredos fora do repositório;
+- build reproduzível fora da Vercel; dados e serviços desacoplados quando razoável;
+- dependências proprietárias somente mediante justificativa e aprovação;
+- se o plano gratuito vigente for incompatível com o uso pretendido, **interromper e devolver a decisão a Bruno**, sem contratar plano alternativo.
+
+Critérios mínimos de portabilidade:
+
+- artefato de build gerável e executável fora da Vercel;
+- configuração externalizada (doze fatores) sem acoplamento a APIs proprietárias sem aprovação;
+- ausência de lock-in que impeça migrar para outro provedor com esforço razoável.
+
+Ainda **precisam ser avaliados** antes de qualquer ativação: backend, banco, storage, limites de execução (runtime/tempo/tamanho) e compatibilidade com a Vercel.
+
+A decisão operacional detalhada permanece pendente no **`ADR-008` (Ambientes e hospedagem)**, que deverá formalizar essas escolhas técnicas. `INFRA-001` registra a direção; não substitui o ADR nem autoriza implementação.
