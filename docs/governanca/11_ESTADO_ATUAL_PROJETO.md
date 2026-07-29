@@ -4,15 +4,15 @@
 
 **Fase:** 0 — descoberta e validação
 
-**Status geral:** auditoria documental concluída; produto ainda não validado
+**Status geral:** decisões iniciais incorporadas à base v0.2; produto ainda não validado
 
 ## 1. Resumo
 
-O repositório oficial foi definido e a base inicial foi auditada na etapa `EO-DISC-001`.
+O repositório oficial foi definido, a base inicial foi auditada na etapa `EO-DISC-001` e as quatro primeiras decisões de descoberta foram respondidas por Bruno.
 
-A auditoria concluiu que a proposta é coerente para iniciar descoberta, mas não está pronta para fechar MVP ou iniciar implementação. Nenhuma hipótese `H-01` a `H-07` possui evidência externa suficiente.
+A tese inicial é troca exclusivamente de bens, sem complemento financeiro. O Distrito Federal é o mercado macro, Região Administrativa é a unidade de análise e três agrupamentos candidatos delimitam a pesquisa. Os critérios de `H-01` a `H-07` foram aprovados, mas nenhuma hipótese possui evidência externa suficiente.
 
-O próximo gate é Bruno decidir a fronteira da tese, as regiões, o público/categorias e os critérios prévios da pesquisa.
+O próximo gate é Bruno escolher duas RAs e aprovar os instrumentos operacionais antes de qualquer recrutamento ou contato externo.
 
 ## 2. Decisões confirmadas
 
@@ -24,6 +24,12 @@ O próximo gate é Bruno decidir a fronteira da tese, as regiões, o público/ca
 | GOV-004 | Bruno mantém aprovação final de decisões e ações sensíveis | Governança adotada |
 | GOV-005 | Commit, push, PR, migration e mudança sensível exigem autorização explícita | Governança adotada |
 | GOV-006 | `BrunoMNoronha/escambo-online` é o repositório oficial | Bruno |
+| PROD-001 | A tese testada é troca exclusivamente de bens, sem complemento financeiro | Bruno |
+| DISC-001 | Distrito Federal é o mercado macro da descoberta | Bruno |
+| DISC-002 | Região Administrativa é a unidade inicial de análise; duas RAs ainda serão escolhidas | decisão aplicada |
+| DISC-003 | Três agrupamentos candidatos delimitam a pesquisa inicial | decisão aplicada |
+| DISC-004 | Itens ilícitos, regulados, de procedência incerta, perigosos, íntimos, de alto risco ou que exijam garantia especializada ficam excluídos da descoberta | Bruno |
+| DISC-005 | Os critérios de `MATRIZ_HIPOTESES_V1.md` estão aprovados, inclusive os gates críticos | Bruno |
 
 A fonte primária dessas decisões é o [registro de decisões](REGISTRO_DECISOES.md).
 
@@ -31,7 +37,6 @@ A fonte primária dessas decisões é o [registro de decisões](REGISTRO_DECISOE
 
 | ID | Proposta |
 | --- | --- |
-| PROD-001 | MVP de troca de bens sem pagamento ou complemento financeiro |
 | PROD-002 | Operação inicial regional e encontro presencial |
 | PROD-003 | Um ou mais anúncios por lado da proposta |
 | PROD-004 | Chat vinculado à negociação |
@@ -57,22 +62,20 @@ Nenhuma proposta desta seção autoriza implementação.
 | H-06 — vários itens são compreensíveis | Não validada | recomenda simplificação |
 | H-07 — moderação manual suporta o piloto | Não validada | bloqueia piloto seguro |
 
-`H-01`, `H-02`, `H-05` e `H-07` são gates de viabilidade.
+`H-01`, `H-02`, `H-05` e `H-07` são gates de viabilidade aprovados. Falha nesses gates pode estreitar, reformular ou interromper o projeto.
 
 ## 5. Decisões pendentes priorizadas
 
 | Prioridade | Decisão | Quando |
 | ---: | --- | --- |
-| 1 | Fronteira da tese e complemento financeiro | antes da pesquisa |
-| 2 | Regiões candidatas e unidade de liquidez | antes da pesquisa |
-| 3 | Público, categorias e itens excluídos | antes da pesquisa |
-| 4 | Critérios para manter, alterar ou rejeitar hipóteses | antes da pesquisa |
-| 5 | Composição 1:1, 1:N ou N:N | antes do protótipo |
-| 6 | Presencial, raio e compartilhamento progressivo | pesquisa e antes do piloto |
-| 7 | Momento do chat e controles de abuso | antes do protótipo/piloto |
-| 8 | Expiração, cancelamento e concorrência | antes do modelo de estados |
-| 9 | Conclusão, problema, disputa e reputação | antes do piloto |
-| 10 | Elegibilidade, moderação e gates do piloto | antes de usuários reais |
+| 1 | Escolher as duas RAs do Distrito Federal | antes do recrutamento |
+| 2 | Aprovar recrutamento, consentimento, registro, retenção e responsável pelos dados | antes de qualquer contato |
+| 3 | Composição 1:1, 1:N ou N:N | depois das entrevistas e antes do protótipo |
+| 4 | Presencial, raio e compartilhamento progressivo | pesquisa e antes do piloto |
+| 5 | Momento do chat e controles de abuso | antes do protótipo/piloto |
+| 6 | Expiração, cancelamento e concorrência | antes do modelo de estados |
+| 7 | Conclusão, problema, disputa e reputação | antes do piloto |
+| 8 | Elegibilidade, moderação e gates do piloto | antes de usuários reais |
 
 Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 
@@ -81,7 +84,7 @@ Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 ### Base inicial
 
 - instruções do Projeto ChatGPT;
-- fonte-mestra v0.1;
+- fonte-mestra v0.2;
 - escopo e regras propostas;
 - jornadas, histórias e critérios;
 - modelo conceitual;
@@ -98,6 +101,12 @@ Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 - [Roteiro de entrevistas V1](../descoberta/ROTEIRO_ENTREVISTAS_V1.md);
 - [Matriz de hipóteses V1](../descoberta/MATRIZ_HIPOTESES_V1.md);
 - [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
+
+### Base de conhecimento
+
+- instrução do Projeto ChatGPT revisada;
+- manifesto de substituição da base antiga pelos arquivos canônicos v0.2;
+- decisões `PROD-001` e `DISC-001` a `DISC-005` rastreadas no registro vivo.
 
 ## 7. Não iniciado
 
@@ -127,15 +136,10 @@ Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 
 ## 9. Próximo passo recomendado
 
-Bruno deve responder às decisões 1 a 4 de [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
-
-Depois:
-
-1. registrar as decisões aprovadas;
-2. ajustar e congelar critérios da matriz;
-3. preparar recrutamento, consentimento e registro;
-4. solicitar autorização específica antes de contatar participantes;
-5. executar entrevistas antes de protótipo detalhado ou arquitetura.
+1. Bruno escolhe duas RAs do Distrito Federal com acesso real para recrutamento e possível piloto.
+2. A equipe prepara critérios de recrutamento, consentimento, registro e retenção.
+3. Bruno aprova os instrumentos e concede autorização específica para contato.
+4. Somente então são executadas entrevistas, antes de protótipo detalhado ou arquitetura.
 
 ## 10. Histórico
 
@@ -153,6 +157,15 @@ Depois:
 - plano, roteiro, matriz e decisões prioritárias produzidos;
 - repositório oficial confirmado por Bruno;
 - nenhuma decisão de produto foi presumida.
+
+### 29/07/2026 — Decisões iniciais da descoberta
+
+- troca exclusivamente de bens, sem complemento financeiro, confirmada;
+- Distrito Federal definido como mercado macro e RA como unidade de análise;
+- três agrupamentos candidatos e exclusões de risco incorporados;
+- critérios de `H-01` a `H-07` aprovados;
+- nenhuma hipótese promovida a validada;
+- duas RAs mantidas como próximo gate.
 
 ## 11. Modelo para próxima atualização
 

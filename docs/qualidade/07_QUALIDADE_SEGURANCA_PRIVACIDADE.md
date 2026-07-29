@@ -1,7 +1,7 @@
 # Qualidade, segurança e privacidade
 
-**Versão:** 0.1  
-**Status:** requisitos mínimos iniciais
+**Versão:** 0.2
+**Status:** requisitos mínimos iniciais; gates da descoberta aprovados
 
 ## 1. Estratégia de qualidade
 
@@ -159,6 +159,19 @@ O produto deve:
 - definir resposta a ameaça, fraude e item ilícito;
 - ter procedimento interno para escalonamento.
 
+### Exclusões da descoberta
+
+Não recrutar, anunciar, simular negociação real ou coletar detalhes sobre itens:
+
+- ilícitos ou regulados;
+- de procedência incerta;
+- perigosos;
+- íntimos ou com risco relevante de higiene;
+- de alto risco;
+- que dependam de garantia especializada.
+
+Os exemplos concretos e a política completa ainda exigem detalhamento antes de qualquer piloto.
+
 ## 9. Gate jurídico e de políticas
 
 Antes do piloto com usuários reais, revisar:
@@ -175,7 +188,16 @@ Antes do piloto com usuários reais, revisar:
 
 Este documento é requisito de produto e engenharia, não parecer jurídico.
 
-## 10. Evidência exigida por etapa
+## 10. Gates aprovados da descoberta
+
+- `H-01`: demanda recorrente por troca sem dinheiro;
+- `H-02`: liquidez em células de Região Administrativa × agrupamento;
+- `H-05`: suficiência e segurança do encontro presencial;
+- `H-07`: capacidade de moderação manual.
+
+Se um desses gates falhar, o projeto pode ser estreitado, reformulado ou interrompido. Aprovação do critério não equivale a validação da hipótese.
+
+## 11. Evidência exigida por etapa
 
 Uma conclusão técnica deve trazer:
 

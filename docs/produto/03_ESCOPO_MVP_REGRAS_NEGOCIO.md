@@ -1,7 +1,7 @@
 # Escopo do MVP e regras de negócio
 
-**Versão:** 0.1  
-**Status:** proposta para validação  
+**Versão:** 0.2
+**Status:** proposta para validação, com fronteira sem dinheiro confirmada
 **Dependência:** [02_FONTE_MESTRA_PRODUTO.md](02_FONTE_MESTRA_PRODUTO.md)
 
 ## 1. Atores
@@ -13,7 +13,16 @@
 | Moderador | Analisar denúncias e aplicar ações permitidas |
 | Administrador | Gerenciar categorias, políticas, perfis administrativos e auditoria |
 
-## 2. Capacidades do MVP proposto
+## 2. Decisões que limitam o escopo
+
+- A troca é exclusivamente de bens; complemento financeiro não será testado no MVP inicial.
+- O mercado macro da descoberta é o Distrito Federal.
+- A unidade territorial de análise é a Região Administrativa.
+- Os três agrupamentos definidos são candidatos da pesquisa, não categorias finais.
+- Itens de risco definidos em `DISC-004` ficam fora da descoberta.
+- Os critérios de H-01 a H-07 estão aprovados e podem interromper ou estreitar o projeto.
+
+## 3. Capacidades do MVP proposto
 
 ### Conta e perfil
 
@@ -67,7 +76,7 @@
 - consultar eventos críticos de auditoria;
 - manter categorias permitidas.
 
-## 3. Estados propostos
+## 4. Estados propostos
 
 ### Anúncio
 
@@ -97,7 +106,7 @@ Transições fora do fluxo definido devem ser rejeitadas pelo backend.
 
 O prazo de expiração e a regra de conclusão unilateral são decisões pendentes.
 
-## 4. Regras e invariantes
+## 5. Regras e invariantes
 
 ### Usuário e conta
 
@@ -126,7 +135,7 @@ O prazo de expiração e a regra de conclusão unilateral são decisões pendent
 7. Se qualquer item estiver indisponível, nenhum item deve ser reservado.
 8. Um anúncio não pode participar simultaneamente de duas propostas aceitas.
 9. Propostas concorrentes afetadas por uma reserva devem ser encerradas ou invalidadas conforme política explícita.
-10. Complemento financeiro não faz parte do MVP proposto.
+10. Complemento financeiro é proibido no MVP inicial por decisão `PROD-001`.
 
 ### Chat
 
@@ -145,7 +154,7 @@ O prazo de expiração e a regra de conclusão unilateral são decisões pendent
 5. Denúncias e sanções registram motivo, autor administrativo e timestamp.
 6. A plataforma não pode afirmar que verificou autenticidade, propriedade ou segurança de um item sem processo real que sustente essa afirmação.
 
-## 5. Políticas mínimas antes do lançamento
+## 6. Políticas mínimas antes do lançamento
 
 - itens proibidos;
 - conteúdo e comportamento aceitáveis;
@@ -159,7 +168,7 @@ O prazo de expiração e a regra de conclusão unilateral são decisões pendent
 
 Os textos finais dessas políticas exigem revisão jurídica adequada antes de produção.
 
-## 6. Critério macro de aceite do MVP proposto
+## 7. Critério macro de aceite do MVP proposto
 
 O MVP proposto só estará funcionalmente completo quando um usuário puder:
 
@@ -174,9 +183,9 @@ O MVP proposto só estará funcionalmente completo quando um usuário puder:
 9. avaliar ou denunciar;
 10. ter as operações críticas protegidas, testadas e auditáveis.
 
-## 7. Decisões pendentes com impacto de escopo
+## 8. Decisões pendentes com impacto de escopo
 
-- região e público do piloto;
+- duas Regiões Administrativas e público específico do piloto;
 - idade mínima;
 - uma ou várias unidades por lado da troca;
 - momento de abertura do chat;
@@ -184,7 +193,7 @@ O MVP proposto só estará funcionalmente completo quando um usuário puder:
 - regra de conclusão quando apenas uma parte confirma;
 - tratamento de proposta concorrente;
 - compartilhamento de contato e local após aceite;
-- categorias e itens proibidos;
+- categorias finais e política detalhada de itens proibidos;
 - necessidade de verificação de identidade;
 - política de disputa;
 - modelo de negócio futuro.

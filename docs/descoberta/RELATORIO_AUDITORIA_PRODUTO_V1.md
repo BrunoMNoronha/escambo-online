@@ -21,13 +21,13 @@ Não foram realizadas entrevistas, pesquisa de mercado, análise de concorrentes
 
 **Fato:** a base apresenta uma tese coerente para um marketplace regional de troca de bens entre pessoas, sem intermediação financeira, com negociação estruturada, privacidade progressiva e controles de confiança e segurança.
 
-**Fato:** somente as decisões de governança `GOV-001` a `GOV-005` estão confirmadas. As definições do produto e da tecnologia permanecem propostas.
+**Fato:** além das decisões de governança, Bruno confirmou após a auditoria a tese de troca exclusivamente de bens, o Distrito Federal como mercado macro, os recortes iniciais de categoria e os critérios de decisão da matriz. Essas decisões delimitam a descoberta; não validam demanda, liquidez ou segurança.
 
 **Inferência:** a proposta é suficientemente estruturada para iniciar descoberta, mas não para fechar PRD, arquitetura ou backlog de implementação. O fluxo funcional está mais detalhado do que a evidência disponível sobre problema, liquidez e operação.
 
 **Hipótese:** a maior ameaça à viabilidade não é técnica. É formar, em uma região e janela de tempo úteis, pares compatíveis de pessoas, itens e interesses, com confiança suficiente para que a troca presencial aconteça.
 
-**Recomendação:** tratar `H-01`, `H-02`, `H-05` e `H-07` como hipóteses de gate. Se demanda, liquidez regional, viabilidade presencial ou capacidade de moderação falharem, o MVP deverá ser alterado ou suspenso antes de qualquer implementação.
+**Decisão confirmada:** `H-01`, `H-02`, `H-05` e `H-07` são hipóteses de gate. Se demanda, liquidez regional, viabilidade presencial ou capacidade de moderação falharem nos critérios aprovados, o MVP deverá ser estreitado, reformulado ou suspenso antes de qualquer implementação.
 
 ## 3. Fontes lidas integralmente
 
@@ -90,6 +90,18 @@ Não foram realizadas entrevistas, pesquisa de mercado, análise de concorrentes
 - Organização documental: fontes separadas por responsabilidade e índice central criado.
 - Demais inconsistências permanecem pendentes porque exigem evidência ou decisão de Bruno; não foram resolvidas por edição textual.
 
+### 5.2 Decisões posteriores incorporadas
+
+| Item | Situação em 29/07/2026 | Efeito |
+| --- | --- | --- |
+| `INC-01` | Resolvida como fronteira de tese | Troca exclusivamente de bens; complemento financeiro excluído |
+| Recorte territorial | Parcialmente resolvido | Distrito Federal é o mercado macro; RA é a unidade de análise; duas RAs ainda devem ser escolhidas |
+| Recorte de categorias | Resolvido para a descoberta | Três agrupamentos candidatos foram definidos; não são taxonomia definitiva |
+| Itens excluídos | Resolvido para a descoberta | Aplicam-se as exclusões de risco registradas na fonte-mestra |
+| `INC-10` | Resolvida para o pré-registro | Critérios da matriz aprovados, inclusive gates críticos |
+
+Nenhuma dessas decisões muda o estado de `H-01` a `H-07`: todas continuam não validadas.
+
 ## 6. Decisões confirmadas, propostas e pendências
 
 ### 6.1 Confirmadas
@@ -101,13 +113,19 @@ Não foram realizadas entrevistas, pesquisa de mercado, análise de concorrentes
 | GOV-003 | GitHub será o mecanismo de versionamento | `11` |
 | GOV-004 | Bruno mantém decisão final sobre produto e ações sensíveis | `09`, `11` |
 | GOV-005 | Commit, push, PR, migration e mudanças sensíveis exigem autorização explícita | `09`, `11` |
-| EST-001 | O projeto está na Fase 0, sem repositório, protótipo, implementação ou infraestrutura iniciados | `11` |
+| GOV-006 | `BrunoMNoronha/escambo-online` é o repositório oficial | registro vivo |
+| PROD-001 | A tese testada é troca exclusivamente de bens, sem complemento financeiro | decisão de Bruno |
+| DISC-001 | Distrito Federal é o mercado macro da descoberta | decisão de Bruno |
+| DISC-002 | Região Administrativa é a unidade inicial de análise; duas RAs ainda serão escolhidas | decisão aplicada |
+| DISC-003 | Três agrupamentos candidatos foram definidos para a pesquisa | decisão aplicada |
+| DISC-004 | Itens de risco definidos ficam excluídos da descoberta | decisão de Bruno |
+| DISC-005 | Critérios da matriz e gates críticos estão aprovados | decisão de Bruno |
 
 ### 6.2 Propostas, não decisões
 
 | Área | Propostas atuais |
 | --- | --- |
-| Produto | troca de bens; operação regional; encontro presencial; chat contextual; reputação; moderação mínima |
+| Produto | encontro presencial; chat contextual; reputação; moderação mínima |
 | Escopo | conta, anúncio, descoberta, proposta, contraproposta, reserva, conclusão, avaliação e denúncia |
 | Canal | aplicação web responsiva/PWA |
 | Tecnologia | monorepo TypeScript, Next.js, NestJS, PostgreSQL, Prisma, storage compatível com S3, Docker Compose e GitHub Actions |
@@ -116,15 +134,15 @@ Não foram realizadas entrevistas, pesquisa de mercado, análise de concorrentes
 ### 6.3 Perguntas pendentes de maior impacto
 
 1. Há comportamento recorrente de troca sem dinheiro ou apenas interesse declarado?
-2. Qual micro-região consegue produzir densidade suficiente?
-3. Qual segmento e quais categorias concentram oferta e demanda compatíveis?
-4. O MVP exclui complemento financeiro por decisão ou apenas por hipótese?
-5. 1:1 é suficiente ou existe necessidade comprovada de 1:N/N:N?
-6. O encontro presencial cabe na distância, mobilidade e percepção de segurança do público?
-7. Em que momento chat, telefone e local podem ser compartilhados?
-8. Como expiração, cancelamento, concorrência, conclusão, problema e avaliação funcionam?
-9. Qual nível de verificação e elegibilidade é proporcional ao risco?
-10. Quem modera, com qual política, capacidade, prazo e mecanismo de recurso?
+2. Quais duas RAs do Distrito Federal permitem recrutamento e comparação controlada?
+3. Em qual célula RA × agrupamento se concentra oferta e demanda compatíveis?
+4. 1:1 é suficiente ou existe necessidade comprovada de 1:N/N:N?
+5. O encontro presencial cabe na distância, mobilidade e percepção de segurança do público?
+6. Em que momento chat, telefone e local podem ser compartilhados?
+7. Como expiração, cancelamento, concorrência, conclusão, problema e avaliação funcionam?
+8. Qual nível de verificação e elegibilidade é proporcional ao risco?
+9. Quem modera, com qual política, capacidade, prazo e mecanismo de recurso?
+10. Quais evidências da descoberta justificam seguir, estreitar, reformular ou interromper?
 
 ## 7. Principais lacunas
 
@@ -137,16 +155,16 @@ Não foram realizadas entrevistas, pesquisa de mercado, análise de concorrentes
 
 ### 7.2 Liquidez regional
 
-- Região, raio, densidade, categorias e canais de aquisição não estão definidos.
+- As duas RAs, o raio, a densidade e os canais de aquisição ainda não estão definidos.
 - Não há massa observada de itens disponíveis nem de desejos compatíveis.
 - Não há critério para distinguir interesse unilateral de par de troca possível.
 - O efeito “dupla coincidência de desejos” pode tornar a liquidez mais difícil do que em compra e venda.
 
 ### 7.3 Público e categorias
 
-- “Pessoas maiores de idade em uma região” é amplo demais para recrutamento e piloto.
-- Não há categoria inicial nem características que tornem uma categoria adequada a troca presencial.
-- Lista de itens proibidos, restritos ou de alto risco ainda não existe.
+- “Pessoas maiores de idade em duas RAs” ainda precisa ser refinado por evidência, embora já permita preparar cotas.
+- Existem três agrupamentos candidatos de pesquisa, mas a adequação de cada um ainda precisa de evidência.
+- Há exclusões iniciais de risco; a política operacional completa de itens proibidos ainda não existe.
 - Pequenos negócios e instituições aparecem como possíveis segmentos futuros, mas não devem contaminar a pesquisa do público inicial.
 
 ### 7.4 Confiança, fraude e reputação
@@ -179,7 +197,7 @@ Não foram realizadas entrevistas, pesquisa de mercado, análise de concorrentes
 
 ### 7.8 Métricas e decisão
 
-- Existem indicadores propostos, mas não há baseline nem limiar aprovado.
+- Os critérios da matriz foram aprovados, mas não há baseline nem resultado observado.
 - Taxa de cadastro ou opinião positiva isolada não demonstra liquidez nem troca concluída.
 - É necessário separar sinais de problema, compreensão, intenção, formação de pares e comportamento real.
 
@@ -188,7 +206,7 @@ Não foram realizadas entrevistas, pesquisa de mercado, análise de concorrentes
 | Hipótese | Impacto se falsa | Incerteza atual | Prioridade | Veredito documental |
 | --- | --- | --- | --- | --- |
 | H-01 — demanda recorrente por troca sem dinheiro | Inviabiliza a tese | Alta | Gate 1 | Não validada; não há evidência comportamental |
-| H-02 — liquidez regional suficiente | Inviabiliza marketplace aberto | Muito alta | Gate 1 | Não validada; região e categorias nem foram escolhidas |
+| H-02 — liquidez regional suficiente | Inviabiliza marketplace aberto | Muito alta | Gate 1 | Não validada; DF, RA e agrupamentos estão definidos, mas faltam as duas RAs e evidência bilateral |
 | H-03 — disposição para cadastrar itens próprios | Pode quebrar o mecanismo de proposta | Alta | Gate 2 | Não validada; o fluxo pressupõe esse comportamento |
 | H-04 — reputação e chat aumentam confiança | Pode exigir outro pacote de confiança | Alta | Gate 2 | Não validada; mede-se percepção antes do piloto e efeito real somente depois |
 | H-05 — troca presencial é suficiente | Pode inviabilizar a operação sem logística | Alta | Gate 1 | Não validada; faltam raio, mobilidade e segurança |
@@ -201,9 +219,9 @@ A matriz operacional completa está em `MATRIZ_HIPOTESES_V1.md`.
 
 1. Não homologar o escopo funcional atual como MVP.
 2. Manter o produto na Fase 0.
-3. Pré-registrar critérios de manutenção, alteração e rejeição antes da pesquisa.
+3. Preservar os critérios aprovados e registrar qualquer alteração antes da pesquisa.
 4. Começar por comportamento passado, não por opinião sobre a ideia.
-5. Escolher no máximo duas regiões candidatas e três agrupamentos de categoria para a descoberta.
+5. Escolher duas RAs do Distrito Federal e manter os três agrupamentos candidatos como recorte de descoberta.
 6. Testar 1:1 como referência simples antes de justificar 1:N ou N:N.
 7. Tratar landing page como teste de intenção e composição de oferta/demanda, não como prova de mercado.
 8. Tratar protótipo como teste de compreensão e confiança percebida, não como prova de troca real.
@@ -215,7 +233,7 @@ A matriz operacional completa está em `MATRIZ_HIPOTESES_V1.md`.
 A Fase 1 só deve ser considerada quando:
 
 - o problema aparecer em comportamentos recentes e repetidos de um segmento identificável;
-- uma região/categoria demonstrar sinal bilateral de oferta e procura;
+- uma célula RA × agrupamento demonstrar sinal bilateral de oferta e procura;
 - o fluxo mínimo de proposta for compreendido sem assistência relevante;
 - o encontro presencial tiver condições práticas e de segurança aceitáveis;
 - existir operação mínima de denúncia e moderação compatível com o piloto;
@@ -229,7 +247,7 @@ A Fase 1 só deve ser considerada quando:
 - Nenhuma pessoa foi entrevistada.
 - Nenhum protótipo ou landing page foi criado ou testado.
 - Não houve validação jurídica.
-- Os critérios quantitativos sugeridos nos demais entregáveis são propostas de pré-registro, não resultados nem benchmarks comprovados.
+- Os critérios quantitativos aprovados nos demais entregáveis são regras de pré-registro, não resultados nem benchmarks comprovados.
 
 ## 12. Confirmação de escopo
 

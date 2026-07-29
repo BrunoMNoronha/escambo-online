@@ -15,8 +15,36 @@ Responda e produza artefatos sempre em português do Brasil, com linguagem técn
 - Claude Code e Antigravity são agentes de análise e desenvolvimento.
 - GitHub é a fonte versionada do código, da documentação e das decisões.
 - O repositório oficial é `BrunoMNoronha/escambo-online`.
-- O produto está inicialmente na Fase 0 — descoberta e validação.
+- O produto está na Fase 0 — descoberta e validação.
 - “Escambo Online” é um nome provisório.
+
+## Decisões vigentes
+
+- A tese inicial é **troca exclusivamente de bens, sem complemento financeiro**.
+- O Distrito Federal é o mercado macro da descoberta e do possível piloto.
+- A unidade territorial de análise será a Região Administrativa.
+- Duas Regiões Administrativas ainda precisam ser escolhidas antes do recrutamento.
+- Agrupamentos candidatos da pesquisa:
+  1. livros, histórias em quadrinhos e jogos de tabuleiro;
+  2. itens portáteis e não elétricos de casa e decoração;
+  3. itens portáteis e não motorizados de esporte e lazer.
+- Esses agrupamentos são recortes de pesquisa, não categorias finais homologadas.
+- Excluir da descoberta itens ilícitos, regulados, de procedência incerta, perigosos, íntimos, de alto risco ou que exijam garantia especializada.
+- Os critérios da matriz H-01 a H-07 estão aprovados.
+- H-01, H-02, H-05 e H-07 são gates: uma falha pode estreitar, reformular ou interromper o projeto.
+- Nenhuma hipótese foi validada até que exista evidência coletada pelo método aprovado.
+
+Não reabra uma decisão confirmada sem nova evidência ou pedido explícito de Bruno. Não transforme recorte de pesquisa em regra definitiva do produto.
+
+## Fontes obrigatórias do estado atual
+
+Consulte antes de planejar:
+
+1. `docs/governanca/11_ESTADO_ATUAL_PROJETO.md`;
+2. `docs/governanca/REGISTRO_DECISOES.md`;
+3. `docs/produto/02_FONTE_MESTRA_PRODUTO.md`;
+4. `docs/descoberta/MATRIZ_HIPOTESES_V1.md`;
+5. `docs/descoberta/DECISOES_PARA_BRUNO_V1.md`.
 
 ## Responsabilidades obrigatórias
 
@@ -39,12 +67,13 @@ Responda e produza artefatos sempre em português do Brasil, com linguagem técn
 Em caso de conflito, use:
 
 1. decisão explícita e mais recente de Bruno;
-2. fonte-mestra do produto;
-3. decisões formalizadas/ADRs;
-4. escopo e regras de negócio;
-5. documentos técnicos;
-6. backlog, prompts e relatórios;
-7. implementação atual.
+2. registro de decisões;
+3. fonte-mestra do produto;
+4. decisões arquiteturais formalizadas/ADRs;
+5. escopo e regras de negócio;
+6. documentos técnicos;
+7. backlog, prompts e relatórios;
+8. implementação atual.
 
 Não trate comportamento existente no código como regra homologada quando ele divergir da documentação.
 
@@ -157,6 +186,10 @@ Quando houver alternativas relevantes, apresente duas opções com trade-offs e 
 
 Ao mudar produto, escopo, arquitetura ou processo, indique quais documentos devem ser atualizados. Não deixe decisões importantes existirem apenas em conversa.
 
-Comece sempre pela menor próxima ação segura e verificável. No estado inicial, priorize descoberta, validação das hipóteses do produto e fechamento do MVP antes de gerar scaffold ou implementar funcionalidades.
+## Próximo gate
+
+A próxima ação é escolher duas Regiões Administrativas do Distrito Federal e preparar o pacote de pesquisa: recrutamento, consentimento, registro e retenção. Não contate participantes sem autorização específica de Bruno.
+
+Comece sempre pela menor próxima ação segura e verificável. Priorize descoberta, validação das hipóteses do produto e fechamento do MVP antes de gerar scaffold ou implementar funcionalidades.
 
 ---

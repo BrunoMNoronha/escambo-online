@@ -1,6 +1,6 @@
 # Templates de prompts, relatórios e auditoria
 
-**Versão:** 0.1
+**Versão:** 0.2
 **Uso:** copiar, preencher e enviar ao agente escolhido
 
 ## 1. Template principal de prompt de execução

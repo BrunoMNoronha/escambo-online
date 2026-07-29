@@ -4,13 +4,14 @@
 
 **Data-base:** 29/07/2026
 
-**Status:** perguntas priorizadas; nenhuma resposta presumida
+**Status:** decisões 1, 3 e 4 registradas; decisão 2 parcialmente fechada; decisões 5 a 10 pendentes
 
 ## 1. Orientação
 
-As decisões abaixo estão em ordem de dependência. Bruno não precisa fechar todo o produto agora:
+As decisões abaixo estão em ordem de dependência. As respostas recebidas em 29/07/2026 foram incorporadas sem declarar qualquer hipótese validada:
 
-- decisões 1 a 4 são necessárias antes da pesquisa;
+- decisões 1, 3 e 4 estão fechadas para a descoberta;
+- na decisão 2, Distrito Federal e RA estão definidos, mas as duas RAs precisam ser escolhidas;
 - decisões 5 e 6 dependem dos primeiros resultados;
 - decisões 7 a 10 devem ser fechadas antes do piloto e antes de modelagem técnica detalhada.
 
@@ -20,49 +21,55 @@ Quando houver alternativas, a recomendação indica a opção mais segura para t
 
 ## 1 — Fronteira da tese: complemento financeiro
 
-**Estado atual:** contraditório. A fonte-mestra e o escopo excluem complemento financeiro, mas o estado atual o lista como decisão pendente.
+**Estado:** **DECIDIDA** por Bruno em 29/07/2026.
 
-**Pergunta para Bruno:** o projeto deve testar “troca exclusivamente de bens, sem complemento financeiro” como a tese inicial, ou o complemento continuará como alternativa aberta para a descoberta?
+**Decisão:** testar troca exclusivamente de bens, sem complemento financeiro.
 
-**Recomendação:** manter o complemento fora do MVP testado, mas permitir que entrevistas revelem espontaneamente se sua ausência inviabiliza casos reais. Não apresentar PIX ou dinheiro como solução durante as perguntas.
+**Aplicação:** dinheiro, PIX, saldo, crédito ou compensação financeira ficam fora do conceito, protótipo, landing e MVP proposto. Entrevistas podem registrar espontaneamente a preferência por dinheiro como evidência contrária, sem oferecer essa alternativa.
 
-**Impacto de não decidir:** entrevistas, protótipo, regras de negociação e avaliação de liquidez misturarão duas propostas diferentes; qualquer resultado ficará ambíguo.
+**Impacto que foi evitado:** misturar duas teses e tornar ambíguos os resultados de entrevistas, protótipo e liquidez.
 
 **Momento:** antes de recrutamento.
 
 ## 2 — Região do piloto e unidade de liquidez
 
-**Estado atual:** operação regional é proposta, mas nenhuma região ou raio foi escolhido.
+**Estado:** **PARCIALMENTE DECIDIDA** por Bruno em 29/07/2026.
 
-**Pergunta para Bruno:** quais duas regiões candidatas têm público acessível para pesquisa e possibilidade real de um piloto controlado? A unidade será cidade, região administrativa, conjunto de bairros ou raio aproximado?
+**Decisão:** Distrito Federal é o mercado macro da descoberta. Região Administrativa é a unidade inicial de análise, por permitir comparação territorial sem exigir endereço exato.
 
-**Recomendação:** escolher duas candidatas para comparação e definir uma unidade de localização ampla, nunca endereço. Se a capacidade permitir apenas uma, dividi-la em três micro-regiões.
+**Pergunta ainda pendente para Bruno:** quais duas RAs têm público acessível para pesquisa e possibilidade real de piloto controlado?
 
-**Impacto de não decidir:** não é possível recrutar amostra, testar distância, medir bilateralidade ou interpretar liquidez.
+**Impacto de não escolher as duas RAs:** não é possível fechar cotas de recrutamento, testar distância, medir bilateralidade comparável ou interpretar liquidez. A equipe não deve substituir o recorte silenciosamente.
 
 **Momento:** antes de recrutamento.
 
 ## 3 — Público, categorias iniciais e itens proibidos
 
-**Estado atual:** o público “adultos com itens usados” é amplo; categorias e política de itens proibidos estão pendentes.
+**Estado:** **DECIDIDA PARA A DESCOBERTA** em 29/07/2026.
 
-**Pergunta para Bruno:** quais até três agrupamentos de categoria devem ser investigados primeiro e quais tipos ficam excluídos desde a pesquisa?
+**Decisão aplicada:** investigar inicialmente:
 
-**Recomendação:** priorizar categorias transportáveis, inspecionáveis no encontro, de risco moderado e com frequência plausível de desapego. Excluir da descoberta itens ilícitos, regulados, de procedência incerta, perigosos, íntimos, de alto risco ou que exijam garantia especializada.
+1. livros, quadrinhos e jogos de tabuleiro;
+2. itens domésticos e de decoração pequenos, portáteis e não elétricos;
+3. artigos portáteis de esporte e lazer não motorizados.
 
-**Impacto de não decidir:** a amostra ficará dispersa, a liquidez será impossível de interpretar e a pesquisa poderá atrair situações inseguras.
+Ficam excluídos da descoberta itens ilícitos, regulados, de procedência incerta, perigosos, íntimos, de alto risco ou que exijam garantia especializada.
+
+**Limite:** esses agrupamentos são recortes de pesquisa, não categorias definitivas do produto.
+
+**Impacto que foi evitado:** dispersão da amostra, liquidez não interpretável e atração de situações inseguras.
 
 **Momento:** antes de recrutamento e landing page.
 
 ## 4 — Critérios de decisão e tolerância ao resultado negativo
 
-**Estado atual:** há indicadores propostos, mas não existem gates aprovados para manter, alterar ou rejeitar as hipóteses.
+**Estado:** **APROVADA** por Bruno em 29/07/2026.
 
-**Pergunta para Bruno:** você aprova os critérios propostos em `MATRIZ_HIPOTESES_V1.md`, inclusive a possibilidade de interromper ou estreitar o projeto se `H-01`, `H-02`, `H-05` ou `H-07` falharem?
+**Decisão:** os critérios de `MATRIZ_HIPOTESES_V1.md` estão aprovados, inclusive estreitar, reformular ou interromper o projeto se `H-01`, `H-02`, `H-05` ou `H-07` falharem.
 
-**Recomendação:** pré-registrar os critérios antes da primeira entrevista. Ajustes metodológicos podem ocorrer, mas devem ser registrados antes de ver o resultado afetado.
+**Aplicação:** ajustes anteriores à coleta devem ser registrados. Após iniciar a coleta, um critério alterado exige uma nova rodada compatível; resultado fraco não pode ser reinterpretado retroativamente como sucesso.
 
-**Impacto de não decidir:** resultados fracos poderão ser reinterpretados como sucesso; a descoberta vira justificativa da solução, não teste.
+**Impacto que foi evitado:** viés retrospectivo e uso da descoberta apenas para justificar a solução.
 
 **Momento:** antes de qualquer coleta.
 
@@ -140,28 +147,15 @@ Quando houver alternativas, a recomendação indica a opção mais segura para t
 
 ## 3. Quadro de resposta rápida
 
-Bruno pode responder neste formato:
+Bruno pode responder às pendências neste formato:
 
 ```markdown
 ## Respostas EO-DISC-001
 
-1. Complemento financeiro:
-   - decisão:
-   - observação:
-
-2. Regiões candidatas:
-   - região A:
-   - região B:
-   - unidade de localização:
-
-3. Público e categorias:
-   - público:
-   - categorias candidatas:
-   - exclusões imediatas:
-
-4. Critérios da matriz:
-   - aprovado / alterar:
-   - alterações:
+2. Regiões Administrativas:
+   - RA A:
+   - RA B:
+   - observação sobre acesso para recrutamento:
 
 5. Composição para protótipo:
    - baseline:
@@ -189,7 +183,7 @@ Bruno pode responder neste formato:
 
 ```mermaid
 flowchart TD
-    A["1–4: tese, região, público e critérios"] --> B["Entrevistas de comportamento"]
+    A["Escolher duas RAs e aprovar instrumentos"] --> B["Entrevistas de comportamento"]
     B --> C{"Problema recorrente?"}
     C -- "Não" --> D["Interromper ou reformular"]
     C -- "Sim" --> E["Landing bilateral"]

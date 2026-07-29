@@ -1,7 +1,7 @@
 # Fonte-mestra do produto — Escambo Online
 
-**Versão:** 0.1  
-**Status:** hipótese inicial; requer validação de Bruno  
+**Versão:** 0.2
+**Status:** fronteira da tese aprovada para descoberta; hipóteses de valor ainda não validadas
 **Responsável final:** Bruno  
 **Última atualização:** 29/07/2026
 
@@ -9,7 +9,9 @@
 
 Criar uma plataforma digital que permita a pessoas anunciar bens disponíveis e negociar trocas de forma organizada, rastreável e mais segura do que conversas dispersas em redes sociais ou classificados genéricos.
 
-A tese proposta prioriza **troca de bens entre pessoas**, sem pagamento processado pela plataforma no MVP.
+A tese inicial é **troca exclusivamente de bens entre pessoas, sem pagamento ou complemento financeiro**.
+
+Essa fronteira foi confirmada por Bruno para a descoberta e para o MVP inicial. A decisão não valida a existência de demanda.
 
 ## 2. Problema
 
@@ -27,11 +29,30 @@ Hoje, quem deseja trocar um item costuma enfrentar:
 Hipótese principal:
 
 - pessoas maiores de idade;
-- atuando inicialmente em uma cidade ou região delimitada;
+- atuando inicialmente no Distrito Federal;
 - interessadas em trocar itens usados em bom estado;
 - com preferência por encontro presencial em local combinado.
 
 Para a pesquisa inicial, recomenda-se trabalhar somente com adultos por prudência. A elegibilidade do futuro piloto continua pendente de decisão e revisão apropriada.
+
+O Distrito Federal é o mercado macro. A Região Administrativa será a unidade territorial de análise, e duas RAs ainda precisam ser escolhidas antes do recrutamento.
+
+### Agrupamentos candidatos da descoberta
+
+1. livros, histórias em quadrinhos e jogos de tabuleiro;
+2. itens portáteis e não elétricos de casa e decoração;
+3. itens portáteis e não motorizados de esporte e lazer.
+
+Esses agrupamentos servem para comparar sinais de demanda e liquidez. Não constituem taxonomia final do produto.
+
+Excluir da descoberta itens:
+
+- ilícitos ou regulados;
+- de procedência incerta;
+- perigosos;
+- íntimos ou com risco relevante de higiene;
+- de alto risco;
+- que dependam de garantia especializada.
 
 Segmentos que podem ser avaliados depois:
 
@@ -88,7 +109,7 @@ A cardinalidade 1:1, 1:N ou N:N e o momento de abertura do chat continuam penden
 
 ## 7. Fora do MVP proposto
 
-- pagamento, carteira, PIX, escrow ou complemento financeiro;
+- pagamento, carteira, PIX, escrow ou complemento financeiro, por decisão confirmada;
 - cálculo automático de equivalência de valor;
 - compra e venda;
 - leilão;
@@ -107,7 +128,7 @@ A cardinalidade 1:1, 1:N ou N:N e o momento de abertura do chat continuam penden
 | ID | Hipótese | Como validar |
 | --- | --- | --- |
 | H-01 | Existe demanda recorrente por troca sem dinheiro | Entrevistas e landing page |
-| H-02 | Localização regional gera liquidez suficiente | Pesquisa por cidade e categorias |
+| H-02 | Duas Regiões Administrativas do Distrito Federal geram liquidez suficiente no recorte escolhido | Pesquisa por RA e agrupamento de categoria |
 | H-03 | Usuários aceitam cadastrar itens próprios para propor troca | Protótipo e teste de usabilidade |
 | H-04 | Reputação e chat contextual aumentam confiança | Entrevistas e teste moderado |
 | H-05 | Troca presencial é suficiente para o primeiro mercado | Entrevistas e análise operacional |
@@ -152,3 +173,14 @@ Uma alteração relevante exige:
 3. impactos no MVP, regras e arquitetura;
 4. decisão de Bruno;
 5. atualização dos documentos dependentes.
+
+## 12. Decisões relacionadas
+
+- `PROD-001`: troca exclusivamente de bens, sem complemento financeiro.
+- `DISC-001`: Distrito Federal como mercado macro.
+- `DISC-002`: Região Administrativa como unidade de análise.
+- `DISC-003`: três agrupamentos candidatos da descoberta.
+- `DISC-004`: exclusões iniciais de risco.
+- `DISC-005`: critérios H-01 a H-07 aprovados.
+
+Consulte `docs/governanca/REGISTRO_DECISOES.md` para a formulação oficial.

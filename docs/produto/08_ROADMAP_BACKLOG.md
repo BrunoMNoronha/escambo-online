@@ -1,7 +1,7 @@
 # Roadmap e backlog inicial
 
-**Versão:** 0.1  
-**Status:** proposta orientada a gates
+**Versão:** 0.2
+**Status:** proposta orientada a gates; decisões iniciais da descoberta incorporadas
 
 ## 1. Estratégia
 
@@ -13,7 +13,9 @@ O roadmap é organizado por redução de risco, não apenas por telas. Cada fase
 
 Objetivos:
 
-- validar problema, público e região inicial;
+- validar problema e público no Distrito Federal;
+- escolher e comparar duas Regiões Administrativas;
+- investigar os três agrupamentos candidatos;
 - entrevistar potenciais usuários;
 - testar proposta de valor;
 - decidir as regras pendentes do MVP;
@@ -32,6 +34,7 @@ Entregáveis:
 Gate:
 
 - problema e público aprovados;
+- ao menos uma célula RA × agrupamento com sinal bilateral suficiente;
 - escopo do MVP fechado;
 - hipóteses críticas com plano de validação;
 - riscos impeditivos identificados.
@@ -178,14 +181,22 @@ Possíveis temas, somente com evidência:
 
 ### P0 — Bloqueadores de descoberta
 
-- definir região do piloto;
-- definir público e categorias iniciais;
+- escolher duas Regiões Administrativas do Distrito Federal;
+- definir público específico e canais de recrutamento;
+- validar os três agrupamentos candidatos;
 - decidir uma ou várias ofertas por lado;
 - decidir chat e compartilhamento de contato;
 - decidir expiração, cancelamento e conclusão;
-- elaborar política inicial de itens proibidos;
-- definir sinais de sucesso do piloto;
+- detalhar a política inicial de itens proibidos a partir de `DISC-004`;
+- aplicar os critérios de sucesso e interrupção aprovados;
 - validar proposta com usuários.
+
+Concluído na preparação:
+
+- Distrito Federal definido como mercado macro;
+- troca exclusivamente de bens, sem complemento financeiro;
+- agrupamentos candidatos definidos;
+- critérios H-01 a H-07 aprovados.
 
 ### P1 — Fundação do produto
 

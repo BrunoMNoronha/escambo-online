@@ -25,9 +25,9 @@ Este diretório organiza a fonte de conhecimento oficial por responsabilidade. A
 
 | Documento | Finalidade | Estado |
 | --- | --- | --- |
-| [02 — Fonte-mestra](produto/02_FONTE_MESTRA_PRODUTO.md) | tese, público, proposta de valor, hipóteses e riscos | Hipótese inicial |
-| [03 — Escopo e regras](produto/03_ESCOPO_MVP_REGRAS_NEGOCIO.md) | capacidades, estados e invariantes | Proposta |
-| [04 — Jornadas e histórias](produto/04_JORNADAS_HISTORIAS_CRITERIOS.md) | jornadas, backlog funcional e critérios | Requer refinamento |
+| [02 — Fonte-mestra](produto/02_FONTE_MESTRA_PRODUTO.md) | tese, público, proposta de valor, hipóteses e riscos | v0.2; limites de descoberta confirmados |
+| [03 — Escopo e regras](produto/03_ESCOPO_MVP_REGRAS_NEGOCIO.md) | capacidades, estados e invariantes | v0.2; MVP ainda proposto |
+| [04 — Jornadas e histórias](produto/04_JORNADAS_HISTORIAS_CRITERIOS.md) | jornadas, backlog funcional e critérios | v0.2; requer evidência |
 | [08 — Roadmap](produto/08_ROADMAP_BACKLOG.md) | fases, gates e prioridades | Proposta |
 
 ## Descoberta
@@ -35,10 +35,10 @@ Este diretório organiza a fonte de conhecimento oficial por responsabilidade. A
 | Documento | Finalidade | Estado |
 | --- | --- | --- |
 | [Relatório de auditoria V1](descoberta/RELATORIO_AUDITORIA_PRODUTO_V1.md) | coerência, lacunas e inconsistências | Auditoria concluída |
-| [Plano de descoberta V1](descoberta/PLANO_DESCOBERTA_V1.md) | método, amostra, evidência e sequência | Aguardando decisões |
-| [Roteiro de entrevistas V1](descoberta/ROTEIRO_ENTREVISTAS_V1.md) | entrevista não indutiva e teste de protótipo | Proposta |
-| [Matriz de hipóteses V1](descoberta/MATRIZ_HIPOTESES_V1.md) | critérios para H-01 a H-07 | Pré-registro proposto |
-| [Decisões para Bruno V1](descoberta/DECISOES_PARA_BRUNO_V1.md) | dez decisões priorizadas | Pendente |
+| [Plano de descoberta V1](descoberta/PLANO_DESCOBERTA_V1.md) | método, amostra, evidência e sequência | Decisões iniciais incorporadas; faltam duas RAs |
+| [Roteiro de entrevistas V1](descoberta/ROTEIRO_ENTREVISTAS_V1.md) | entrevista não indutiva e teste de protótipo | Instrumento a aprovar |
+| [Matriz de hipóteses V1](descoberta/MATRIZ_HIPOTESES_V1.md) | critérios para H-01 a H-07 | Critérios aprovados; hipóteses não validadas |
+| [Decisões para Bruno V1](descoberta/DECISOES_PARA_BRUNO_V1.md) | dez decisões priorizadas | 1, 3 e 4 decididas; 2 parcial |
 
 ## Arquitetura
 
@@ -62,6 +62,7 @@ Este diretório organiza a fonte de conhecimento oficial por responsabilidade. A
 | [10 — Templates](governanca/10_TEMPLATES_PROMPTS_RELATORIOS.md) | prompts, relatórios e auditoria | Modelo |
 | [11 — Estado atual](governanca/11_ESTADO_ATUAL_PROJETO.md) | estágio, pendências e próximo gate | Registro vivo |
 | [Registro de decisões](governanca/REGISTRO_DECISOES.md) | decisões confirmadas e propostas formais | Registro vivo |
+| [12 — Base de conhecimento ChatGPT](governanca/12_BASE_CONHECIMENTO_CHATGPT.md) | instrução e conjunto canônico para substituir a base antiga | Procedimento operacional |
 
 ## Regra de manutenção
 

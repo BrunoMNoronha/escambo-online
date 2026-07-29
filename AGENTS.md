@@ -6,6 +6,9 @@ Estas regras se aplicam a qualquer agente que analise ou altere este repositóri
 
 - Fase atual: **0 — descoberta e validação**.
 - Produto, MVP e arquitetura ainda não estão homologados.
+- Tese vigente: troca exclusivamente de bens, sem complemento financeiro.
+- Mercado macro: Distrito Federal; unidade de análise: Região Administrativa.
+- Próximo gate: Bruno escolher duas RAs e aprovar instrumentos antes de qualquer contato.
 - Não existe autorização geral para aplicação, schema, migration, API ou infraestrutura.
 - O estado vigente está em `docs/governanca/11_ESTADO_ATUAL_PROJETO.md`.
 

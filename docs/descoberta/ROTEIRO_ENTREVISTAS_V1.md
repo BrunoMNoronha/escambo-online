@@ -4,13 +4,21 @@
 
 **Duração prevista:** 35–45 minutos para entrevista; 25–35 minutos adicionais se houver teste de protótipo
 
-**Status:** proposta; requer aprovação antes de recrutamento
+**Status:** alinhado às decisões iniciais; requer aprovação dos instrumentos e autorização antes de recrutamento
 
-**Público:** adultos dentro do recorte regional e dos perfis definidos no plano de descoberta
+**Público:** adultos do Distrito Federal, distribuídos entre duas RAs ainda a selecionar e conforme os perfis do plano de descoberta
 
 ## 1. Objetivo do roteiro
 
 Investigar comportamentos, decisões, obstáculos, confiança e segurança relacionados ao destino de bens usados. O roteiro não busca convencer a pessoa sobre a solução nem obter elogios.
+
+### Limites vigentes da descoberta
+
+- A tese apresentada no teste de conceito é troca exclusivamente de bens, sem complemento financeiro.
+- Os agrupamentos candidatos são: livros, quadrinhos e jogos de tabuleiro; itens domésticos e de decoração pequenos, portáteis e não elétricos; e artigos portáteis de esporte e lazer não motorizados.
+- Os agrupamentos servem ao recrutamento e à análise, não definem a taxonomia final.
+- Não recrutar nem aprofundar detalhes sobre itens ilícitos, regulados, de procedência incerta, perigosos, íntimos, de alto risco ou que exijam garantia especializada.
+- Nenhuma entrevista ou contato externo está autorizado apenas pela existência deste roteiro.
 
 ## 2. Regras para o entrevistador
 
@@ -51,6 +59,7 @@ Confirmar:
 2. Aceita participar da conversa?
 3. Aceita anotações?
 4. Se gravação estiver prevista: aceita gravação e entendeu finalidade e prazo de exclusão?
+5. Reside em uma das duas RAs selecionadas, sem registrar endereço exato?
 
 Se qualquer requisito obrigatório não for atendido, encerrar sem pressão.
 
@@ -168,7 +177,7 @@ Se a pessoa não souber quantificar, aceitar uma faixa ou descrição. Não tran
 
 Somente depois de encerrar a investigação do problema, ler:
 
-> Estamos estudando uma forma digital de pessoas de uma mesma região anunciarem bens e registrarem propostas de troca entre si. A proposta pode incluir uma conversa vinculada à negociação e um registro do acordo. A ideia ainda está em avaliação e pode não ser construída. A plataforma não inspecionaria os bens nem garantiria o encontro.
+> Estamos estudando uma forma digital de pessoas de uma mesma região anunciarem bens e registrarem propostas de troca exclusivamente por outros bens, sem pagamento ou complemento financeiro. A proposta pode incluir uma conversa vinculada à negociação e um registro do acordo. A ideia ainda está em avaliação e pode não ser construída. A plataforma não inspecionaria os bens nem garantiria o encontro.
 
 Perguntar:
 
@@ -338,9 +347,9 @@ Evitar “De 0 a 10, quanto gostou?” como evidência principal.
 # Sessão [código]
 
 - Data:
-- Região ampla:
+- RA, sem endereço exato:
 - Perfil de recrutamento:
-- Categorias genéricas:
+- Agrupamento e item em termos genéricos:
 - Consentimento:
 - Gravação autorizada: sim / não / não aplicável
 

@@ -6,14 +6,14 @@
 
 **Objetivo:** reduzir as incertezas que podem inviabilizar ou alterar o MVP antes de UX detalhada, arquitetura ou implementação
 
-**Status:** proposta para aprovação de Bruno
+**Status:** decisões iniciais incorporadas; aguardando escolha de duas Regiões Administrativas e autorização de campo
 
 ## 1. Resultado esperado
 
 Ao final da descoberta, Bruno deverá ter evidência suficiente para:
 
 1. manter, alterar ou rejeitar cada hipótese `H-01` a `H-07`;
-2. escolher um público, uma região e um recorte inicial de categorias;
+2. confirmar ou alterar o público, as Regiões Administrativas e os agrupamentos iniciais;
 3. decidir o fluxo mínimo da troca;
 4. definir os limites de confiança, segurança presencial e moderação;
 5. fechar ou interromper o MVP proposto;
@@ -45,9 +45,9 @@ Este plano não autoriza desenvolvimento de aplicação, schema, infraestrutura 
 
 ### Liquidez
 
-6. Quais itens são oferecidos e desejados dentro da mesma região?
+6. Quais itens são oferecidos e desejados dentro da mesma RA?
 7. Qual distância e tempo de espera ainda são aceitáveis?
-8. Há concentração suficiente em determinados segmentos ou categorias?
+8. Há concentração suficiente em determinados segmentos ou agrupamentos?
 9. Existem pares plausíveis de oferta e desejo, e não apenas interesse genérico?
 
 ### Proposta e compreensão
@@ -74,31 +74,31 @@ Este plano não autoriza desenvolvimento de aplicação, schema, infraestrutura 
 
 ### 4.1 Público principal
 
-**Hipótese de público, não decisão:** adultos de duas regiões candidatas, com acesso a smartphone, que possuam bens usados em condição de troca e tenham considerado vender, doar, guardar, descartar ou trocar algum item nos últimos 12 meses.
+**Hipótese de público, não decisão:** adultos do Distrito Federal, distribuídos entre duas Regiões Administrativas ainda a selecionar, com acesso a smartphone, que possuam bens usados em condição de troca e tenham considerado vender, doar, guardar, descartar ou trocar algum item nos últimos 12 meses.
 
 ### 4.2 Amostra qualitativa
 
-**Recomendação:** 24 entrevistas semiestruturadas, distribuídas entre duas regiões candidatas.
+**Recomendação:** 24 entrevistas semiestruturadas, sendo 12 em cada uma das duas Regiões Administrativas selecionadas.
 
-| Perfil por região | Quantidade | Finalidade |
+| Perfil por RA | Quantidade | Finalidade |
 | --- | ---: | --- |
 | Tentou e concluiu ao menos uma troca nos últimos 12 meses | 3 | Entender comportamento funcional e confiança |
 | Tentou, mas abandonou ou não encontrou contraparte | 3 | Identificar barreiras e falhas de liquidez |
 | Optou por vender, doar, guardar ou descartar | 3 | Entender concorrência comportamental e razões de não trocar |
 | Possui item elegível, mas não tentou trocar | 3 | Identificar falta de necessidade, conhecimento ou confiança |
-| **Total por região** | **12** |  |
+| **Total por RA** | **12** |  |
 | **Total geral** | **24** |  |
 
 Buscar variação, sem transformar a amostra em representação estatística, em:
 
-- três agrupamentos de categorias a serem definidos por Bruno;
+- três agrupamentos candidatos de descoberta: livros, quadrinhos e jogos de tabuleiro; itens domésticos e de decoração pequenos, portáteis e não elétricos; e artigos portáteis de esporte e lazer não motorizados;
 - familiaridade digital;
 - disponibilidade de transporte;
-- bairros ou sub-regiões;
+- bairros dentro de cada RA, sem coletar endereço exato;
 - gênero e faixas adultas, quando o recrutamento permitir;
 - experiências positivas e negativas.
 
-Se Bruno escolher apenas uma cidade/região ampla, substituir a divisão por duas regiões por três micro-regiões adjacentes, com oito participantes em cada.
+Os agrupamentos são recortes de pesquisa, não taxonomia definitiva do produto. Se não houver capacidade de recrutamento nas duas RAs escolhidas, interromper a preparação e submeter a alteração de escopo a Bruno; não substituir silenciosamente a unidade territorial.
 
 ### 4.3 Amostra de protótipo
 
@@ -112,12 +112,12 @@ Se Bruno escolher apenas uma cidade/região ampla, substituir a divisão por dua
 
 ### 4.4 Landing page
 
-**Recomendação:** tráfego qualificado proveniente apenas das regiões candidatas, com origem registrada. Como não existe baseline, volume e limiares devem ser aprovados antes da publicação.
+**Recomendação:** tráfego qualificado proveniente apenas do Distrito Federal e das duas RAs selecionadas, com origem registrada. Como não existe baseline, os parâmetros de volume ainda precisam de aprovação antes da publicação.
 
 Proposta inicial para obter sinal exploratório:
 
 - mínimo de 300 visitas únicas qualificadas no total;
-- distribuição observável entre as regiões;
+- distribuição observável entre as RAs;
 - execução por até 14 dias ou até atingir o volume aprovado;
 - nenhuma compra de tráfego em escala sem orçamento autorizado;
 - análise separada por origem para não misturar públicos incomparáveis.
@@ -127,7 +127,7 @@ Esses números são parâmetros sugeridos para pré-registro, não métricas obs
 ### 4.5 Exclusões e cuidados
 
 - Menores de idade ficam fora desta descoberta inicial até decisão jurídica.
-- Não recrutar pessoas para negociar itens proibidos, restritos, de alto valor ou de procedência duvidosa.
+- Não recrutar pessoas para negociar itens ilícitos, regulados, de procedência incerta, perigosos, íntimos, de alto risco ou que exijam garantia especializada.
 - Não coletar CPF, documento, endereço residencial exato ou imagem de documento.
 - Não publicar anúncios reais nem aproximar participantes para uma troca sem política e revisão prévias.
 - Não prometer segurança, garantia, disponibilidade futura ou lançamento.
@@ -140,12 +140,11 @@ Esses números são parâmetros sugeridos para pré-registro, não métricas obs
 
 **Ações:**
 
-1. Bruno escolhe duas regiões candidatas.
-2. Bruno escolhe até três agrupamentos de categorias para investigar.
-3. Bruno confirma se “sem complemento financeiro” é restrição ou hipótese.
-4. Aprovar roteiro, critérios de recrutamento, consentimento e registro.
-5. Aprovar a matriz `manter / alterar / rejeitar`.
-6. Definir onde serão armazenadas notas anonimizadas e por quanto tempo.
+1. Registrar as decisões já tomadas: troca exclusivamente de bens, Distrito Federal como mercado macro, RA como unidade de análise, três agrupamentos candidatos e critérios da matriz aprovados.
+2. Bruno escolhe as duas RAs a comparar.
+3. Aprovar roteiro, critérios de recrutamento, consentimento e registro.
+4. Definir onde serão armazenadas notas anonimizadas e por quanto tempo.
+5. Obter autorização específica de Bruno antes de qualquer contato com participantes.
 
 **Evidência:** registro das decisões e versão congelada dos instrumentos.
 
@@ -162,7 +161,7 @@ Esses números são parâmetros sugeridos para pré-registro, não métricas obs
 **Dados a registrar:**
 
 - última situação concreta e data aproximada;
-- item/categoria em termos genéricos;
+- item/agrupamento em termos genéricos;
 - alternativas consideradas;
 - etapas realizadas;
 - ponto de abandono ou conclusão;
@@ -175,7 +174,7 @@ Esses números são parâmetros sugeridos para pré-registro, não métricas obs
 **Análise:**
 
 - codificação por problema, alternativa, barreira, confiança, distância e desfecho;
-- matriz por região e categoria;
+- matriz por RA e agrupamento;
 - contagem de padrões apenas como apoio, sem generalização populacional;
 - registro de casos contrários;
 - síntese separada entre participantes que trocaram e os que não trocaram.
@@ -183,7 +182,7 @@ Esses números são parâmetros sugeridos para pré-registro, não métricas obs
 **Gate:**
 
 - continuar se houver comportamento recente e repetido em segmento identificável;
-- estreitar público/categoria se o problema estiver concentrado;
+- estreitar público/agrupamento se o problema estiver concentrado;
 - interromper a tese atual se a troca for rara e substituída por alternativas por razões estruturais que o produto não resolve.
 
 ## Etapa D2 — Teste de conceito neutro
@@ -192,7 +191,7 @@ Esses números são parâmetros sugeridos para pré-registro, não métricas obs
 
 Somente após a parte de problema da entrevista, apresentar:
 
-> “Estamos estudando uma forma digital de pessoas de uma mesma região anunciarem bens e registrarem propostas de troca entre si. A ideia ainda está em avaliação e pode não ser construída.”
+> “Estamos estudando uma forma digital de pessoas de uma mesma Região Administrativa do Distrito Federal anunciarem bens e registrarem propostas de troca exclusivamente por outros bens. A ideia ainda está em avaliação e pode não ser construída.”
 
 **Perguntas:**
 
@@ -216,7 +215,7 @@ Somente após a parte de problema da entrevista, apresentar:
 
 **Escopo do protótipo:**
 
-1. publicar item com região aproximada;
+1. publicar item com RA;
 2. encontrar item;
 3. formular proposta 1:1 ou 1:N;
 4. receber e entender contraproposta;
@@ -272,8 +271,8 @@ Uma página honesta, apresentada como pesquisa/lista de interesse, com:
 
 - descrição simples de troca regional de bens;
 - escolha inicial entre “tenho item para trocar” e “procuro item”;
-- região aproximada;
-- agrupamento de categoria;
+- RA;
+- agrupamento;
 - CTA de alto compromisso proporcional, como registrar interesse no piloto;
 - contato opcional e separado, mediante consentimento;
 - aviso de que o produto ainda não está disponível;
@@ -290,12 +289,12 @@ Uma página honesta, apresentada como pesquisa/lista de interesse, com:
 
 ### Evidência
 
-- visitas qualificadas por origem e região;
+- visitas qualificadas por origem e RA;
 - escolha “tenho” versus “procuro”;
-- categoria;
+- agrupamento;
 - conclusão do CTA;
 - abandono por etapa;
-- número de expressões bilaterais dentro da mesma célula região × categoria;
+- número de expressões bilaterais dentro da mesma célula RA × agrupamento;
 - quantidade de pares plausíveis em análise agregada, sem contato entre pessoas.
 
 ### Critério proposto
@@ -304,9 +303,9 @@ Uma página honesta, apresentada como pesquisa/lista de interesse, com:
 
 `H-02` só avança se houver oferta e procura na mesma célula e for possível formar pelo menos cinco pares plausíveis no período do teste.
 
-Se houver interesse apenas em uma região/categoria, alterar o piloto para esse recorte. Se houver cliques, mas não bilateralidade, não considerar liquidez validada.
+Se houver interesse apenas em uma RA ou agrupamento, recomendar que Bruno estreite o piloto para esse recorte. Se houver cliques, mas não bilateralidade, não considerar liquidez validada.
 
-O número de cinco pares é um gate exploratório proposto, não uma previsão de mercado. Deve ser revisto e aprovado antes do teste.
+O número de cinco pares é um gate exploratório aprovado por Bruno, não uma previsão de mercado. Qualquer mudança antes do teste deve ser registrada.
 
 ## Etapa D5 — Simulação de moderação e segurança
 
@@ -345,7 +344,7 @@ O número de cinco pares é um gate exploratório proposto, não uma previsão d
 
 - relatório de achados com evidência favorável e contrária;
 - matriz H-01 a H-07 atualizada;
-- segmento, região e categoria recomendados;
+- segmento, RA e agrupamento recomendados;
 - versão simplificada do fluxo;
 - riscos residuais;
 - dez decisões para Bruno;
@@ -359,7 +358,7 @@ O número de cinco pares é um gate exploratório proposto, não uma previsão d
 | Hipótese | Método principal | Método de apoio | Evidência decisiva |
 | --- | --- | --- | --- |
 | H-01 | Entrevista de comportamento | Landing page | comportamento recente + intenção de alto compromisso |
-| H-02 | Landing bilateral | Entrevista por região/categoria | pares plausíveis dentro da mesma célula |
+| H-02 | Landing bilateral | Entrevista por RA/agrupamento | pares plausíveis dentro da mesma célula |
 | H-03 | Protótipo | Entrevista | conclusão do fluxo + ausência de resistência estrutural ao cadastro |
 | H-04 | Entrevista e protótipo | Piloto futuro | mudança de decisão observável; efeito real só no piloto |
 | H-05 | Entrevista e tarefa de encontro | Protótipo | distância, logística e segurança compatíveis |
@@ -375,7 +374,7 @@ O número de cinco pares é um gate exploratório proposto, não uma previsão d
 - escolha observada em protótipo;
 - conclusão de tarefa sem ajuda;
 - clique seguido de ação de maior compromisso;
-- sinal bilateral por região e categoria;
+- sinal bilateral por RA e agrupamento;
 - tempo e resultado de simulação de moderação;
 - objeções recorrentes e casos contrários.
 
@@ -384,7 +383,7 @@ O número de cinco pares é um gate exploratório proposto, não uma previsão d
 - “eu usaria”;
 - “achei legal”;
 - número bruto de visitas;
-- cadastro sem região, categoria ou lado da troca;
+- cadastro sem RA, agrupamento ou lado da troca;
 - opinião de amigos/equipe sem perfil-alvo;
 - curtidas ou visualizações;
 - uma única história positiva;
@@ -398,7 +397,7 @@ Para cada sessão, registrar:
 
 - código anônimo do participante;
 - perfil de recrutamento;
-- região ampla;
+- RA, sem endereço exato;
 - experiência relevante;
 - fatos narrados;
 - citações curtas sem identificadores;
@@ -422,7 +421,7 @@ Não gravar áudio ou vídeo sem consentimento específico e política de reten�
 - entrevistas devem ser analisadas antes de adaptar o protótipo;
 - alteração de roteiro deve ser versionada com motivo;
 - participante de teste não pode receber explicação da interface antes da tarefa;
-- resultados de uma região não devem ser atribuídos à outra;
+- resultados de uma RA não devem ser atribuídos à outra;
 - dados de tráfego não devem ser misturados sem registrar a origem;
 - nenhum achado deve ser promovido a decisão sem aprovação de Bruno.
 
@@ -430,29 +429,28 @@ O percentual de aderência ao roteiro é um controle operacional proposto, não 
 
 ## 10. Ordem recomendada das decisões
 
-1. Fronteira da tese: troca sem dinheiro.
-2. Regiões candidatas e possibilidade de recrutamento.
-3. Público e agrupamentos de categoria.
-4. Critérios pré-registrados de manutenção, alteração e rejeição.
-5. Existência e recorrência do problema.
-6. Liquidez bilateral por região/categoria.
-7. Viabilidade de encontro presencial.
-8. Composição mínima da troca e fluxo de proposta.
-9. Pacote de confiança, privacidade, moderação e disputa.
-10. Gate de seguir, estreitar, pivotar ou interromper.
+1. Fronteira da tese: troca exclusivamente de bens, sem complemento financeiro — decidida.
+2. Mercado macro: Distrito Federal; unidade de análise: RA — decididos.
+3. Agrupamentos candidatos e exclusões — decididos para a descoberta.
+4. Critérios pré-registrados de manutenção, alteração e rejeição — aprovados.
+5. Escolha das duas RAs e confirmação da capacidade de recrutamento.
+6. Existência e recorrência do problema.
+7. Liquidez bilateral por RA/agrupamento.
+8. Viabilidade de encontro presencial.
+9. Composição mínima da troca e fluxo de proposta.
+10. Pacote de confiança, privacidade, moderação e disputa.
+11. Gate de seguir, estreitar, pivotar ou interromper.
 
 ## 11. Dependências e bloqueios
 
 | Bloqueio | Impacto |
 | --- | --- |
-| Região não escolhida | impede recrutamento e teste de liquidez |
-| Categoria não delimitada | dispersa amostra e invalida comparação de oferta/demanda |
+| Duas RAs não escolhidas | impede recrutamento e teste comparável de liquidez |
 | Falta de consentimento/retenção | impede coleta responsável |
-| Complemento financeiro indefinido | mistura duas teses nas entrevistas e no protótipo |
-| Ausência de política de itens proibidos | torna landing/piloto arriscados |
+| Política operacional de itens proibidos incompleta | impede publicar landing ou iniciar piloto com segurança |
 | Ausência de responsável pela moderação | impede teste de capacidade e piloto |
-| Falta de critérios prévios | permite viés retrospectivo |
+| Mudança dos critérios sem registro | permite viés retrospectivo |
 
 ## 12. Próximo passo imediato
 
-Bruno deve responder às decisões 1 a 4 de `DECISOES_PARA_BRUNO_V1.md`. Depois disso, preparar os instrumentos de recrutamento, consentimento e registro, sem iniciar contato até autorização específica.
+Bruno deve escolher as duas RAs do Distrito Federal. Depois disso, preparar e aprovar os instrumentos de recrutamento, consentimento, registro e retenção, sem iniciar contato até autorização específica.

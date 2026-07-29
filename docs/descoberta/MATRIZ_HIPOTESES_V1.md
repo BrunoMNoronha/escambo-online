@@ -4,7 +4,7 @@
 
 **Data-base:** 29/07/2026
 
-**Status:** pré-registro proposto; nenhuma hipótese validada
+**Status:** critérios aprovados por Bruno em 29/07/2026; nenhuma hipótese validada
 
 ## 1. Como usar
 
@@ -14,7 +14,7 @@ Esta matriz distingue o estado documental da evidência futura.
 - **Alterar:** restringir público, região, categoria ou fluxo; uma hipótese alterada volta a ser testada.
 - **Rejeitar:** retirar a hipótese do MVP ou impedir avanço enquanto não houver alternativa segura.
 
-Os limiares numéricos são critérios de decisão sugeridos para aprovação de Bruno antes da pesquisa. Não são resultados, benchmarks de mercado ou garantia estatística.
+Os limiares numéricos foram aprovados por Bruno como critérios de decisão antes da pesquisa. Não são resultados, benchmarks de mercado ou garantia estatística. Qualquer alteração anterior à coleta deve ser registrada; após o início da coleta, um critério alterado exige nova rodada compatível.
 
 ## 2. Priorização
 
@@ -35,7 +35,7 @@ Os limiares numéricos são critérios de decisão sugeridos para aprovação de
 | ID | Hipótese | Evidência atual | Método principal | Amostra | Decisão possível |
 | --- | --- | --- | --- | --- | --- |
 | H-01 | Existe demanda recorrente por troca sem dinheiro | Nenhuma externa | Entrevistas + landing | 24 entrevistas + tráfego pré-registrado | manter, nichar ou rejeitar tese |
-| H-02 | Operação regional gera liquidez suficiente | Nenhuma externa | Landing bilateral + matriz de pares | duas regiões candidatas | escolher célula, estreitar ou não lançar marketplace |
+| H-02 | Operação regional gera liquidez suficiente | Nenhuma externa | Landing bilateral + matriz de pares | duas RAs do DF a selecionar | escolher célula, estreitar ou não lançar marketplace |
 | H-03 | Usuário aceita cadastrar item próprio antes de propor | Fluxo apenas documentado | Protótipo | 12 testes | manter cadastro, simplificar ou trocar mecanismo |
 | H-04 | Reputação e chat contextual aumentam confiança | Princípio, não evidência | Entrevista + protótipo; piloto depois | 24 + 12 | manter pacote mínimo, alterar momento ou retirar mecanismo ineficaz |
 | H-05 | Encontro presencial basta no mercado inicial | Premissa documental | Entrevista + tarefa de encontro | 24 + 12 | manter recorte, reduzir raio ou rejeitar presencial exclusivo |
@@ -81,10 +81,10 @@ O produto pode organizar um comportamento raro, de baixo valor ou facilmente sub
 - frequência é excepcional;
 - CTA recebe curiosidade, mas não registro de oferta/procura.
 
-### Critério
+### Critério aprovado
 
 - **Manter:** comportamento recente e recorrente aparece em pelo menos metade dos 12 participantes com experiência de tentativa, em um segmento reconhecível, e o sinal da landing é coerente com esse comportamento.
-- **Alterar:** comportamento existe, mas concentra-se em uma categoria, comunidade, ocasião ou região; reformular o público e repetir o teste.
+- **Alterar:** comportamento existe, mas concentra-se em um agrupamento, comunidade, ocasião ou RA; reformular o público e repetir o teste.
 - **Rejeitar:** menos de um terço dos participantes com experiência apresenta recorrência ou dor relevante, e a landing não gera intenção bilateral.
 
 ### Limitação
@@ -95,11 +95,12 @@ Entrevista e landing validam problema e intenção, não retenção nem troca co
 
 ### Formulação
 
-**Hipótese:** dentro de uma região e intervalo de tempo úteis, há oferta e procura compatíveis suficientes para formar trocas.
+**Hipótese:** dentro de uma Região Administrativa do Distrito Federal e intervalo de tempo úteis, há oferta e procura compatíveis suficientes para formar trocas.
 
 ### Base atual
 
-- **Fato:** nenhuma região, raio ou categoria foi aprovada.
+- **Fato:** Distrito Federal foi definido como mercado macro e RA como unidade de análise; as duas RAs ainda não foram escolhidas.
+- **Fato:** foram definidos três agrupamentos candidatos para a descoberta, sem transformá-los em taxonomia final.
 - **Fato:** a troca exige coincidência entre o que cada parte oferece e aceita.
 - **Inferência:** esse é o risco estrutural mais específico do marketplace.
 
@@ -109,15 +110,16 @@ Mesmo com muitos interessados, cada pessoa pode não encontrar contraparte compa
 
 ### Método
 
-1. Escolher duas regiões candidatas e até três agrupamentos de categoria.
-2. Coletar na landing: região ampla, “tenho/procuro” e categoria.
-3. Construir matriz agregada de oferta e procura.
-4. Aplicar regras simples de compatibilidade e raio aceito.
-5. Não aproximar pessoas nesta etapa.
+1. Escolher duas RAs do Distrito Federal.
+2. Usar os três agrupamentos candidatos: livros, quadrinhos e jogos de tabuleiro; itens domésticos e de decoração pequenos, portáteis e não elétricos; e artigos portáteis de esporte e lazer não motorizados.
+3. Coletar na landing: RA, “tenho/procuro” e agrupamento.
+4. Construir matriz agregada de oferta e procura.
+5. Aplicar regras simples de compatibilidade e raio aceito.
+6. Não aproximar pessoas nesta etapa.
 
 ### Evidência favorável
 
-- oferta e procura na mesma célula região × categoria;
+- oferta e procura na mesma célula RA × agrupamento;
 - desejos não excessivamente específicos;
 - raio aceito compatível;
 - formação repetida de pares plausíveis;
@@ -128,13 +130,13 @@ Mesmo com muitos interessados, cada pessoa pode não encontrar contraparte compa
 - muitas ofertas e quase nenhuma procura, ou o inverso;
 - interesses espalhados demais;
 - distância inviável;
-- pares dependem de complemento financeiro não previsto;
+- pares dependem de complemento financeiro, que está fora da tese aprovada;
 - somente um item excepcional forma par.
 
-### Critério
+### Critério aprovado
 
-- **Manter:** formar pelo menos cinco pares plausíveis na mesma região durante o teste e confirmar nas entrevistas que raio e tempo são aceitáveis.
-- **Alterar:** pares aparecem apenas em um recorte; reduzir região, categoria ou público e repetir.
+- **Manter:** formar pelo menos cinco pares plausíveis na mesma célula RA × agrupamento durante o teste e confirmar nas entrevistas que raio e tempo são aceitáveis.
+- **Alterar:** pares aparecem apenas em um recorte; reduzir RA, agrupamento ou público e repetir.
 - **Rejeitar:** não há bilateralidade mesmo após recorte, ou os pares dependem consistentemente de elemento fora da tese.
 
 ### Limitação
@@ -180,7 +182,7 @@ Usuários podem abandonar antes de propor, reduzindo ainda mais a liquidez.
 - confusão sobre visibilidade;
 - dados mínimos vistos como excessivos.
 
-### Critério
+### Critério aprovado
 
 - **Manter:** pelo menos 9 de 12 participantes concluem e explicam o motivo do cadastro.
 - **Alterar:** 6 a 8 concluem; reduzir campos, permitir rascunho rápido ou mudar a ordem, sem remover validações críticas.
@@ -230,7 +232,7 @@ O MVP pode assumir custo e risco de mensagens/moderação sem reduzir abandono o
 - histórico não resolve conta nova;
 - custo de moderação supera valor percebido.
 
-### Critério
+### Critério aprovado
 
 - **Manter como pacote mínimo:** pelo menos 8 de 12 participantes usam um dos sinais para justificar decisão e explicam corretamente seus limites.
 - **Alterar:** sinais ajudam, mas o momento do chat ou a apresentação induzem risco; restringir chat, contato ou reputação.
@@ -249,7 +251,7 @@ Confiança percebida não equivale a redução de fraude. A hipótese só pode s
 ### Base atual
 
 - **Fato:** encontro presencial é premissa proposta e segurança em local público é requisito.
-- **Fato:** não há região, raio, mobilidade ou pontos de encontro definidos.
+- **Fato:** o Distrito Federal e a unidade RA estão definidos, mas ainda não há duas RAs, raio, mobilidade ou pontos de encontro selecionados.
 - **Inferência:** o encontro pode reduzir logística técnica e aumentar risco físico e abandono.
 
 ### Risco se falsa
@@ -266,10 +268,10 @@ Sem alternativa logística, propostas podem não ser concluídas ou podem expor 
 ### Evidência favorável
 
 - participantes relatam prática ou disposição ancorada em experiência;
-- existe raio compatível com a região;
+- existe raio compatível com a RA;
 - pontos públicos e horários viáveis são identificados;
 - pessoa sabe cancelar e evitar residência;
-- categorias escolhidas são transportáveis.
+- agrupamentos escolhidos são transportáveis.
 
 ### Evidência contrária
 
@@ -279,10 +281,10 @@ Sem alternativa logística, propostas podem não ser concluídas ou podem expor 
 - preocupação de segurança impede encontro;
 - necessidade de endereço residencial.
 
-### Critério
+### Critério aprovado
 
 - **Manter:** pelo menos dois terços dos participantes do segmento prioritário descrevem uma forma prática e segura de concluir dentro do raio escolhido.
-- **Alterar:** viável apenas para categorias, horários ou micro-regiões específicos; reduzir o piloto.
+- **Alterar:** viável apenas para agrupamentos, horários ou recortes específicos das RAs; reduzir o piloto.
 - **Rejeitar:** encontro é barreira dominante ou exige logística fora do MVP na maioria dos casos relevantes.
 
 ### Limitação
@@ -328,7 +330,7 @@ O MVP ganha complexidade de UX e consistência sem benefício proporcional.
 - reserva de vários itens causa receio;
 - 1:1 resolve o problema inicial.
 
-### Critério
+### Critério aprovado
 
 - **Manter 1:N:** pelo menos 9 de 12 compreendem e ao menos um terço relata caso concreto de necessidade.
 - **Alterar para 1:1:** compreensão abaixo do limiar ou necessidade pouco frequente.
@@ -379,10 +381,10 @@ O piloto pode expor usuários a fraude, assédio, ameaça ou item ilícito sem r
 - não existe responsável durante janela crítica;
 - política não permite ação necessária.
 
-### Critério
+### Critério aprovado
 
 - **Manter:** 100% dos casos críticos são corretamente identificados e escalonados no prazo definido, e o volume total cabe na capacidade aprovada.
-- **Alterar:** limitar usuários/categorias, melhorar triagem, política ou cobertura e repetir a simulação.
+- **Alterar:** limitar usuários/agrupamentos, melhorar triagem, política ou cobertura e repetir a simulação.
 - **Rejeitar para o piloto:** qualquer caso crítico fica sem resposta, não há acesso controlado ou a capacidade é estruturalmente insuficiente.
 
 ### Limitação

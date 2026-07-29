@@ -1,7 +1,15 @@
 # Jornadas, histórias e critérios de aceite
 
-**Versão:** 0.1  
-**Status:** backlog funcional inicial; requer refinamento
+**Versão:** 0.2
+**Status:** backlog funcional inicial; requer refinamento após descoberta
+
+## Decisões de contexto
+
+- troca exclusivamente de bens, sem complemento financeiro;
+- descoberta no Distrito Federal, analisada por Região Administrativa;
+- três agrupamentos candidatos de pesquisa definidos em `02_FONTE_MESTRA_PRODUTO.md`;
+- critérios H-01 a H-07 aprovados;
+- nenhuma jornada abaixo está homologada apenas por constar neste documento.
 
 ## 1. Personas hipotéticas
 

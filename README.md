@@ -11,21 +11,26 @@ Base oficial de produto, descoberta e governança do projeto provisoriamente cha
 - Claude Code e Antigravity executam etapas autorizadas.
 - Este repositório é a fonte versionada oficial do projeto.
 - A auditoria documental `EO-DISC-001` foi concluída.
+- A tese inicial é troca exclusivamente de bens, sem complemento financeiro.
+- O Distrito Federal é o mercado macro; Região Administrativa é a unidade de análise.
+- Três agrupamentos candidatos e os critérios de `H-01` a `H-07` foram definidos para a descoberta.
 - Nenhuma hipótese `H-01` a `H-07` foi validada por pesquisa.
-- O próximo gate é Bruno responder às quatro decisões necessárias antes da coleta.
+- O próximo gate é Bruno escolher duas RAs e aprovar os instrumentos antes da coleta.
 
 Consulte o [estado atual do projeto](docs/governanca/11_ESTADO_ATUAL_PROJETO.md) antes de iniciar qualquer etapa.
 
-## Próxima decisão
+## Próximo gate
 
-As quatro decisões imediatas são:
+As decisões iniciais estão registradas. Para iniciar a pesquisa:
 
-1. confirmar se complemento financeiro permanece fora da tese inicial;
-2. escolher as regiões candidatas;
-3. delimitar público, categorias e exclusões;
-4. aprovar ou ajustar os critérios de decisão das hipóteses.
+1. Bruno escolhe duas Regiões Administrativas do Distrito Federal;
+2. a equipe prepara recrutamento, consentimento, registro e retenção;
+3. Bruno aprova os instrumentos e autoriza especificamente o contato;
+4. somente então começam as entrevistas.
 
 O contexto, as alternativas e o impacto de não decidir estão em [Decisões para Bruno V1](docs/descoberta/DECISOES_PARA_BRUNO_V1.md).
+
+Para substituir a base antiga do Projeto ChatGPT sem duplicidades, siga o [manifesto da base de conhecimento](docs/governanca/12_BASE_CONHECIMENTO_CHATGPT.md).
 
 ## Documentação
 
