@@ -37,6 +37,7 @@ O próximo gate é preparar, para aprovação de Bruno, os instrumentos e as reg
 | GOV-008 | Ferramentas gratuitas ou já incluídas de Claude/Anthropic, OpenAI e GitHub autorizadas com custo incremental zero e menor privilégio | Bruno (29/07/2026) |
 | INFRA-001 | Vercel como hospedagem preferencial sob custo zero; sem deploy nesta etapa; detalhamento no `ADR-008` | Bruno (29/07/2026) |
 | DOC-004 | Higiene contínua e controlada do repositório; remoção somente com evidência registrada | Bruno (29/07/2026) |
+| DOC-005 | Sincronização canônica da base do Projeto ChatGPT (procedimento manual, espelhando a `main`); complementa `DOC-004` | Bruno (29/07/2026) |
 
 A fonte primária dessas decisões é o [registro de decisões](REGISTRO_DECISOES.md).
 
@@ -127,6 +128,16 @@ Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 - etapa exclusivamente de consolidação documental; nenhuma Action, script persistente, aplicação ou configuração Vercel criada; nenhum deploy;
 - **PR #2** (`agent/registrar-decisoes-iniciais`, draft, conflitante) analisada em modo somente leitura e registrada como pendência operacional candidata a encerramento — **não** encerrada nesta etapa.
 
+### EO-REPO-003
+
+- auditoria somente leitura da PR #2 concluída; modelagem de decisões classificada como superada/divergente da `main`;
+- conteúdo residual útil identificado e preservado: procedimento de sincronização da base de conhecimento e correção de hierarquia do `01`;
+- `12_BASE_CONHECIMENTO_CHATGPT.md` reautorado contra o estado canônico atual; hierarquia de verdade do `01_INSTRUCOES` alinhada ao `README.md`; índice atualizado;
+- decisão `DOC-005` registrada em [Registro de decisões](REGISTRO_DECISOES.md);
+- **PR #5** publicada com essas três alterações e **aguardando merge**; **não mesclada** nesta etapa;
+- **PR #2** permanece aberta, aguardando **encerramento posterior** (após o merge da PR #5), com o conteúdo residual útil já preservado;
+- **pendência operacional:** a sincronização manual dos anexos e das instruções do Projeto ChatGPT (`DOC-005`) **ainda não foi executada** — documentar o procedimento não é executá-lo.
+
 ## 7. Não iniciado
 
 - recrutamento ou entrevistas;
@@ -213,6 +224,17 @@ As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** sã
 - produto mantido não validado; `H-01` a `H-07` mantidas não validadas; próximo gate de descoberta inalterado;
 - PR #2 classificada como candidata a encerramento, sem alteração remota;
 - etapa exclusivamente documental, sem commit, push, PR, merge ou deploy.
+
+### 29/07/2026 — EO-REPO-003
+
+- auditoria somente leitura da PR #2 concluída; modelagem de decisões classificada como superada/divergente (a `main` já traz `DISC-001..004` com Cruzeiro/Guará escolhidos);
+- conteúdo residual útil identificado; `12_BASE_CONHECIMENTO_CHATGPT.md` reautorado contra a `main` atual;
+- hierarquia de verdade do `01_INSTRUCOES` alinhada ao `README.md`; índice atualizado;
+- decisão `DOC-005` registrada (procedimento de sincronização manual da base de conhecimento);
+- PR #5 publicada e **aguardando merge**; PR #2 ainda aberta e **aguardando encerramento** posterior;
+- sincronização manual da base de conhecimento permanece **pendente** (não executada);
+- produto mantido não validado; `H-01` a `H-07` mantidas não validadas; decisões 5–10 pendentes; próximo gate de descoberta inalterado;
+- correção de rastreabilidade `EO-REPO-003-COR-01` sem commit, push, PR, merge ou deploy.
 
 ## 11. Modelo para próxima atualização
 
