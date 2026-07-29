@@ -25,7 +25,7 @@ Este diretório organiza a fonte de conhecimento oficial por responsabilidade. A
 
 | Documento | Finalidade | Estado |
 | --- | --- | --- |
-| [02 — Fonte-mestra](produto/02_FONTE_MESTRA_PRODUTO.md) | tese, público, proposta de valor, hipóteses e riscos | Hipótese inicial |
+| [02 — Fonte-mestra](produto/02_FONTE_MESTRA_PRODUTO.md) | tese, público, proposta de valor, hipóteses e riscos | Fronteiras da descoberta decididas; produto não validado |
 | [03 — Escopo e regras](produto/03_ESCOPO_MVP_REGRAS_NEGOCIO.md) | capacidades, estados e invariantes | Proposta |
 | [04 — Jornadas e histórias](produto/04_JORNADAS_HISTORIAS_CRITERIOS.md) | jornadas, backlog funcional e critérios | Requer refinamento |
 | [08 — Roadmap](produto/08_ROADMAP_BACKLOG.md) | fases, gates e prioridades | Proposta |
@@ -35,10 +35,10 @@ Este diretório organiza a fonte de conhecimento oficial por responsabilidade. A
 | Documento | Finalidade | Estado |
 | --- | --- | --- |
 | [Relatório de auditoria V1](descoberta/RELATORIO_AUDITORIA_PRODUTO_V1.md) | coerência, lacunas e inconsistências | Auditoria concluída |
-| [Plano de descoberta V1](descoberta/PLANO_DESCOBERTA_V1.md) | método, amostra, evidência e sequência | Aguardando decisões |
+| [Plano de descoberta V1](descoberta/PLANO_DESCOBERTA_V1.md) | método, amostra, evidência e sequência | D0 parcialmente aprovado; preparação pendente |
 | [Roteiro de entrevistas V1](descoberta/ROTEIRO_ENTREVISTAS_V1.md) | entrevista não indutiva e teste de protótipo | Proposta |
-| [Matriz de hipóteses V1](descoberta/MATRIZ_HIPOTESES_V1.md) | critérios para H-01 a H-07 | Pré-registro proposto |
-| [Decisões para Bruno V1](descoberta/DECISOES_PARA_BRUNO_V1.md) | dez decisões priorizadas | Pendente |
+| [Matriz de hipóteses V1](descoberta/MATRIZ_HIPOTESES_V1.md) | critérios para H-01 a H-07 | Pré-registro aprovado e congelado; nenhuma hipótese validada |
+| [Decisões para Bruno V1](descoberta/DECISOES_PARA_BRUNO_V1.md) | dez decisões priorizadas | Decisões 1–4 respondidas; 5–10 pendentes |
 
 ## Arquitetura
 

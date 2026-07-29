@@ -6,7 +6,7 @@
 
 **Objetivo:** reduzir as incertezas que podem inviabilizar ou alterar o MVP antes de UX detalhada, arquitetura ou implementação
 
-**Status:** proposta para aprovação de Bruno
+**Status:** D0 parcialmente aprovado em 29/07/2026 (regiões, categorias, fronteira da tese e critérios da matriz decididos); preparação de recrutamento, consentimento e registro pendente
 
 ## 1. Resultado esperado
 
@@ -74,7 +74,23 @@ Este plano não autoriza desenvolvimento de aplicação, schema, infraestrutura 
 
 ### 4.1 Público principal
 
-**Hipótese de público, não decisão:** adultos de duas regiões candidatas, com acesso a smartphone, que possuam bens usados em condição de troca e tenham considerado vender, doar, guardar, descartar ou trocar algum item nos últimos 12 meses.
+**Recorte aprovado para a descoberta (`DISC-002`/`DISC-003`):**
+
+- pessoas com 18 anos ou mais;
+- residentes no Cruzeiro ou no Guará;
+- com pelo menos um item usado, em bom estado e sem utilização recorrente;
+- com interesse real em avaliar troca por outro bem;
+- com disponibilidade para considerar encontro presencial em local público;
+- sem depender de complemento financeiro para participar da tese testada.
+
+Cruzeiro e Guará são células candidatas para comparação. A escolha não presume liquidez, que será testada.
+
+**Critérios adicionais de recrutamento propostos — pendentes de aprovação no próximo gate:**
+
+- acesso a smartphone;
+- ter considerado vender, doar, guardar, descartar ou trocar algum item nos últimos 12 meses.
+
+Esses dois critérios são desenho metodológico ainda não aprovado por Bruno; não integram o recorte de `DISC-003`.
 
 ### 4.2 Amostra qualitativa
 
@@ -138,18 +154,21 @@ Esses números são parâmetros sugeridos para pré-registro, não métricas obs
 
 **Objetivo:** impedir que critérios sejam adaptados aos resultados.
 
-**Ações:**
+**Ações — concluídas em 29/07/2026 (`DISC-001` a `DISC-004`):**
 
-1. Bruno escolhe duas regiões candidatas.
-2. Bruno escolhe até três agrupamentos de categorias para investigar.
-3. Bruno confirma se “sem complemento financeiro” é restrição ou hipótese.
-4. Aprovar roteiro, critérios de recrutamento, consentimento e registro.
-5. Aprovar a matriz `manter / alterar / rejeitar`.
-6. Definir onde serão armazenadas notas anonimizadas e por quanto tempo.
+1. ✅ Regiões candidatas escolhidas: Cruzeiro/DF e Guará/DF (unidade pública: Região Administrativa).
+2. ✅ Até três agrupamentos de categorias definidos (ver [recorte de descoberta](../produto/03_ESCOPO_MVP_REGRAS_NEGOCIO.md)).
+3. ✅ Fronteira da tese confirmada: troca exclusivamente de bens, sem complemento financeiro (restrição da tese testada).
+5. ✅ Matriz `manter / alterar / rejeitar` aprovada e congelada.
 
-**Evidência:** registro das decisões e versão congelada dos instrumentos.
+**Ações — ainda pendentes:**
 
-**Gate:** nenhuma entrevista começa sem público, consentimento e critérios aprovados.
+4. Aprovar roteiro aplicável, critérios de recrutamento, consentimento e registro.
+6. Definir anonimização, local de armazenamento, controle de acesso, prazo de retenção e descarte das notas.
+
+**Evidência:** decisões registradas em [Registro de decisões](../governanca/REGISTRO_DECISOES.md); instrumentos ainda a congelar (roteiro, consentimento, ficha de registro).
+
+**Gate:** nenhuma entrevista começa sem público, consentimento, instrumentos e critérios operacionais aprovados, nem sem autorização específica para contato.
 
 ## Etapa D1 — Entrevistas de problema e comportamento
 
@@ -455,4 +474,4 @@ O percentual de aderência ao roteiro é um controle operacional proposto, não 
 
 ## 12. Próximo passo imediato
 
-Bruno deve responder às decisões 1 a 4 de `DECISOES_PARA_BRUNO_V1.md`. Depois disso, preparar os instrumentos de recrutamento, consentimento e registro, sem iniciar contato até autorização específica.
+As decisões 1 a 4 de `DECISOES_PARA_BRUNO_V1.md` foram respondidas em 29/07/2026 (`DISC-001` a `DISC-004`). O próximo passo é preparar e submeter à aprovação de Bruno os critérios de recrutamento, o consentimento, o registro e a eventual gravação, a anonimização, o local de armazenamento, o controle de acesso e o prazo de retenção e descarte, além do roteiro aplicável — **sem iniciar contato com participantes até autorização específica**.

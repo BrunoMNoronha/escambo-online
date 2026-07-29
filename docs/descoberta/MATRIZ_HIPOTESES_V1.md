@@ -4,7 +4,9 @@
 
 **Data-base:** 29/07/2026
 
-**Status:** pré-registro proposto; nenhuma hipótese validada
+**Status:** pré-registro aprovado e congelado em 29/07/2026; nenhuma hipótese validada
+
+> **Contexto decidido (29/07/2026, `DISC-001` a `DISC-004`):** a tese testada é troca de bens **sem complemento financeiro**; as regiões candidatas são **Cruzeiro/DF** e **Guará/DF**, com **Região Administrativa** como unidade pública; foram definidos **três grupos de categorias** candidatas (ver [recorte de descoberta](../produto/03_ESCOPO_MVP_REGRAS_NEGOCIO.md)). Esses parâmetros deixam de estar em aberto para a coleta. Os limiares de manter/alterar/rejeitar abaixo **não** foram alterados. Nenhuma hipótese foi validada, mantida, alterada ou rejeitada.
 
 ## 1. Como usar
 
@@ -99,7 +101,7 @@ Entrevista e landing validam problema e intenção, não retenção nem troca co
 
 ### Base atual
 
-- **Fato:** nenhuma região, raio ou categoria foi aprovada.
+- **Fato:** as regiões candidatas (Cruzeiro/DF e Guará/DF) e três grupos de categorias foram aprovados para a descoberta em 29/07/2026 (`DISC-002`/`DISC-003`); raio aceito e densidade permanecem a testar.
 - **Fato:** a troca exige coincidência entre o que cada parte oferece e aceita.
 - **Inferência:** esse é o risco estrutural mais específico do marketplace.
 
@@ -249,7 +251,7 @@ Confiança percebida não equivale a redução de fraude. A hipótese só pode s
 ### Base atual
 
 - **Fato:** encontro presencial é premissa proposta e segurança em local público é requisito.
-- **Fato:** não há região, raio, mobilidade ou pontos de encontro definidos.
+- **Fato:** as regiões da descoberta estão definidas (Cruzeiro/DF e Guará/DF, `DISC-002`); raio, mobilidade e pontos de encontro permanecem a definir.
 - **Inferência:** o encontro pode reduzir logística técnica e aumentar risco físico e abandono.
 
 ### Risco se falsa
@@ -397,3 +399,13 @@ Casos sintéticos não reproduzem integralmente ambiguidade, pressão e volume r
 4. `H-01`, `H-02`, `H-05` e `H-07` bloqueiam o piloto se rejeitadas.
 5. `H-03`, `H-04` e `H-06` podem simplificar o MVP sem abandonar a tese.
 6. Toda alteração relevante exige decisão de Bruno e atualização posterior das fontes.
+
+## 12. Controle de versão do pré-registro
+
+O pré-registro foi congelado em 29/07/2026 (`DISC-004`). A partir dessa data:
+
+1. qualquer mudança em hipótese, limiar, tese, público, região ou categoria exige **nova decisão explícita de Bruno**;
+2. ajustes metodológicos só podem ser feitos e **documentados antes** de observar os resultados afetados;
+3. resultado negativo não pode ser reinterpretado posteriormente como validação;
+4. a versão anterior e o motivo da mudança devem ser preservados, sem apagar o histórico;
+5. a falha de `H-01`, `H-02`, `H-05` ou `H-07` pode levar a interromper, restringir ou reformular o projeto.

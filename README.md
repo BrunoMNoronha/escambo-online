@@ -11,21 +11,23 @@ Base oficial de produto, descoberta e governança do projeto provisoriamente cha
 - Claude Code e Antigravity executam etapas autorizadas.
 - Este repositório é a fonte versionada oficial do projeto.
 - A auditoria documental `EO-DISC-001` foi concluída.
+- As quatro decisões iniciais de produto foram aprovadas por Bruno em 29/07/2026 e registradas como `DISC-001` a `DISC-004` (etapa `EO-DISC-002`).
+- Os critérios da matriz de hipóteses foram aprovados e congelados.
 - Nenhuma hipótese `H-01` a `H-07` foi validada por pesquisa.
-- O próximo gate é Bruno responder às quatro decisões necessárias antes da coleta.
+- O próximo gate é preparar, para aprovação, as regras de coleta responsável (recrutamento, consentimento, registro, anonimização, armazenamento, acesso e retenção); contato com participantes continua não autorizado.
 
 Consulte o [estado atual do projeto](docs/governanca/11_ESTADO_ATUAL_PROJETO.md) antes de iniciar qualquer etapa.
 
-## Próxima decisão
+## Decisões iniciais registradas
 
-As quatro decisões imediatas são:
+As quatro decisões do gate inicial foram respondidas em 29/07/2026:
 
-1. confirmar se complemento financeiro permanece fora da tese inicial;
-2. escolher as regiões candidatas;
-3. delimitar público, categorias e exclusões;
-4. aprovar ou ajustar os critérios de decisão das hipóteses.
+1. tese testada exclusivamente como troca de bens, sem complemento financeiro (`DISC-001`);
+2. regiões candidatas Cruzeiro/DF e Guará/DF, unidade pública = Região Administrativa (`DISC-002`);
+3. público, categorias candidatas e exclusões definidos como recorte de descoberta (`DISC-003`);
+4. critérios de decisão das hipóteses aprovados e congelados (`DISC-004`).
 
-O contexto, as alternativas e o impacto de não decidir estão em [Decisões para Bruno V1](docs/descoberta/DECISOES_PARA_BRUNO_V1.md).
+O registro dessas decisões está em [Registro de decisões](docs/governanca/REGISTRO_DECISOES.md); o histórico das perguntas e respostas, em [Decisões para Bruno V1](docs/descoberta/DECISOES_PARA_BRUNO_V1.md). As decisões 5–10 continuam pendentes.
 
 ## Documentação
 
