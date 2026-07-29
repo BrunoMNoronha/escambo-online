@@ -1,67 +1,85 @@
-# Kit inicial — Projeto Escambo Online
+# Escambo Online
 
-**Versão:** 0.1  
-**Data:** 29/07/2026  
-**Status:** base inicial para descoberta e planejamento  
-**Nome do produto:** “Escambo Online” é provisório
+Base oficial de produto, descoberta e governança do projeto provisoriamente chamado **Escambo Online**.
 
-## Objetivo deste kit
+> O produto está na **Fase 0 — descoberta e validação**. Não há MVP homologado, aplicação, schema ou infraestrutura autorizados.
 
-Este conjunto de arquivos estabelece a base de conhecimento usada pelo ChatGPT para organizar, documentar e orquestrar o desenvolvimento do produto.
+## Situação atual
 
-O modelo operacional definido é:
+- Bruno é o responsável final por decisões e autorizações.
+- ChatGPT organiza o trabalho, mantém contexto e audita resultados.
+- Claude Code e Antigravity executam etapas autorizadas.
+- Este repositório é a fonte versionada oficial do projeto.
+- A auditoria documental `EO-DISC-001` foi concluída.
+- Nenhuma hipótese `H-01` a `H-07` foi validada por pesquisa.
+- O próximo gate é Bruno responder às quatro decisões necessárias antes da coleta.
 
-1. Bruno atua como responsável final pelas decisões e aprovações.
-2. O ChatGPT mantém o contexto, organiza o backlog, propõe as próximas etapas, elabora prompts e audita os relatórios.
-3. Claude Code e Antigravity executam análises e atividades de desenvolvimento autorizadas.
-4. O GitHub mantém o histórico do código, da documentação e das decisões.
+Consulte o [estado atual do projeto](docs/governanca/11_ESTADO_ATUAL_PROJETO.md) antes de iniciar qualquer etapa.
 
-## Ordem recomendada para adicionar ao Projeto do ChatGPT
+## Próxima decisão
 
-1. Cole o conteúdo de `01_INSTRUCOES_PROJETO_CHATGPT.md` no campo **Instruções do projeto**.
-2. Adicione os demais arquivos `.md` como fontes da base de conhecimento.
-3. Inicie uma conversa no projeto usando o prompt “Fase 0”, disponível em `10_TEMPLATES_PROMPTS_RELATORIOS.md`.
-4. Atualize `11_ESTADO_ATUAL_PROJETO.md` ao concluir cada etapa.
+As quatro decisões imediatas são:
 
-## Documentos
+1. confirmar se complemento financeiro permanece fora da tese inicial;
+2. escolher as regiões candidatas;
+3. delimitar público, categorias e exclusões;
+4. aprovar ou ajustar os critérios de decisão das hipóteses.
 
-| Arquivo | Função |
+O contexto, as alternativas e o impacto de não decidir estão em [Decisões para Bruno V1](docs/descoberta/DECISOES_PARA_BRUNO_V1.md).
+
+## Documentação
+
+| Área | Conteúdo |
 | --- | --- |
-| `01_INSTRUCOES_PROJETO_CHATGPT.md` | Instrução pronta para o Projeto do ChatGPT |
-| `02_FONTE_MESTRA_PRODUTO.md` | Visão, problema, público, princípios e hipóteses do MVP |
-| `03_ESCOPO_MVP_REGRAS_NEGOCIO.md` | Escopo funcional, estados, regras e invariantes |
-| `04_JORNADAS_HISTORIAS_CRITERIOS.md` | Jornadas, épicos, histórias e critérios de aceite |
-| `05_MODELO_DOMINIO_DADOS.md` | Modelo conceitual de domínio e requisitos de dados |
-| `06_ARQUITETURA_TECNICA_INICIAL.md` | Arquitetura proposta e decisões que ainda exigem validação |
-| `07_QUALIDADE_SEGURANCA_PRIVACIDADE.md` | Estratégias mínimas de qualidade, segurança e privacidade |
-| `08_ROADMAP_BACKLOG.md` | Fases, gates e backlog inicial priorizado |
-| `09_GOVERNANCA_IA_GITHUB.md` | Papéis, fluxo entre agentes, GitHub e limites de autonomia |
-| `10_TEMPLATES_PROMPTS_RELATORIOS.md` | Modelos de prompt, relatório e auditoria |
-| `11_ESTADO_ATUAL_PROJETO.md` | Registro vivo do estágio, decisões e próximo passo |
+| [Produto](docs/produto/) | fonte-mestra, escopo, jornadas e roadmap |
+| [Descoberta](docs/descoberta/) | auditoria, plano, roteiro, hipóteses e decisões pendentes |
+| [Arquitetura](docs/arquitetura/) | modelo conceitual e proposta técnica ainda não homologada |
+| [Qualidade](docs/qualidade/) | qualidade, segurança, privacidade e gates |
+| [Governança](docs/governanca/) | instruções, papéis, templates, decisões e estado atual |
 
-## Hierarquia das fontes
+O [índice completo](docs/README.md) apresenta ordem de leitura, finalidade e estado de cada documento.
 
-Quando houver divergência, prevalece esta ordem:
+## Hierarquia de verdade
+
+Em caso de divergência, prevalece:
 
 1. decisão explícita e mais recente de Bruno;
-2. `02_FONTE_MESTRA_PRODUTO.md`;
-3. decisões formalizadas no registro de decisões do projeto;
-4. `03_ESCOPO_MVP_REGRAS_NEGOCIO.md`;
-5. arquitetura e demais documentos técnicos;
-6. backlog, prompts e relatórios;
-7. código atual.
+2. [registro de decisões](docs/governanca/REGISTRO_DECISOES.md);
+3. [fonte-mestra do produto](docs/produto/02_FONTE_MESTRA_PRODUTO.md);
+4. [escopo e regras de negócio](docs/produto/03_ESCOPO_MVP_REGRAS_NEGOCIO.md);
+5. documentos técnicos e de qualidade;
+6. roadmap, prompts e relatórios;
+7. implementação existente.
 
-O código não altera uma regra de negócio por si só. Uma divergência entre código e documentação deve ser registrada e submetida à decisão.
+Código não homologa regra de negócio. Divergências devem ser registradas e submetidas à decisão.
 
-## Convenções de manutenção
+## Organização do repositório
 
-- Documentos textuais usam Markdown e ficam versionados junto ao projeto.
-- Toda mudança relevante informa data, motivo, impacto e responsável pela aprovação.
-- Decisões arquiteturais relevantes usam ADR.
-- Relatórios de agentes registram comandos executados e resultados observados.
-- Nenhum relatório pode declarar sucesso sem evidência reproduzível.
-- Regras provisórias permanecem identificadas como hipóteses até aprovação explícita.
+```text
+/
+├── README.md
+├── AGENTS.md
+└── docs/
+    ├── README.md
+    ├── produto/
+    ├── descoberta/
+    ├── arquitetura/
+    ├── qualidade/
+    └── governanca/
+```
 
-## Situação inicial
+Diretórios de aplicação, infraestrutura, ADRs e relatórios técnicos só serão adicionados quando seus gates forem autorizados.
 
-Este kit não representa validação de mercado, parecer jurídico ou arquitetura homologada. Ele transforma a ideia inicial em uma base controlada para executar a Fase 0 de descoberta.
+## Regras para contribuir
+
+- Leia [AGENTS.md](AGENTS.md) e as fontes obrigatórias da etapa.
+- Trabalhe em uma branch curta e mantenha alterações relacionadas.
+- Separe fato, inferência, hipótese, recomendação e decisão.
+- Não transforme proposta técnica ou de produto em decisão.
+- Não implemente código, schema, migration ou infraestrutura sem autorização explícita.
+- Não use dados pessoais reais ou segredos.
+- PRs devem informar escopo, evidências, riscos, pendências e impacto documental.
+
+## Limites desta base
+
+Esta documentação não representa validação de mercado, parecer jurídico, garantia de segurança ou arquitetura homologada. O objetivo atual é reduzir incerteza antes de investir em implementação.

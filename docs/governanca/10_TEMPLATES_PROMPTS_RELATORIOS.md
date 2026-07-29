@@ -1,6 +1,6 @@
 # Templates de prompts, relatórios e auditoria
 
-**Versão:** 0.1  
+**Versão:** 0.1
 **Uso:** copiar, preencher e enviar ao agente escolhido
 
 ## 1. Template principal de prompt de execução
@@ -165,9 +165,13 @@ RELATÓRIO:
 [colar]
 ```
 
-## 4. Prompt inicial pronto — Fase 0
+## 4. Prompt executado — EO-DISC-001
 
-Enviar primeiro ao agente mais adequado para análise de produto e documentação. Este prompt não autoriza implementação.
+**Executado em:** 29/07/2026
+
+**Resultado:** consulte `docs/descoberta/`.
+
+Preservado como histórico e modelo. Este prompt não autoriza implementação nem deve ser executado novamente sem uma finalidade nova.
 
 ```markdown
 # EO-DISC-001 — Auditoria da base e plano de descoberta
@@ -176,19 +180,19 @@ Enviar primeiro ao agente mais adequado para análise de produto e documentaçã
 Atue como Product Manager e Analista de Negócios Sênior, com experiência em marketplaces, confiança e segurança.
 
 ## Contexto
-Estamos iniciando o projeto provisoriamente chamado “Escambo Online”. O ChatGPT orquestra o trabalho; Bruno decide; Claude Code e Antigravity executam etapas; GitHub versionará o projeto. Ainda não existe autorização para criar aplicação, schema, infraestrutura ou código.
+Estamos iniciando o projeto provisoriamente chamado “Escambo Online”. O ChatGPT orquestra o trabalho; Bruno decide; Claude Code e Antigravity executam etapas; `BrunoMNoronha/escambo-online` é o repositório oficial. Ainda não existe autorização para criar aplicação, schema, infraestrutura ou código.
 
 ## Fontes obrigatórias
 Leia integralmente:
 - README.md
-- 02_FONTE_MESTRA_PRODUTO.md
-- 03_ESCOPO_MVP_REGRAS_NEGOCIO.md
-- 04_JORNADAS_HISTORIAS_CRITERIOS.md
-- 05_MODELO_DOMINIO_DADOS.md
-- 07_QUALIDADE_SEGURANCA_PRIVACIDADE.md
-- 08_ROADMAP_BACKLOG.md
-- 09_GOVERNANCA_IA_GITHUB.md
-- 11_ESTADO_ATUAL_PROJETO.md
+- docs/produto/02_FONTE_MESTRA_PRODUTO.md
+- docs/produto/03_ESCOPO_MVP_REGRAS_NEGOCIO.md
+- docs/produto/04_JORNADAS_HISTORIAS_CRITERIOS.md
+- docs/arquitetura/05_MODELO_DOMINIO_DADOS.md
+- docs/qualidade/07_QUALIDADE_SEGURANCA_PRIVACIDADE.md
+- docs/produto/08_ROADMAP_BACKLOG.md
+- docs/governanca/09_GOVERNANCA_IA_GITHUB.md
+- docs/governanca/11_ESTADO_ATUAL_PROJETO.md
 
 ## Objetivo único
 Auditar a coerência da proposta inicial e produzir um plano de descoberta capaz de validar as hipóteses que mais podem inviabilizar ou alterar o MVP.
@@ -214,11 +218,11 @@ Auditar a coerência da proposta inicial e produzir um plano de descoberta capaz
 
 ## Entregáveis esperados
 Produza em Markdown:
-1. `RELATORIO_AUDITORIA_PRODUTO_V1.md`
-2. `PLANO_DESCOBERTA_V1.md`
-3. `ROTEIRO_ENTREVISTAS_V1.md`
-4. `MATRIZ_HIPOTESES_V1.md`
-5. `DECISOES_PARA_BRUNO_V1.md`
+1. `docs/descoberta/RELATORIO_AUDITORIA_PRODUTO_V1.md`
+2. `docs/descoberta/PLANO_DESCOBERTA_V1.md`
+3. `docs/descoberta/ROTEIRO_ENTREVISTAS_V1.md`
+4. `docs/descoberta/MATRIZ_HIPOTESES_V1.md`
+5. `docs/descoberta/DECISOES_PARA_BRUNO_V1.md`
 
 Se o ambiente não permitir criar arquivos, devolva cada documento em bloco separado e integral.
 

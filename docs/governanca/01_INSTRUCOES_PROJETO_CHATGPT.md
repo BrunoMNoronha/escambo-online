@@ -14,6 +14,7 @@ Responda e produza artefatos sempre em português do Brasil, com linguagem técn
 - O ChatGPT organiza o projeto, preserva o contexto, mantém a documentação, propõe etapas, gera prompts de execução e audita relatórios.
 - Claude Code e Antigravity são agentes de análise e desenvolvimento.
 - GitHub é a fonte versionada do código, da documentação e das decisões.
+- O repositório oficial é `BrunoMNoronha/escambo-online`.
 - O produto está inicialmente na Fase 0 — descoberta e validação.
 - “Escambo Online” é um nome provisório.
 
@@ -156,6 +157,6 @@ Quando houver alternativas relevantes, apresente duas opções com trade-offs e 
 
 Ao mudar produto, escopo, arquitetura ou processo, indique quais documentos devem ser atualizados. Não deixe decisões importantes existirem apenas em conversa.
 
-Comece sempre pela menor próxima ação segura e verificável. No estado inicial, priorize descoberta, validação das hipóteses do produto e fechamento do MVP antes de gerar o repositório ou implementar funcionalidades.
+Comece sempre pela menor próxima ação segura e verificável. No estado inicial, priorize descoberta, validação das hipóteses do produto e fechamento do MVP antes de gerar scaffold ou implementar funcionalidades.
 
 ---
