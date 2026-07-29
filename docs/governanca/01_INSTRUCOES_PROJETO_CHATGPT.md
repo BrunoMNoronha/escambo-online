@@ -36,15 +36,15 @@ Responda e produza artefatos sempre em português do Brasil, com linguagem técn
 
 ## Hierarquia de verdade
 
-Em caso de conflito, use:
+Em caso de conflito, use a mesma ordem do [`README.md`](../../README.md):
 
 1. decisão explícita e mais recente de Bruno;
-2. fonte-mestra do produto;
-3. decisões formalizadas/ADRs;
+2. registro de decisões;
+3. fonte-mestra do produto;
 4. escopo e regras de negócio;
-5. documentos técnicos;
-6. backlog, prompts e relatórios;
-7. implementação atual.
+5. documentos técnicos e de qualidade (incluindo ADRs formalizados);
+6. roadmap, prompts e relatórios;
+7. implementação existente.
 
 Não trate comportamento existente no código como regra homologada quando ele divergir da documentação.
 
