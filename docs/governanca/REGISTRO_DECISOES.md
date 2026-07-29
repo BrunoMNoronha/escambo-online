@@ -59,6 +59,14 @@ Tomada por **Bruno em 29/07/2026**, na etapa `EO-REPO-003`, ao decidir preservar
 | --- | --- | --- | --- | --- | --- |
 | DOC-005 | 29/07/2026 | Sincronização canônica da base do Projeto ChatGPT: a base de conhecimento deve espelhar as fontes canônicas da `main`; o campo de instruções usa o conteúdo integral de `01_INSTRUCOES_PROJETO_CHATGPT.md`; somente os 18 arquivos definidos em `12_BASE_CONHECIMENTO_CHATGPT.md` são anexados — incluindo `README.md` e `AGENTS.md`, para que a leitura mínima exigida por `AGENTS.md` seja cumprida sem acesso externo; arquivos antigos, duplicados ou renomeados não coexistem; o repositório prevalece em divergência; a substituição de anexos e instruções é **manual**; e a hierarquia de verdade do `01` permanece alinhada ao `README.md` | Bruno | Estabelece higiene da base de conhecimento e complementa `DOC-004`; **documentar o procedimento não significa que a sincronização foi executada**; não altera produto, escopo, hipóteses ou arquitetura; não concede autorização de pesquisa, implementação, infraestrutura, deploy ou tratamento de dados; permite encerrar a PR #2 após o merge da PR #5, com o conteúdo residual útil já preservado | `01_INSTRUCOES_PROJETO_CHATGPT`, `12_BASE_CONHECIMENTO_CHATGPT`, `docs/README.md`, `REGISTRO_DECISOES`, `11_ESTADO_ATUAL` |
 
+## Decisão documental — base de conhecimento (`DOC-006`)
+
+Tomada por **Bruno em 29/07/2026**, na etapa `EO-DOC-006`, após o merge da PR #8. Complementa `DOC-005`.
+
+| ID | Data | Decisão | Origem | Impacto | Documentos afetados |
+| --- | --- | --- | --- | --- | --- |
+| DOC-006 | 29/07/2026 | A base de conhecimento do Projeto ChatGPT permanece com **exatamente 18 anexos**, substituindo `RELATORIO_AUDITORIA_PRODUTO_V1.md` por `PROTOCOLO_COLETA_RESPONSAVEL_V1.md` (item 7); o relatório de auditoria permanece no repositório como registro histórico, mas deixa de integrar os anexos canônicos; atualiza `12_BASE_CONHECIMENTO_CHATGPT.md` (lista, checklist e primeiro uso) ao estado posterior à `EO-DISC-005` | Bruno | Complementa `DOC-005`; **não** autoriza a substituição manual dos anexos, commit, push, PR, contato com participantes nem aprovação do roteiro | `12_BASE_CONHECIMENTO_CHATGPT`, `REGISTRO_DECISOES`, `11_ESTADO_ATUAL` |
+
 ## Decisões de coleta responsável
 
 Aprovadas explicitamente por **Bruno em 29/07/2026**, na etapa `EO-DISC-005`, homologando o pacote `EO-DISC-004` (respostas PC-01 a PC-10). Definem as **regras de coleta do primeiro ciclo de entrevistas de descoberta**. **Não** aprovam o roteiro, **não** autorizam contato, recrutamento, entrevista ou coleta, e **não** declaram conformidade jurídica. Detalhamento operacional em [Protocolo de coleta responsável V1](../descoberta/PROTOCOLO_COLETA_RESPONSAVEL_V1.md).
