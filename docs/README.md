@@ -63,7 +63,9 @@ Este diretório organiza a fonte de conhecimento oficial por responsabilidade. A
 | [10 — Templates](governanca/10_TEMPLATES_PROMPTS_RELATORIOS.md) | prompts, relatórios e auditoria | Modelo |
 | [11 — Estado atual](governanca/11_ESTADO_ATUAL_PROJETO.md) | estágio, pendências e próximo gate | Registro vivo |
 | [Registro de decisões](governanca/REGISTRO_DECISOES.md) | decisões confirmadas e propostas formais | Registro vivo |
-| [12 — Base de conhecimento ChatGPT](governanca/12_BASE_CONHECIMENTO_CHATGPT.md) | procedimento de sincronização da base do Projeto ChatGPT com o repositório | Procedimento operacional |
+| [12 — Base de conhecimento ChatGPT](governanca/12_BASE_CONHECIMENTO_CHATGPT.md) | manifesto da base estável do Projeto ChatGPT (campo de instruções + dois anexos), sob `DOC-007` | Manifesto operacional |
+| [13 — Constituição operacional ChatGPT](governanca/13_CONSTITUICAO_OPERACIONAL_CHATGPT.md) | regras estáveis: papéis, hierarquia de verdade, ciclo de trabalho, limites, gates e auditoria (anexo estável) | Regra operacional |
+| [14 — Mapa de fontes canônicas do GitHub](governanca/14_MAPA_FONTES_CANONICAS_GITHUB.md) | índice das fontes canônicas e protocolo de consulta à `main` (anexo estável) | Regra operacional |
 
 ## Regra de manutenção
 

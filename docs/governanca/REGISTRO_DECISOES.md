@@ -67,6 +67,16 @@ Tomada por **Bruno em 29/07/2026**, na etapa `EO-DOC-006`, após o merge da PR #
 | --- | --- | --- | --- | --- | --- |
 | DOC-006 | 29/07/2026 | A base de conhecimento do Projeto ChatGPT permanece com **exatamente 18 anexos**, substituindo `RELATORIO_AUDITORIA_PRODUTO_V1.md` por `PROTOCOLO_COLETA_RESPONSAVEL_V1.md` (item 7); o relatório de auditoria permanece no repositório como registro histórico, mas deixa de integrar os anexos canônicos; atualiza `12_BASE_CONHECIMENTO_CHATGPT.md` (lista, checklist e primeiro uso) ao estado posterior à `EO-DISC-005` | Bruno | Complementa `DOC-005`; **não** autoriza a substituição manual dos anexos, commit, push, PR, contato com participantes nem aprovação do roteiro | `12_BASE_CONHECIMENTO_CHATGPT`, `REGISTRO_DECISOES`, `11_ESTADO_ATUAL` |
 
+## Decisão documental — base estável (`DOC-007`)
+
+Tomada por **Bruno em 29/07/2026**, na etapa `EO-DOC-007`. **Supera operacionalmente** a política de 18 anexos de `DOC-005` e `DOC-006`, que permanecem preservadas como histórico (política anterior superada).
+
+| ID | Data | Decisão | Origem | Impacto | Documentos afetados |
+| --- | --- | --- | --- | --- | --- |
+| DOC-007 | 29/07/2026 | A base de conhecimento do Projeto ChatGPT deixa de espelhar os documentos evolutivos do repositório. O **GitHub permanece a fonte versionada oficial** e concentra estado atual, decisões, produto e escopo, descoberta e hipóteses, arquitetura, qualidade/segurança/privacidade, roadmap, prompts, relatórios e evidências. O Projeto ChatGPT mantém apenas: (1) um **campo de instruções estável** (conteúdo de `01_INSTRUCOES_PROJETO_CHATGPT.md`), sem snapshots de estado; (2) **exatamente dois anexos estáveis** — `13_CONSTITUICAO_OPERACIONAL_CHATGPT.md` e `14_MAPA_FONTES_CANONICAS_GITHUB.md`; (3) um **protocolo obrigatório** de consultar o estado atual diretamente na `main` do GitHub antes de qualquer atividade dependente do estado. Documentos evolutivos **não** são mais anexados; permanecem íntegros no repositório | Bruno | **Supera operacionalmente `DOC-005` e `DOC-006`**, preservando-as como histórico; reduz os anexos canônicos de 18 para 2; **nenhuma substituição manual de anexos é executada ou autorizada nesta etapa** (a troca no Projeto ChatGPT depende de autorização específica posterior); não altera produto, escopo, hipóteses, arquitetura nem implementação; não remove nenhum documento evolutivo do repositório; não concede autorização de pesquisa, contato, implementação, infraestrutura ou deploy; preserva todos os gates de `GOV-005` | `13_CONSTITUICAO_OPERACIONAL_CHATGPT`, `14_MAPA_FONTES_CANONICAS_GITHUB`, `01_INSTRUCOES_PROJETO_CHATGPT`, `12_BASE_CONHECIMENTO_CHATGPT`, `docs/README.md`, `11_ESTADO_ATUAL` |
+
+`DOC-005` e `DOC-006` **não são apagadas**: continuam registradas acima como a política anterior de 18 anexos, agora superada operacionalmente por `DOC-007`.
+
 ## Decisões de coleta responsável
 
 Aprovadas explicitamente por **Bruno em 29/07/2026**, na etapa `EO-DISC-005`, homologando o pacote `EO-DISC-004` (respostas PC-01 a PC-10). Definem as **regras de coleta do primeiro ciclo de entrevistas de descoberta**. **Não** aprovam o roteiro, **não** autorizam contato, recrutamento, entrevista ou coleta, e **não** declaram conformidade jurídica. Detalhamento operacional em [Protocolo de coleta responsável V1](../descoberta/PROTOCOLO_COLETA_RESPONSAVEL_V1.md).

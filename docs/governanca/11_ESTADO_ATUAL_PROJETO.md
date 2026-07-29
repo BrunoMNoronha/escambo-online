@@ -51,6 +51,7 @@ O próximo gate reúne as pendências antes de qualquer contato: definir o **can
 | DISC-013 | Roteiro não aprovado; aprovação após incorporar regras e auditar | Bruno (29/07/2026) |
 | DISC-014 | Contato bloqueado; autorização é gate separado após documentação, auditoria e simulação | Bruno (29/07/2026) |
 | DOC-006 | Base de conhecimento do Projeto ChatGPT com 18 anexos; item 7 passa de `RELATORIO_AUDITORIA_PRODUTO_V1` para `PROTOCOLO_COLETA_RESPONSAVEL_V1`; relatório de auditoria permanece no repo, fora dos anexos; substituição manual ainda não autorizada | Bruno (29/07/2026) |
+| DOC-007 | Base estável do Projeto ChatGPT: campo de instruções estável + **exatamente dois anexos** (`13_CONSTITUICAO_OPERACIONAL_CHATGPT` e `14_MAPA_FONTES_CANONICAS_GITHUB`); documentos evolutivos permanecem só no GitHub; consulta ao estado exige leitura da `main`; **supera operacionalmente `DOC-005`/`DOC-006`** (preservadas como histórico); substituição manual ainda não executada nem autorizada | Bruno (29/07/2026) |
 
 A fonte primária dessas decisões é o [registro de decisões](REGISTRO_DECISOES.md).
 
@@ -195,7 +196,7 @@ Estado autoritativo após o encerramento das PRs (supera as menções "aguardand
 - GitHub Actions ou scripts Python persistentes (autorizados por `GOV-007`, mas não criados);
 - configuração de conta, projeto ou integração Vercel (`INFRA-001` registra a direção, sem ativação);
 - deploy de preview, staging ou produção;
-- substituição manual dos anexos da base de conhecimento do Projeto ChatGPT (`DOC-006` redefine a lista canônica, mas a troca ainda **não** está autorizada).
+- substituição manual dos anexos da base de conhecimento do Projeto ChatGPT (`DOC-007` redefine a base para o campo de instruções estável e **dois anexos** — `13` e `14` —, mas a troca ainda **não** foi executada nem autorizada).
 
 ## 8. Riscos abertos
 
@@ -311,6 +312,16 @@ As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** sã
 - relatório de auditoria **preservado no repositório**, fora dos anexos canônicos;
 - atualizados `12_BASE_CONHECIMENTO_CHATGPT.md` (lista, checklist e primeiro uso), `REGISTRO_DECISOES.md` e este estado, refletindo o cenário pós-`EO-DISC-005`;
 - A decisão `DOC-006` não autorizou por si só a substituição manual dos anexos, commit, push ou PR; essas operações exigem autorizações separadas. O roteiro permanece não aprovado e o contato continua bloqueado.
+
+### 29/07/2026 — EO-DOC-007 (base estável do Projeto ChatGPT)
+
+- Bruno aprovou `DOC-007`: a base de conhecimento do Projeto ChatGPT deixa de espelhar os documentos evolutivos e passa a ter um **campo de instruções estável** mais **exatamente dois anexos estáveis**; o GitHub permanece a fonte versionada oficial e concentra todo o estado, decisões, produto, descoberta, arquitetura, qualidade, roadmap, prompts e evidências;
+- criados [`13_CONSTITUICAO_OPERACIONAL_CHATGPT.md`](13_CONSTITUICAO_OPERACIONAL_CHATGPT.md) (regras estáveis: papéis, hierarquia de verdade, ciclo de trabalho, limites, gates e auditoria) e [`14_MAPA_FONTES_CANONICAS_GITHUB.md`](14_MAPA_FONTES_CANONICAS_GITHUB.md) (índice das fontes canônicas e protocolo obrigatório de consulta à `main`, incluindo o comportamento quando o GitHub estiver indisponível);
+- revisado `01_INSTRUCOES_PROJETO_CHATGPT.md` (estável, sem snapshot de estado, referenciando `13` e `14` e direcionando as consultas de estado ao GitHub); reescrito `12_BASE_CONHECIMENTO_CHATGPT.md` (manifesto de dois anexos, sem a lista ativa de 18 anexos, com nota histórica sobre `DOC-005`/`DOC-006`); índice (`docs/README.md`) atualizado;
+- `DOC-007` **supera operacionalmente `DOC-005` e `DOC-006`**, que **permanecem preservadas** em `REGISTRO_DECISOES.md` como política anterior; **nenhum documento evolutivo foi removido** do repositório;
+- **substituição manual dos anexos ainda NÃO executada** e não autorizada: atualizar a documentação não executa a troca no Projeto ChatGPT;
+- **próximo gate documental:** auditoria da nova base estável e **autorização específica** de Bruno para substituir os anexos no Projeto ChatGPT;
+- etapa exclusivamente documental; sem commit, push, PR, merge ou deploy; produto, `H-01` a `H-07`, decisões 5–10 e o próximo gate de produto permanecem inalterados.
 
 ## 11. Modelo para próxima atualização
 
