@@ -35,8 +35,9 @@ Este diretório organiza a fonte de conhecimento oficial por responsabilidade. A
 | Documento | Finalidade | Estado |
 | --- | --- | --- |
 | [Relatório de auditoria V1](descoberta/RELATORIO_AUDITORIA_PRODUTO_V1.md) | coerência, lacunas e inconsistências | Auditoria concluída |
-| [Plano de descoberta V1](descoberta/PLANO_DESCOBERTA_V1.md) | método, amostra, evidência e sequência | D0 parcialmente aprovado; preparação pendente |
-| [Roteiro de entrevistas V1](descoberta/ROTEIRO_ENTREVISTAS_V1.md) | entrevista não indutiva e teste de protótipo | Proposta |
+| [Plano de descoberta V1](descoberta/PLANO_DESCOBERTA_V1.md) | método, amostra, evidência e sequência | D0 parcialmente concluída: regras de coleta aprovadas; roteiro, simulação e autorização de contato pendentes |
+| [Roteiro de entrevistas V1](descoberta/ROTEIRO_ENTREVISTAS_V1.md) | entrevista não indutiva e teste de protótipo | Proposta; atualizado com controles de coleta, não aprovado |
+| [Protocolo de coleta responsável V1](descoberta/PROTOCOLO_COLETA_RESPONSAVEL_V1.md) | recrutamento, consentimento, registro, retenção e acesso | Regras aprovadas (`DISC-005` a `DISC-014`); contato bloqueado |
 | [Matriz de hipóteses V1](descoberta/MATRIZ_HIPOTESES_V1.md) | critérios para H-01 a H-07 | Pré-registro aprovado e congelado; nenhuma hipótese validada |
 | [Decisões para Bruno V1](descoberta/DECISOES_PARA_BRUNO_V1.md) | dez decisões priorizadas | Decisões 1–4 respondidas; 5–10 pendentes |
 

@@ -148,6 +148,21 @@ Antes da produção, criar uma matriz:
 
 `dado → finalidade → base/política aplicável → visibilidade → retenção → compartilhamento → controle`.
 
+### 7.1 Matriz de privacidade da coleta de descoberta
+
+Instância aprovada para o **primeiro ciclo de entrevistas** (`DISC-005` a `DISC-012`; detalhe no [Protocolo de coleta responsável V1](../descoberta/PROTOCOLO_COLETA_RESPONSAVEL_V1.md)). É proposta operacional, **não** parecer jurídico; nenhuma base legal está homologada.
+
+| Dado | Finalidade | Base/política aplicável | Visibilidade | Acesso | Retenção | Descarte | Compartilhamento | Controles |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Contato do participante | agendamento e eventual exclusão | decisão operacional `DISC-005`/`DISC-006`; avaliação jurídica futura | privada, arquivo separado | só Bruno | até 30 dias após a última entrevista do ciclo | exclusão segura (arquivo, lixeira, cópias) | não compartilhado; nunca a IA | MFA; separação de arquivos; sem link público; fora do GitHub |
+| Chave `contato ↔ código` | localizar dados para exclusão/reagendamento | decisão operacional `DISC-008`; avaliação jurídica futura | privada | só Bruno | eliminada com os contatos (≤30 dias) | exclusão segura | não compartilhado | MFA; arquivo separado; fora do GitHub; nunca a IA |
+| Registro de consentimento | comprovar consentimento verbal | decisão operacional `DISC-006`; avaliação jurídica futura | privado | só Bruno | mesmo prazo da respectiva nota | com a nota | não compartilhado | MFA; fora do GitHub |
+| Notas pseudonimizadas (só código) | evidência das hipóteses | decisão operacional `DISC-007`/`DISC-011`; avaliação jurídica futura | pseudonimizada (só código) | só Bruno inicialmente | o que ocorrer primeiro: 90 dias após a decisão final de D6 ou 12 meses após a entrevista | exclusão segura | só sínteses desidentificadas a IA | MFA; só código; fora do GitHub; restrição de IA |
+| Sínteses agregadas desidentificadas | análise e documentação | decisão operacional `DISC-010`/`DISC-011` | desidentificada | equipe do projeto | podem permanecer na documentação | conforme documentação | IA apenas após desidentificação revisada por Bruno | desidentificação revisada antes de qualquer uso por IA |
+| Áudio/vídeo | — | não aplicável no 1º ciclo (`DISC-007`) | — | — | não aplicável no 1º ciclo | — | — | — |
+
+Controles transversais: nenhum dado pessoal no GitHub; nenhum arquivo bruto enviado a IA; armazenamento em Google Drive privado de Bruno com MFA e sem compartilhamento público (`DISC-009`); exclusão em até 7 dias corridos mediante código e fluxo mínimo de incidente com aviso a Bruno no mesmo dia (`DISC-012`).
+
 ## 8. Moderação e segurança presencial
 
 O produto deve:
