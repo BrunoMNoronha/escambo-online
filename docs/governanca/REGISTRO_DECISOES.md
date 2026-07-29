@@ -51,6 +51,14 @@ Tomadas explicitamente por **Bruno em 29/07/2026**, na etapa `EO-GOV-001`. Autor
 
 Limites preservados por estas quatro decisões: continuam exigindo autorização explícita, salvo quando já concedida e sem ampliar permissões, todas as ações de `GOV-005` (commit, push, PR, merge, migration e mudança sensível), qualquer deploy, qualquer custo pago e qualquer tratamento de dado pessoal real.
 
+## Decisão documental adicional
+
+Tomada por **Bruno em 29/07/2026**, na etapa `EO-REPO-003`, ao decidir preservar o conteúdo residual útil da PR #2 — reautorando o procedimento contra a `main` atual e alinhando a hierarquia do `01`. Complementa `DOC-004`.
+
+| ID | Data | Decisão | Origem | Impacto | Documentos afetados |
+| --- | --- | --- | --- | --- | --- |
+| DOC-005 | 29/07/2026 | Sincronização canônica da base do Projeto ChatGPT: a base de conhecimento deve espelhar as fontes canônicas da `main`; o campo de instruções usa o conteúdo integral de `01_INSTRUCOES_PROJETO_CHATGPT.md`; somente os 18 arquivos definidos em `12_BASE_CONHECIMENTO_CHATGPT.md` são anexados — incluindo `README.md` e `AGENTS.md`, para que a leitura mínima exigida por `AGENTS.md` seja cumprida sem acesso externo; arquivos antigos, duplicados ou renomeados não coexistem; o repositório prevalece em divergência; a substituição de anexos e instruções é **manual**; e a hierarquia de verdade do `01` permanece alinhada ao `README.md` | Bruno | Estabelece higiene da base de conhecimento e complementa `DOC-004`; **documentar o procedimento não significa que a sincronização foi executada**; não altera produto, escopo, hipóteses ou arquitetura; não concede autorização de pesquisa, implementação, infraestrutura, deploy ou tratamento de dados; permite encerrar a PR #2 após o merge da PR #5, com o conteúdo residual útil já preservado | `01_INSTRUCOES_PROJETO_CHATGPT`, `12_BASE_CONHECIMENTO_CHATGPT`, `docs/README.md`, `REGISTRO_DECISOES`, `11_ESTADO_ATUAL` |
+
 ## Pendências de produto
 
 As decisões 1–4 (fronteira da tese, regiões, público/categorias e critérios da matriz) foram respondidas em 29/07/2026 e estão registradas acima como `DISC-001` a `DISC-004`. As decisões 5–10 permanecem pendentes nos momentos previstos. A lista priorizada, as alternativas e o impacto de não decidir estão em:

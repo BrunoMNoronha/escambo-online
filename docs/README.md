@@ -62,6 +62,7 @@ Este diretório organiza a fonte de conhecimento oficial por responsabilidade. A
 | [10 — Templates](governanca/10_TEMPLATES_PROMPTS_RELATORIOS.md) | prompts, relatórios e auditoria | Modelo |
 | [11 — Estado atual](governanca/11_ESTADO_ATUAL_PROJETO.md) | estágio, pendências e próximo gate | Registro vivo |
 | [Registro de decisões](governanca/REGISTRO_DECISOES.md) | decisões confirmadas e propostas formais | Registro vivo |
+| [12 — Base de conhecimento ChatGPT](governanca/12_BASE_CONHECIMENTO_CHATGPT.md) | procedimento de sincronização da base do Projeto ChatGPT com o repositório | Procedimento operacional |
 
 ## Regra de manutenção
 
