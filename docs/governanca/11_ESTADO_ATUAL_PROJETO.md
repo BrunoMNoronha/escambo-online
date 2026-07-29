@@ -4,7 +4,7 @@
 
 **Fase:** 0 — descoberta e validação
 
-**Status geral:** auditoria documental concluída; produto ainda não validado
+**Status geral:** decisões iniciais registradas; D0 parcialmente concluída; preparação da coleta pendente; produto ainda não validado
 
 ## 1. Resumo
 
@@ -12,7 +12,9 @@ O repositório oficial foi definido e a base inicial foi auditada na etapa `EO-D
 
 A auditoria concluiu que a proposta é coerente para iniciar descoberta, mas não está pronta para fechar MVP ou iniciar implementação. Nenhuma hipótese `H-01` a `H-07` possui evidência externa suficiente.
 
-O próximo gate é Bruno decidir a fronteira da tese, as regiões, o público/categorias e os critérios prévios da pesquisa.
+Na etapa `EO-DISC-002`, Bruno aprovou em 29/07/2026 as quatro decisões iniciais de produto (`DISC-001` a `DISC-004`), a matriz de hipóteses foi congelada e a pendência documental `DOC-001` a `DOC-003` foi sanada — as decisões foram movidas para confirmadas em razão do merge do PR #1. As hipóteses `H-01` a `H-07` seguem não validadas.
+
+O próximo gate é preparar, para aprovação de Bruno, os instrumentos e as regras de coleta responsável — critérios de recrutamento, consentimento, registro e eventual gravação, anonimização, local de armazenamento, controle de acesso e prazo de retenção e descarte — e obter autorização específica antes de qualquer contato com participantes.
 
 ## 2. Decisões confirmadas
 
@@ -24,6 +26,13 @@ O próximo gate é Bruno decidir a fronteira da tese, as regiões, o público/ca
 | GOV-004 | Bruno mantém aprovação final de decisões e ações sensíveis | Governança adotada |
 | GOV-005 | Commit, push, PR, migration e mudança sensível exigem autorização explícita | Governança adotada |
 | GOV-006 | `BrunoMNoronha/escambo-online` é o repositório oficial | Bruno |
+| DISC-001 | Descoberta testa exclusivamente troca de bens sem complemento financeiro | Bruno (29/07/2026) |
+| DISC-002 | Regiões candidatas Cruzeiro/DF e Guará/DF; unidade pública = Região Administrativa | Bruno (29/07/2026) |
+| DISC-003 | Público, três categorias candidatas e exclusões como recorte de descoberta | Bruno (29/07/2026) |
+| DISC-004 | Critérios da matriz aprovados e congelados; hipóteses seguem não validadas | Bruno (29/07/2026) |
+| DOC-001 | Organizar documentos por área (`produto`, `descoberta`, `arquitetura`, `qualidade`, `governanca`) | Merge do PR #1 (29/07/2026) |
+| DOC-002 | Manter `README.md` e `AGENTS.md` na raiz | Merge do PR #1 (29/07/2026) |
+| DOC-003 | Usar o registro de decisões como fonte primária das decisões confirmadas | Merge do PR #1 (29/07/2026) |
 
 A fonte primária dessas decisões é o [registro de decisões](REGISTRO_DECISOES.md).
 
@@ -57,22 +66,22 @@ Nenhuma proposta desta seção autoriza implementação.
 | H-06 — vários itens são compreensíveis | Não validada | recomenda simplificação |
 | H-07 — moderação manual suporta o piloto | Não validada | bloqueia piloto seguro |
 
-`H-01`, `H-02`, `H-05` e `H-07` são gates de viabilidade.
+`H-01`, `H-02`, `H-05` e `H-07` são gates de viabilidade. Os critérios de decisão da [matriz de hipóteses](../descoberta/MATRIZ_HIPOTESES_V1.md) foram aprovados e **congelados em 29/07/2026** (`DISC-004`); nenhuma hipótese foi validada, mantida, alterada ou rejeitada.
 
 ## 5. Decisões pendentes priorizadas
 
-| Prioridade | Decisão | Quando |
-| ---: | --- | --- |
-| 1 | Fronteira da tese e complemento financeiro | antes da pesquisa |
-| 2 | Regiões candidatas e unidade de liquidez | antes da pesquisa |
-| 3 | Público, categorias e itens excluídos | antes da pesquisa |
-| 4 | Critérios para manter, alterar ou rejeitar hipóteses | antes da pesquisa |
-| 5 | Composição 1:1, 1:N ou N:N | antes do protótipo |
-| 6 | Presencial, raio e compartilhamento progressivo | pesquisa e antes do piloto |
-| 7 | Momento do chat e controles de abuso | antes do protótipo/piloto |
-| 8 | Expiração, cancelamento e concorrência | antes do modelo de estados |
-| 9 | Conclusão, problema, disputa e reputação | antes do piloto |
-| 10 | Elegibilidade, moderação e gates do piloto | antes de usuários reais |
+| Prioridade | Decisão | Quando | Status |
+| ---: | --- | --- | --- |
+| 1 | Fronteira da tese e complemento financeiro | antes da pesquisa | Respondida 29/07/2026 (`DISC-001`) |
+| 2 | Regiões candidatas e unidade de liquidez | antes da pesquisa | Respondida 29/07/2026 (`DISC-002`) |
+| 3 | Público, categorias e itens excluídos | antes da pesquisa | Respondida 29/07/2026 (`DISC-003`) |
+| 4 | Critérios para manter, alterar ou rejeitar hipóteses | antes da pesquisa | Respondida 29/07/2026 (`DISC-004`) |
+| 5 | Composição 1:1, 1:N ou N:N | antes do protótipo | Pendente |
+| 6 | Presencial, raio e compartilhamento progressivo | pesquisa e antes do piloto | Pendente |
+| 7 | Momento do chat e controles de abuso | antes do protótipo/piloto | Pendente |
+| 8 | Expiração, cancelamento e concorrência | antes do modelo de estados | Pendente |
+| 9 | Conclusão, problema, disputa e reputação | antes do piloto | Pendente |
+| 10 | Elegibilidade, moderação e gates do piloto | antes de usuários reais | Pendente |
 
 Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 
@@ -99,6 +108,14 @@ Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 - [Matriz de hipóteses V1](../descoberta/MATRIZ_HIPOTESES_V1.md);
 - [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 
+### EO-DISC-002
+
+- decisões `DISC-001` a `DISC-004` registradas em [Registro de decisões](REGISTRO_DECISOES.md);
+- pendência documental `DOC-001` a `DOC-003` sanada (movidas para decisões confirmadas em razão do merge do PR #1);
+- matriz de hipóteses aprovada e congelada;
+- fonte-mestra, escopo, plano de descoberta e índices atualizados com o recorte de descoberta;
+- decisões 1–4 marcadas como respondidas; 5–10 mantidas pendentes.
+
 ## 7. Não iniciado
 
 - recrutamento ou entrevistas;
@@ -123,19 +140,21 @@ Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 - complexidade de trocas com vários itens;
 - capacidade de moderação;
 - retenção e tratamento de dados;
+- coleta iniciada antes de consentimento, anonimização e retenção aprovados (mitigado pelo gate atual);
+- viés retrospectivo caso os critérios congelados sejam alterados após ver resultados;
 - crescimento de escopo antes da validação.
 
 ## 9. Próximo passo recomendado
 
-Bruno deve responder às decisões 1 a 4 de [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
+As decisões 1–4 foram respondidas e registradas. O próximo gate é preparar e submeter à aprovação de Bruno:
 
-Depois:
+1. critérios de recrutamento;
+2. consentimento e forma de registro (e eventual gravação);
+3. anonimização, local de armazenamento, controle de acesso, prazo de retenção e descarte;
+4. revisão e aprovação do roteiro aplicável;
+5. autorização explícita antes de contatar participantes.
 
-1. registrar as decisões aprovadas;
-2. ajustar e congelar critérios da matriz;
-3. preparar recrutamento, consentimento e registro;
-4. solicitar autorização específica antes de contatar participantes;
-5. executar entrevistas antes de protótipo detalhado ou arquitetura.
+As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** são o próximo gate imediato. Nada de recrutamento, entrevista, contato ou implementação está autorizado nesta etapa.
 
 ## 10. Histórico
 
@@ -153,6 +172,17 @@ Depois:
 - plano, roteiro, matriz e decisões prioritárias produzidos;
 - repositório oficial confirmado por Bruno;
 - nenhuma decisão de produto foi presumida.
+
+### 29/07/2026 — EO-DISC-002
+
+- baseline `EO-REPO-001` aceita com ressalvas antes desta etapa;
+- decisões 1–4 aprovadas por Bruno e registradas como `DISC-001` a `DISC-004`;
+- pendência documental `DOC-001` a `DOC-003` movida para decisões confirmadas (em vigor com o merge do PR #1);
+- matriz de hipóteses aprovada e congelada; `H-01` a `H-07` mantidas não validadas;
+- fonte-mestra, escopo, plano de descoberta, índices e este estado atualizados;
+- roteiro de entrevistas lido e verificado, sem alteração (permanece proposta, não aprovado);
+- nenhuma pesquisa, recrutamento, contato ou implementação autorizado;
+- etapa exclusivamente documental, sem commit, push ou PR.
 
 ## 11. Modelo para próxima atualização
 

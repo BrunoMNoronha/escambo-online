@@ -4,6 +4,24 @@
 **Status:** proposta para validação  
 **Dependência:** [02_FONTE_MESTRA_PRODUTO.md](02_FONTE_MESTRA_PRODUTO.md)
 
+## 0. Recorte aprovado para a descoberta
+
+Bruno aprovou em 29/07/2026 (`DISC-001` a `DISC-003`, ver [Registro de decisões](../governanca/REGISTRO_DECISOES.md)) o recorte abaixo **para a etapa de descoberta**. Ele delimita a amostra e a coleta; **não** é a política definitiva do MVP, do piloto ou da produção, nem parecer jurídico.
+
+**Fronteira da tese:** troca exclusivamente de bens, **sem complemento financeiro** (`DISC-001`).
+
+**Público:** pessoas com 18 anos ou mais; residentes no Cruzeiro ou no Guará; com pelo menos um item usado, em bom estado e sem uso recorrente; com interesse real em avaliar troca por outro bem; com disponibilidade para considerar encontro presencial em local público; sem depender de complemento financeiro para participar da tese testada.
+
+**Categorias candidatas:**
+
+1. livros, quadrinhos, jogos de tabuleiro e jogos eletrônicos em mídia física;
+2. artigos de hobby, esporte e lazer de baixo ou médio valor;
+3. pequenos itens para casa, decoração e organização, desde que transportáveis e passíveis de inspeção presencial.
+
+**Exclusões imediatas da descoberta:** dinheiro, PIX, créditos, vales, cartões-presente ou complemento financeiro; serviços, trabalho ou promessa de prestação futura; armas, munições, explosivos e objetos perigosos; drogas, medicamentos, álcool, tabaco e substâncias controladas; alimentos, bebidas e produtos perecíveis; animais; veículos, imóveis e itens que dependam de transferência formal; documentos pessoais, contas, credenciais ou dados de acesso; produtos ilícitos, falsificados, furtados ou de procedência incerta; itens íntimos, de higiene pessoal ou com risco sanitário; itens sujeitos a licença, prescrição, autorização ou regulação específica; eletrônicos de alto valor ou cuja condição, autenticidade ou funcionamento sejam difíceis de verificar; joias, metais preciosos e objetos de alto risco de fraude; itens com defeitos graves não informados; qualquer item com risco relevante à integridade física, privacidade ou segurança dos participantes.
+
+As categorias finais e a política de itens proibidos para piloto e produção, a elegibilidade futura e a revisão jurídica continuam pendentes.
+
 ## 1. Atores
 
 | Ator | Responsabilidade |
@@ -176,7 +194,9 @@ O MVP proposto só estará funcionalmente completo quando um usuário puder:
 
 ## 7. Decisões pendentes com impacto de escopo
 
-- região e público do piloto;
+O recorte de **descoberta** (região, público e categorias candidatas) foi decidido em `DISC-002`/`DISC-003` (ver seção 0). As pendências abaixo referem-se ao **piloto e à produção**:
+
+- região e público do piloto (o recorte de descoberta não os define);
 - idade mínima;
 - uma ou várias unidades por lado da troca;
 - momento de abertura do chat;
@@ -184,7 +204,7 @@ O MVP proposto só estará funcionalmente completo quando um usuário puder:
 - regra de conclusão quando apenas uma parte confirma;
 - tratamento de proposta concorrente;
 - compartilhamento de contato e local após aceite;
-- categorias e itens proibidos;
+- categorias e itens proibidos definitivos;
 - necessidade de verificação de identidade;
 - política de disputa;
 - modelo de negócio futuro.

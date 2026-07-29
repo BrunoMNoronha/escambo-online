@@ -4,7 +4,14 @@
 
 **Data-base:** 29/07/2026
 
-**Status:** perguntas priorizadas; nenhuma resposta presumida
+**Status:** registro histórico da auditoria — decisões 1–4 respondidas; 5–10 pendentes
+
+## 0. Resumo de status (29/07/2026)
+
+- **Decisões 1–4:** respondidas em 29/07/2026. As respostas aprovadas estão anexadas a cada decisão abaixo e registradas como `DISC-001` a `DISC-004` em [Registro de decisões](../governanca/REGISTRO_DECISOES.md) (fonte primária).
+- **Decisões 5–10:** pendentes, nos momentos previstos.
+
+Este documento é preservado como registro histórico; o texto original das perguntas, recomendações e impactos foi mantido.
 
 ## 1. Orientação
 
@@ -30,6 +37,8 @@ Quando houver alternativas, a recomendação indica a opção mais segura para t
 
 **Momento:** antes de recrutamento.
 
+**Resposta aprovada (29/07/2026 — `DISC-001`):** a descoberta testará exclusivamente troca de bens sem complemento financeiro. Pagamento, PIX, dinheiro ou complemento não serão apresentados, sugeridos ou sondados de forma indutiva como solução; menção espontânea será registrada como evidência, sem alterar a tese durante a coleta. Qualquer reconsideração posterior exige síntese das evidências e nova decisão explícita de Bruno.
+
 ## 2 — Região do piloto e unidade de liquidez
 
 **Estado atual:** operação regional é proposta, mas nenhuma região ou raio foi escolhido.
@@ -41,6 +50,8 @@ Quando houver alternativas, a recomendação indica a opção mais segura para t
 **Impacto de não decidir:** não é possível recrutar amostra, testar distância, medir bilateralidade ou interpretar liquidez.
 
 **Momento:** antes de recrutamento.
+
+**Resposta aprovada (29/07/2026 — `DISC-002`):** regiões candidatas Cruzeiro/DF e Guará/DF; unidade pública de localização: Região Administrativa. Tratadas como células candidatas para comparação, sem presumir liquidez; endereço residencial exato não será coletado nem publicado e nenhuma aproximação entre pessoas ocorre nesta fase.
 
 ## 3 — Público, categorias iniciais e itens proibidos
 
@@ -54,6 +65,8 @@ Quando houver alternativas, a recomendação indica a opção mais segura para t
 
 **Momento:** antes de recrutamento e landing page.
 
+**Resposta aprovada (29/07/2026 — `DISC-003`):** público 18+, residente no Cruzeiro ou Guará, com pelo menos um item usado em bom estado e sem uso recorrente, interesse real em avaliar troca, disponibilidade para encontro presencial em local público e sem depender de complemento financeiro; três categorias candidatas e exclusões imediatas conforme o [recorte de descoberta](../produto/03_ESCOPO_MVP_REGRAS_NEGOCIO.md). É um recorte de descoberta, não a política definitiva do MVP nem parecer jurídico.
+
 ## 4 — Critérios de decisão e tolerância ao resultado negativo
 
 **Estado atual:** há indicadores propostos, mas não existem gates aprovados para manter, alterar ou rejeitar as hipóteses.
@@ -65,6 +78,8 @@ Quando houver alternativas, a recomendação indica a opção mais segura para t
 **Impacto de não decidir:** resultados fracos poderão ser reinterpretados como sucesso; a descoberta vira justificativa da solução, não teste.
 
 **Momento:** antes de qualquer coleta.
+
+**Resposta aprovada (29/07/2026 — `DISC-004`):** critérios de `MATRIZ_HIPOTESES_V1.md` aprovados sem alteração de conteúdo e congelados em 29/07/2026. Ajustes metodológicos só podem ser feitos e documentados antes de observar o resultado afetado; resultado negativo não pode ser reinterpretado como validação; uma fala, opinião isolada ou método único não valida hipótese; evidências favoráveis, contrárias e inconclusivas são preservadas; a falha de `H-01`, `H-02`, `H-05` ou `H-07` pode interromper, restringir ou reformular o projeto.
 
 ## 5 — Composição mínima: 1:1, 1:N ou N:N
 

@@ -1,15 +1,20 @@
 # Fonte-mestra do produto — Escambo Online
 
-**Versão:** 0.1  
-**Status:** hipótese inicial; requer validação de Bruno  
-**Responsável final:** Bruno  
+**Versão:** 0.2
+
+**Status:** hipótese inicial; fronteiras da descoberta decididas; produto ainda não validado
+
+**Responsável final:** Bruno
+
 **Última atualização:** 29/07/2026
+
+> **Fronteiras aprovadas para a descoberta (29/07/2026):** a tese testada é exclusivamente troca de bens **sem complemento financeiro** (`DISC-001`); as regiões candidatas são **Cruzeiro/DF** e **Guará/DF**, com **Região Administrativa** como unidade pública de localização (`DISC-002`); o público inicial da descoberta está definido em `DISC-003`. Aprovar o teste **não** valida demanda, liquidez nem o MVP; `H-01` a `H-07` seguem não validadas. Fonte primária: [Registro de decisões](../governanca/REGISTRO_DECISOES.md).
 
 ## 1. Tese do produto
 
 Criar uma plataforma digital que permita a pessoas anunciar bens disponíveis e negociar trocas de forma organizada, rastreável e mais segura do que conversas dispersas em redes sociais ou classificados genéricos.
 
-A tese proposta prioriza **troca de bens entre pessoas**, sem pagamento processado pela plataforma no MVP.
+A tese proposta prioriza **troca de bens entre pessoas**, sem pagamento processado pela plataforma no MVP. Para a descoberta, essa fronteira está decidida: testa-se exclusivamente troca de bens sem complemento financeiro (`DISC-001`). Menção espontânea de participantes à necessidade de complemento é registrada como evidência, sem alterar a tese durante a coleta; qualquer reconsideração futura exige nova decisão explícita de Bruno.
 
 ## 2. Problema
 
@@ -31,7 +36,9 @@ Hipótese principal:
 - interessadas em trocar itens usados em bom estado;
 - com preferência por encontro presencial em local combinado.
 
-Para a pesquisa inicial, recomenda-se trabalhar somente com adultos por prudência. A elegibilidade do futuro piloto continua pendente de decisão e revisão apropriada.
+**Recorte aprovado para a descoberta (`DISC-002`, `DISC-003`):** pessoas com 18 anos ou mais, residentes no **Cruzeiro** ou no **Guará** (Região Administrativa como unidade pública), com pelo menos um item usado em bom estado e sem uso recorrente, com interesse real em avaliar troca por outro bem, com disponibilidade para considerar encontro presencial em local público, e sem depender de complemento financeiro para participar da tese testada. Cruzeiro e Guará são células **candidatas** para comparação, não mercados com liquidez comprovada.
+
+Para a pesquisa inicial, trabalha-se somente com adultos por prudência. A elegibilidade do futuro piloto continua pendente de decisão e revisão apropriada.
 
 Segmentos que podem ser avaliados depois:
 
