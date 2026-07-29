@@ -2,7 +2,7 @@
 
 **Versão:** 0.1  
 **Status:** proposta para validação  
-**Dependência:** `02_FONTE_MESTRA_PRODUTO.md`
+**Dependência:** [02_FONTE_MESTRA_PRODUTO.md](02_FONTE_MESTRA_PRODUTO.md)
 
 ## 1. Atores
 
@@ -13,7 +13,7 @@
 | Moderador | Analisar denúncias e aplicar ações permitidas |
 | Administrador | Gerenciar categorias, políticas, perfis administrativos e auditoria |
 
-## 2. Capacidades do MVP
+## 2. Capacidades do MVP proposto
 
 ### Conta e perfil
 
@@ -159,9 +159,9 @@ O prazo de expiração e a regra de conclusão unilateral são decisões pendent
 
 Os textos finais dessas políticas exigem revisão jurídica adequada antes de produção.
 
-## 6. Critério macro de aceite do MVP
+## 6. Critério macro de aceite do MVP proposto
 
-O MVP só estará funcionalmente completo quando um usuário puder:
+O MVP proposto só estará funcionalmente completo quando um usuário puder:
 
 1. criar uma conta;
 2. publicar um item;

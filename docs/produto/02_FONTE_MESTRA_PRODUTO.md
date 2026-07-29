@@ -9,7 +9,7 @@
 
 Criar uma plataforma digital que permita a pessoas anunciar bens disponíveis e negociar trocas de forma organizada, rastreável e mais segura do que conversas dispersas em redes sociais ou classificados genéricos.
 
-O produto prioriza **troca de bens entre pessoas**, sem pagamento processado pela plataforma no MVP.
+A tese proposta prioriza **troca de bens entre pessoas**, sem pagamento processado pela plataforma no MVP.
 
 ## 2. Problema
 
@@ -30,6 +30,8 @@ Hipótese principal:
 - atuando inicialmente em uma cidade ou região delimitada;
 - interessadas em trocar itens usados em bom estado;
 - com preferência por encontro presencial em local combinado.
+
+Para a pesquisa inicial, recomenda-se trabalhar somente com adultos por prudência. A elegibilidade do futuro piloto continua pendente de decisão e revisão apropriada.
 
 Segmentos que podem ser avaliados depois:
 
@@ -65,7 +67,7 @@ Diferenciais pretendidos:
 
 ## 6. Hipótese de solução do MVP
 
-O MVP deverá permitir:
+O MVP proposto deverá permitir:
 
 1. criar conta e perfil;
 2. cadastrar anúncio com fotos, categoria, descrição, estado de conservação e localização aproximada;
@@ -81,6 +83,8 @@ O MVP deverá permitir:
 12. permitir moderação administrativa mínima.
 
 Esses itens são hipóteses de escopo, não decisões homologadas.
+
+A cardinalidade 1:1, 1:N ou N:N e o momento de abertura do chat continuam pendentes. A lista acima não homologa essas regras.
 
 ## 7. Fora do MVP proposto
 

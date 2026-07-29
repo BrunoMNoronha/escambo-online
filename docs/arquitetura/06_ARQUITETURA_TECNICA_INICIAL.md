@@ -24,7 +24,23 @@ Aplicação web responsiva, organizada como monólito modular e monorepo TypeScr
 
 A versão do Node.js e de cada dependência deve ser fixada somente no kickoff técnico, usando uma versão suportada e compatível. Não copiar versões antigas de outros projetos sem validar suporte.
 
-## 3. Estrutura proposta
+## 3. Estrutura
+
+A documentação atual está organizada por responsabilidade:
+
+```text
+/
+├── README.md
+├── AGENTS.md
+└── docs/
+    ├── produto/
+    ├── descoberta/
+    ├── arquitetura/
+    ├── qualidade/
+    └── governanca/
+```
+
+Após os gates de produto e arquitetura, a estrutura técnica proposta é:
 
 ```text
 /
@@ -37,10 +53,12 @@ A versão do Node.js e de cada dependência deve ser fixada somente no kickoff t
 │   └── test-utils/
 ├── docs/
 │   ├── produto/
+│   ├── descoberta/
 │   ├── arquitetura/
 │   ├── qualidade/
-│   ├── operacao/
+│   ├── governanca/
 │   ├── adr/
+│   ├── operacao/
 │   └── relatorios/
 ├── infra/
 ├── .github/
@@ -208,4 +226,4 @@ Nenhum scaffold deve ser criado antes de:
 - decidir as questões bloqueadoras da Fase 0;
 - aprovar a arquitetura por ADR;
 - definir critérios de sucesso e piloto;
-- confirmar repositório, licença e política de contribuição.
+- definir licença e política de contribuição no repositório oficial.
