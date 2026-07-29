@@ -138,6 +138,16 @@ Detalhes: [Decisões para Bruno V1](../descoberta/DECISOES_PARA_BRUNO_V1.md).
 - **PR #2** permanece aberta, aguardando **encerramento posterior** (após o merge da PR #5), com o conteúdo residual útil já preservado;
 - **pendência operacional:** a sincronização manual dos anexos e das instruções do Projeto ChatGPT (`DOC-005`) **ainda não foi executada** — documentar o procedimento não é executá-lo.
 
+### EO-REPO-004 — situação consolidada
+
+Estado autoritativo após o encerramento das PRs (supera as menções "aguardando merge/encerramento" das etapas anteriores):
+
+- **PR #5** (`docs/eo-repo-003`) **integrada** à `main` em `main@b4411eb28143a46669e494e80195d294daa5b439` (merge commit da PR #5); branch remota **preservada**;
+- **PR #2** (`agent/registrar-decisoes-iniciais`) **encerrada como superada, sem merge**; branch remota **preservada** para rastreabilidade histórica;
+- o conteúdo residual útil da PR #2 (procedimento canônico da base de conhecimento e alinhamento da hierarquia documental) permanece **preservado pela PR #5**;
+- **pendência operacional em aberto:** a sincronização manual da base de conhecimento do Projeto ChatGPT (`DOC-005`) **continua não executada**;
+- produto e `H-01` a `H-07` seguem **não validados**; decisões 5–10 seguem **pendentes**; próximo gate de produto permanece a **preparação da coleta responsável** (inalterado).
+
 ## 7. Não iniciado
 
 - recrutamento ou entrevistas;
@@ -235,6 +245,16 @@ As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** sã
 - sincronização manual da base de conhecimento permanece **pendente** (não executada);
 - produto mantido não validado; `H-01` a `H-07` mantidas não validadas; decisões 5–10 pendentes; próximo gate de descoberta inalterado;
 - correção de rastreabilidade `EO-REPO-003-COR-01` sem commit, push, PR, merge ou deploy.
+
+### 29/07/2026 — EO-REPO-004
+
+- consolidação documental do estado após o encerramento das PRs;
+- **PR #5 integrada** à `main` (`main@b4411eb`); branch `docs/eo-repo-003` preservada;
+- **PR #2 encerrada como superada, sem merge**; branch `agent/registrar-decisoes-iniciais` preservada; comentário de encerramento publicado antes do fechamento;
+- conteúdo residual útil da PR #2 preservado pela PR #5;
+- sincronização manual da base de conhecimento (`DOC-005`) permanece **pendente**;
+- produto e `H-01` a `H-07` mantidos não validados; decisões 5–10 pendentes; próximo gate de descoberta inalterado;
+- etapa exclusivamente documental (`11_ESTADO_ATUAL_PROJETO.md`); sem nova decisão (`REGISTRO_DECISOES.md` inalterado); sem merge nesta etapa.
 
 ## 11. Modelo para próxima atualização
 
