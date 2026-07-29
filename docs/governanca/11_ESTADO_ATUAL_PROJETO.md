@@ -145,8 +145,19 @@ Estado autoritativo após o encerramento das PRs (supera as menções "aguardand
 - **PR #5** (`docs/eo-repo-003`) **integrada** à `main` em `main@b4411eb28143a46669e494e80195d294daa5b439` (merge commit da PR #5); branch remota **preservada**;
 - **PR #2** (`agent/registrar-decisoes-iniciais`) **encerrada como superada, sem merge**; branch remota **preservada** para rastreabilidade histórica;
 - o conteúdo residual útil da PR #2 (procedimento canônico da base de conhecimento e alinhamento da hierarquia documental) permanece **preservado pela PR #5**;
-- **pendência operacional em aberto:** a sincronização manual da base de conhecimento do Projeto ChatGPT (`DOC-005`) **continua não executada**;
+- **pendência operacional:** a sincronização manual da base de conhecimento do Projeto ChatGPT (`DOC-005`) foi **executada em 29/07/2026** (ver bloco `EO-REPO-005`);
 - produto e `H-01` a `H-07` seguem **não validados**; decisões 5–10 seguem **pendentes**; próximo gate de produto permanece a **preparação da coleta responsável** (inalterado).
+
+### EO-REPO-005 — sincronização DOC-005 executada
+
+- **`DOC-005` executada em 29/07/2026** por Bruno, manualmente, no Projeto ChatGPT;
+- origem do pacote: `main@7a7d49f5474f2ff57a27f3cf479cbb0a6df19c65`;
+- campo de instruções substituído pela versão de `01_INSTRUCOES_PROJETO_CHATGPT.md` desse commit;
+- base com **exatamente 18 anexos**, incluindo `README.md` e `AGENTS.md`, sem duplicados nem renomeados;
+- `01_INSTRUCOES_PROJETO_CHATGPT.md` (campo de instruções), `docs/README.md` e `12_BASE_CONHECIMENTO_CHATGPT.md` **não** anexados;
+- checklist pós-substituição concluído sem divergências; **pendência operacional de `DOC-005` encerrada**;
+- registro aceito com ressalva de evidência: a composição dos anexos foi comprovada; a substituição do campo de instruções é aceita pelo registro operacional de Bruno, sem comparação independente neste contexto entre o campo e o blob do commit;
+- o repositório permanece a **fonte prevalente**; nenhuma decisão de produto, segurança ou implementação foi alterada.
 
 ## 7. Não iniciado
 
@@ -255,6 +266,16 @@ As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** sã
 - sincronização manual da base de conhecimento (`DOC-005`) permanece **pendente**;
 - produto e `H-01` a `H-07` mantidos não validados; decisões 5–10 pendentes; próximo gate de descoberta inalterado;
 - etapa exclusivamente documental (`11_ESTADO_ATUAL_PROJETO.md`); sem nova decisão (`REGISTRO_DECISOES.md` inalterado); sem merge nesta etapa.
+
+### 29/07/2026 — EO-REPO-005
+
+- **`DOC-005` executada**: sincronização manual da base de conhecimento do Projeto ChatGPT concluída por Bruno;
+- pacote obtido de `main@7a7d49f`; campo de instruções substituído pela versão de `01_INSTRUCOES_PROJETO_CHATGPT.md`;
+- base com exatamente **18 anexos** (incluindo `README.md` e `AGENTS.md`), sem duplicados; `01_INSTRUCOES`, `docs/README.md` e `12_BASE` fora dos anexos;
+- checklist pós-substituição sem divergências; **pendência operacional de `DOC-005` encerrada**;
+- aceito com ressalva de evidência (sem comparação independente do campo de instruções contra o blob do commit);
+- produto e `H-01` a `H-07` mantidos não validados; decisões 5–10 pendentes; próximo gate de produto continua a preparação da coleta responsável;
+- etapa exclusivamente documental; sem nova decisão (`REGISTRO_DECISOES.md` inalterado).
 
 ## 11. Modelo para próxima atualização
 
