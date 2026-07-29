@@ -31,7 +31,7 @@ A base de conhecimento do Projeto ChatGPT é um **espelho** dessas fontes, nunca
 1. Aguardar o merge da revisão documental relevante na `main`.
 2. No Projeto ChatGPT, remover todos os arquivos atualmente anexados à base de conhecimento.
 3. Substituir integralmente o texto de **Instruções do projeto** pelo conteúdo completo de `01_INSTRUCOES_PROJETO_CHATGPT.md` (versão mergeada na `main`).
-4. Anexar somente os arquivos canônicos listados na seção 4, obtidos da `main` já mergeada.
+4. Anexar somente os 18 arquivos canônicos listados na seção 4 (incluindo `README.md` e `AGENTS.md`), obtidos da `main` já mergeada.
 5. Não anexar `01_INSTRUCOES_PROJETO_CHATGPT.md` como arquivo: seu conteúdo já estará no campo de instruções.
 6. Não manter cópias com sufixos como "original", "novo", "atualizado" ou "cópia".
 7. Executar a verificação da seção 5 antes de usar a base.
@@ -40,43 +40,53 @@ Remover arquivos antigos do Projeto ChatGPT não apaga histórico: versões ante
 
 ## 4. Arquivos canônicos a anexar
 
-Obtidos sempre da `main`. `README.md`, `AGENTS.md`, `docs/README.md` e este manifesto permanecem no repositório como navegação/procedimento e **não** precisam ser anexados.
+Obtidos sempre da `main`. `docs/README.md` e este manifesto (`12`) permanecem no repositório apenas como navegação/procedimento e **não** são anexados. `01_INSTRUCOES_PROJETO_CHATGPT.md` também **não** é anexado: seu conteúdo vai no campo de instruções (seções 3 e 7).
+
+`README.md` e `AGENTS.md` **são anexos obrigatórios**, porque definem a entrada, a hierarquia de verdade e as regras aplicáveis aos agentes. Não são cópias alternativas: são os próprios arquivos canônicos versionados na `main`. Como a leitura mínima exigida por `AGENTS.md` manda ler o `README.md` antes de qualquer atividade, ambos precisam estar anexados para que essa leitura seja cumprida **sem depender de acesso externo ao repositório**.
+
+### Documentos raiz
+
+1. [`README.md`](../../README.md)
+2. [`AGENTS.md`](../../AGENTS.md)
 
 ### Produto
 
-1. [`02_FONTE_MESTRA_PRODUTO.md`](../produto/02_FONTE_MESTRA_PRODUTO.md)
-2. [`03_ESCOPO_MVP_REGRAS_NEGOCIO.md`](../produto/03_ESCOPO_MVP_REGRAS_NEGOCIO.md)
-3. [`04_JORNADAS_HISTORIAS_CRITERIOS.md`](../produto/04_JORNADAS_HISTORIAS_CRITERIOS.md)
-4. [`08_ROADMAP_BACKLOG.md`](../produto/08_ROADMAP_BACKLOG.md)
+3. [`02_FONTE_MESTRA_PRODUTO.md`](../produto/02_FONTE_MESTRA_PRODUTO.md)
+4. [`03_ESCOPO_MVP_REGRAS_NEGOCIO.md`](../produto/03_ESCOPO_MVP_REGRAS_NEGOCIO.md)
+5. [`04_JORNADAS_HISTORIAS_CRITERIOS.md`](../produto/04_JORNADAS_HISTORIAS_CRITERIOS.md)
+6. [`08_ROADMAP_BACKLOG.md`](../produto/08_ROADMAP_BACKLOG.md)
 
 ### Descoberta
 
-5. [`RELATORIO_AUDITORIA_PRODUTO_V1.md`](../descoberta/RELATORIO_AUDITORIA_PRODUTO_V1.md)
-6. [`PLANO_DESCOBERTA_V1.md`](../descoberta/PLANO_DESCOBERTA_V1.md)
-7. [`ROTEIRO_ENTREVISTAS_V1.md`](../descoberta/ROTEIRO_ENTREVISTAS_V1.md)
-8. [`MATRIZ_HIPOTESES_V1.md`](../descoberta/MATRIZ_HIPOTESES_V1.md)
-9. [`DECISOES_PARA_BRUNO_V1.md`](../descoberta/DECISOES_PARA_BRUNO_V1.md)
+7. [`RELATORIO_AUDITORIA_PRODUTO_V1.md`](../descoberta/RELATORIO_AUDITORIA_PRODUTO_V1.md)
+8. [`PLANO_DESCOBERTA_V1.md`](../descoberta/PLANO_DESCOBERTA_V1.md)
+9. [`ROTEIRO_ENTREVISTAS_V1.md`](../descoberta/ROTEIRO_ENTREVISTAS_V1.md)
+10. [`MATRIZ_HIPOTESES_V1.md`](../descoberta/MATRIZ_HIPOTESES_V1.md)
+11. [`DECISOES_PARA_BRUNO_V1.md`](../descoberta/DECISOES_PARA_BRUNO_V1.md)
 
 ### Arquitetura e qualidade
 
-10. [`05_MODELO_DOMINIO_DADOS.md`](../arquitetura/05_MODELO_DOMINIO_DADOS.md)
-11. [`06_ARQUITETURA_TECNICA_INICIAL.md`](../arquitetura/06_ARQUITETURA_TECNICA_INICIAL.md)
-12. [`07_QUALIDADE_SEGURANCA_PRIVACIDADE.md`](../qualidade/07_QUALIDADE_SEGURANCA_PRIVACIDADE.md)
+12. [`05_MODELO_DOMINIO_DADOS.md`](../arquitetura/05_MODELO_DOMINIO_DADOS.md)
+13. [`06_ARQUITETURA_TECNICA_INICIAL.md`](../arquitetura/06_ARQUITETURA_TECNICA_INICIAL.md)
+14. [`07_QUALIDADE_SEGURANCA_PRIVACIDADE.md`](../qualidade/07_QUALIDADE_SEGURANCA_PRIVACIDADE.md)
 
 ### Governança
 
-13. [`09_GOVERNANCA_IA_GITHUB.md`](09_GOVERNANCA_IA_GITHUB.md)
-14. [`10_TEMPLATES_PROMPTS_RELATORIOS.md`](10_TEMPLATES_PROMPTS_RELATORIOS.md)
-15. [`11_ESTADO_ATUAL_PROJETO.md`](11_ESTADO_ATUAL_PROJETO.md)
-16. [`REGISTRO_DECISOES.md`](REGISTRO_DECISOES.md)
+15. [`09_GOVERNANCA_IA_GITHUB.md`](09_GOVERNANCA_IA_GITHUB.md)
+16. [`10_TEMPLATES_PROMPTS_RELATORIOS.md`](10_TEMPLATES_PROMPTS_RELATORIOS.md)
+17. [`11_ESTADO_ATUAL_PROJETO.md`](11_ESTADO_ATUAL_PROJETO.md)
+18. [`REGISTRO_DECISOES.md`](REGISTRO_DECISOES.md)
 
-São **16 arquivos**. Este manifesto (`12`) não é anexado.
+São **18 arquivos** anexados. `01_INSTRUCOES_PROJETO_CHATGPT.md` (campo de instruções), `docs/README.md` e este manifesto (`12`) **não** são anexados.
 
 ## 5. Verificação após a substituição
 
 Confirmar no Projeto ChatGPT, sempre contra o estado atual da `main`:
 
-- existem exatamente 16 arquivos de conhecimento, sem duplicados nem versões antigas;
+- existem exatamente 18 arquivos de conhecimento anexados, sem duplicados nem versões antigas;
+- `README.md` está presente entre os anexos;
+- `AGENTS.md` está presente entre os anexos;
+- a leitura mínima exigida por `AGENTS.md` (ler `README.md` antes de qualquer atividade) pode ser cumprida integralmente sem acesso externo ao repositório;
 - a instrução menciona **troca exclusivamente de bens, sem complemento financeiro** (`DISC-001`);
 - as regiões candidatas são **Cruzeiro/DF** e **Guará/DF**, com **Região Administrativa** como unidade pública (`DISC-002`) — já escolhidas, não pendentes;
 - o público e os três grupos de categorias candidatas constam como recorte de descoberta (`DISC-003`), não como taxonomia final;
@@ -107,4 +117,4 @@ O resultado esperado é uma verificação de consistência e a preparação da p
 
 ## 8. Limitação operacional
 
-Este repositório prepara e versiona o pacote, mas não altera automaticamente os anexos ou as instruções do Projeto ChatGPT. A remoção dos originais e a inclusão dos 16 arquivos atualizados são executadas no próprio Projeto ChatGPT, manualmente, depois do merge.
+Este repositório prepara e versiona o pacote, mas não altera automaticamente os anexos ou as instruções do Projeto ChatGPT. A remoção dos originais e a inclusão dos 18 arquivos atualizados são executadas no próprio Projeto ChatGPT, manualmente, depois do merge.
