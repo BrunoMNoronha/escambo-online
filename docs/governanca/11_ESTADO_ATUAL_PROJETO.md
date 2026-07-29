@@ -50,6 +50,7 @@ O próximo gate reúne as pendências antes de qualquer contato: definir o **can
 | DISC-012 | Exclusão em ≤7 dias corridos via código; fluxo mínimo de incidente com aviso a Bruno no mesmo dia | Bruno (29/07/2026) |
 | DISC-013 | Roteiro não aprovado; aprovação após incorporar regras e auditar | Bruno (29/07/2026) |
 | DISC-014 | Contato bloqueado; autorização é gate separado após documentação, auditoria e simulação | Bruno (29/07/2026) |
+| DOC-006 | Base de conhecimento do Projeto ChatGPT com 18 anexos; item 7 passa de `RELATORIO_AUDITORIA_PRODUTO_V1` para `PROTOCOLO_COLETA_RESPONSAVEL_V1`; relatório de auditoria permanece no repo, fora dos anexos; substituição manual ainda não autorizada | Bruno (29/07/2026) |
 
 A fonte primária dessas decisões é o [registro de decisões](REGISTRO_DECISOES.md).
 
@@ -193,7 +194,8 @@ Estado autoritativo após o encerramento das PRs (supera as menções "aguardand
 - CI/CD e infraestrutura;
 - GitHub Actions ou scripts Python persistentes (autorizados por `GOV-007`, mas não criados);
 - configuração de conta, projeto ou integração Vercel (`INFRA-001` registra a direção, sem ativação);
-- deploy de preview, staging ou produção.
+- deploy de preview, staging ou produção;
+- substituição manual dos anexos da base de conhecimento do Projeto ChatGPT (`DOC-006` redefine a lista canônica, mas a troca ainda **não** está autorizada).
 
 ## 8. Riscos abertos
 
@@ -302,6 +304,13 @@ As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** sã
 - Bruno homologou as regras de coleta responsável (pacote `EO-DISC-004`, PC-01 a PC-10), registradas como `DISC-005` a `DISC-014`;
 - criado o [Protocolo de coleta responsável V1](../descoberta/PROTOCOLO_COLETA_RESPONSAVEL_V1.md); roteiro, plano, qualidade (§7) e índice sincronizados;
 - **roteiro mantido como proposta** (`DISC-013`); **contato bloqueado** (`DISC-014`); produto e `H-01` a `H-07` mantidos não validados; decisões 5–10 pendentes.
+
+### 29/07/2026 — DOC-006 (base de conhecimento)
+
+- Bruno aprovou `DOC-006` (posterior ao merge da PR #8): a base de conhecimento do Projeto ChatGPT permanece com **18 anexos**, com o item 7 passando de `RELATORIO_AUDITORIA_PRODUTO_V1.md` para `PROTOCOLO_COLETA_RESPONSAVEL_V1.md`;
+- relatório de auditoria **preservado no repositório**, fora dos anexos canônicos;
+- atualizados `12_BASE_CONHECIMENTO_CHATGPT.md` (lista, checklist e primeiro uso), `REGISTRO_DECISOES.md` e este estado, refletindo o cenário pós-`EO-DISC-005`;
+- A decisão `DOC-006` não autorizou por si só a substituição manual dos anexos, commit, push ou PR; essas operações exigem autorizações separadas. O roteiro permanece não aprovado e o contato continua bloqueado.
 
 ## 11. Modelo para próxima atualização
 

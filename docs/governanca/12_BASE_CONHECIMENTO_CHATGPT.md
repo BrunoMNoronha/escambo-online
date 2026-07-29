@@ -4,7 +4,7 @@
 
 **Status:** procedimento operacional para sincronizar a base de conhecimento do Projeto ChatGPT com o repositório oficial
 
-**Última atualização:** 29/07/2026 (etapa `EO-REPO-003`)
+**Última atualização:** 29/07/2026 (etapa `EO-DOC-006`; decisão `DOC-006`)
 
 ## 1. Objetivo
 
@@ -58,7 +58,7 @@ Obtidos sempre da `main`. `docs/README.md` e este manifesto (`12`) permanecem no
 
 ### Descoberta
 
-7. [`RELATORIO_AUDITORIA_PRODUTO_V1.md`](../descoberta/RELATORIO_AUDITORIA_PRODUTO_V1.md)
+7. [`PROTOCOLO_COLETA_RESPONSAVEL_V1.md`](../descoberta/PROTOCOLO_COLETA_RESPONSAVEL_V1.md)
 8. [`PLANO_DESCOBERTA_V1.md`](../descoberta/PLANO_DESCOBERTA_V1.md)
 9. [`ROTEIRO_ENTREVISTAS_V1.md`](../descoberta/ROTEIRO_ENTREVISTAS_V1.md)
 10. [`MATRIZ_HIPOTESES_V1.md`](../descoberta/MATRIZ_HIPOTESES_V1.md)
@@ -79,6 +79,8 @@ Obtidos sempre da `main`. `docs/README.md` e este manifesto (`12`) permanecem no
 
 São **18 arquivos** anexados. `01_INSTRUCOES_PROJETO_CHATGPT.md` (campo de instruções), `docs/README.md` e este manifesto (`12`) **não** são anexados.
 
+> **`DOC-006` (29/07/2026):** o item 7 dos anexos passou de `RELATORIO_AUDITORIA_PRODUTO_V1.md` para `PROTOCOLO_COLETA_RESPONSAVEL_V1.md`, mantendo exatamente 18 anexos. O relatório de auditoria **permanece no repositório** como registro histórico, mas **deixa de integrar os anexos canônicos** do Projeto ChatGPT. Esta atualização documental **não** executa nem autoriza a substituição manual dos anexos — ver seção 8.
+
 ## 5. Verificação após a substituição
 
 Confirmar no Projeto ChatGPT, sempre contra o estado atual da `main`:
@@ -86,15 +88,17 @@ Confirmar no Projeto ChatGPT, sempre contra o estado atual da `main`:
 - existem exatamente 18 arquivos de conhecimento anexados, sem duplicados nem versões antigas;
 - `README.md` está presente entre os anexos;
 - `AGENTS.md` está presente entre os anexos;
+- `PROTOCOLO_COLETA_RESPONSAVEL_V1.md` está presente entre os anexos (item 7) e `RELATORIO_AUDITORIA_PRODUTO_V1.md` **não** está anexado, embora permaneça no repositório (`DOC-006`);
 - a leitura mínima exigida por `AGENTS.md` (ler `README.md` antes de qualquer atividade) pode ser cumprida integralmente sem acesso externo ao repositório;
 - a instrução menciona **troca exclusivamente de bens, sem complemento financeiro** (`DISC-001`);
 - as regiões candidatas são **Cruzeiro/DF** e **Guará/DF**, com **Região Administrativa** como unidade pública (`DISC-002`) — já escolhidas, não pendentes;
 - o público e os três grupos de categorias candidatas constam como recorte de descoberta (`DISC-003`), não como taxonomia final;
 - `MATRIZ_HIPOTESES_V1.md` informa critérios **aprovados e congelados** (`DISC-004`) e hipóteses **não validadas**;
 - `H-01` a `H-07` continuam não validadas; decisões 5–10 continuam pendentes;
-- o registro contém as decisões operacionais `GOV-007`, `GOV-008`, `INFRA-001` e `DOC-004`;
+- o registro contém as decisões operacionais `GOV-007`, `GOV-008`, `INFRA-001` e `DOC-004`, a decisão documental `DOC-005`/`DOC-006` e as decisões de coleta responsável `DISC-005` a `DISC-014`;
 - a Vercel consta como hospedagem preferencial sob custo zero, **sem configuração nem deploy** (`INFRA-001`);
-- `11_ESTADO_ATUAL_PROJETO.md` aponta como próximo gate a **preparação das regras de coleta responsável**, não a escolha de regiões;
+- as **regras de coleta responsável** (`DISC-005` a `DISC-014`) constam como **aprovadas** e consolidadas em `PROTOCOLO_COLETA_RESPONSAVEL_V1.md`; o **roteiro permanece proposta não aprovada** (`DISC-013`);
+- `11_ESTADO_ATUAL_PROJETO.md` aponta como próximo gate **definir o canal de contato/exclusão e o texto de abordagem inicial, auditar e simular o roteiro e submetê-lo à aprovação de Bruno** — o contato permanece **bloqueado** (`DISC-014`);
 - nenhuma fonte declara autorização para implementação ou contato externo.
 
 Se qualquer verificação falhar, não iniciar a próxima etapa: corrigir a base e repetir a checagem.
@@ -103,7 +107,7 @@ Se qualquer verificação falhar, não iniciar a próxima etapa: corrigir a base
 
 Após a substituição, iniciar uma nova conversa no Projeto ChatGPT com:
 
-> Leia integralmente a base de conhecimento vigente. Resuma somente as decisões confirmadas, as hipóteses ainda não validadas e os bloqueios atuais. Em seguida, apresente a Bruno o próximo gate — a preparação das regras de coleta responsável (recrutamento, consentimento, registro, anonimização, armazenamento, acesso e retenção) — explicando o que precisa ser aprovado e o impacto de adiar. Não pesquise pessoas, não contate participantes e não implemente nada.
+> Leia integralmente a base de conhecimento vigente. Resuma somente as decisões confirmadas, as hipóteses ainda não validadas e os bloqueios atuais. Considere que as regras de coleta responsável já foram aprovadas (`DISC-005` a `DISC-014`, consolidadas em `PROTOCOLO_COLETA_RESPONSAVEL_V1.md`) e que o roteiro permanece proposta não aprovada. Em seguida, apresente a Bruno o próximo gate — definir o canal de contato/exclusão e o texto de abordagem inicial, auditar e simular internamente o roteiro com dados fictícios e submetê-lo à aprovação — explicando o que precisa ser decidido e o impacto de adiar. O contato com participantes permanece bloqueado. Não pesquise pessoas, não contate participantes e não implemente nada.
 
 O resultado esperado é uma verificação de consistência e a preparação da próxima decisão, não execução de campo.
 
@@ -118,3 +122,5 @@ O resultado esperado é uma verificação de consistência e a preparação da p
 ## 8. Limitação operacional
 
 Este repositório prepara e versiona o pacote, mas não altera automaticamente os anexos ou as instruções do Projeto ChatGPT. A remoção dos originais e a inclusão dos 18 arquivos atualizados são executadas no próprio Projeto ChatGPT, manualmente, depois do merge.
+
+A decisão `DOC-006` (29/07/2026) redefine a lista canônica (item 7: `PROTOCOLO_COLETA_RESPONSAVEL_V1.md` no lugar de `RELATORIO_AUDITORIA_PRODUTO_V1.md`), mas **a substituição manual dos anexos permanece pendente e ainda não autorizada** — depende de nova autorização explícita de Bruno, após o merge desta atualização documental.
