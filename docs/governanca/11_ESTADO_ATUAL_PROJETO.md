@@ -4,7 +4,7 @@
 
 **Fase:** 0 — descoberta e validação
 
-**Status geral:** decisões iniciais e operacionais registradas; D0 parcialmente concluída; preparação da coleta pendente; produto ainda não validado
+**Status geral:** decisões iniciais, operacionais e de coleta responsável registradas; regras de coleta aprovadas (`DISC-005` a `DISC-014`); roteiro ainda não aprovado; contato bloqueado; produto ainda não validado
 
 ## 1. Resumo
 
@@ -14,7 +14,9 @@ A auditoria concluiu que a proposta é coerente para iniciar descoberta, mas nã
 
 Na etapa `EO-DISC-002`, Bruno aprovou em 29/07/2026 as quatro decisões iniciais de produto (`DISC-001` a `DISC-004`), a matriz de hipóteses foi congelada e a pendência documental `DOC-001` a `DOC-003` foi sanada — as decisões foram movidas para confirmadas em razão do merge do PR #1. As hipóteses `H-01` a `H-07` seguem não validadas.
 
-O próximo gate é preparar, para aprovação de Bruno, os instrumentos e as regras de coleta responsável — critérios de recrutamento, consentimento, registro e eventual gravação, anonimização, local de armazenamento, controle de acesso e prazo de retenção e descarte — e obter autorização específica antes de qualquer contato com participantes.
+Na etapa `EO-DISC-005`, Bruno homologou em 29/07/2026 as regras de coleta responsável (`DISC-005` a `DISC-014`), consolidadas no [Protocolo de coleta responsável V1](../descoberta/PROTOCOLO_COLETA_RESPONSAVEL_V1.md): recrutamento e canais, consentimento e informação, registro somente por notas, pseudonimização e contatos, armazenamento e acesso, uso de IA, retenção e descarte, desistência/exclusão/incidente. Esses controles já foram **incorporados ao roteiro** nesta etapa; o **roteiro permanece não aprovado** (`DISC-013`) e **todo contato continua bloqueado** (`DISC-014`).
+
+O próximo gate reúne as pendências antes de qualquer contato: definir o **canal operacional de contato/exclusão**; preparar e aprovar o **texto de abordagem inicial**; **auditar** o roteiro; realizar a **simulação interna com dados fictícios**; obter a **aprovação do roteiro** por Bruno; e conceder a **autorização específica para contato**.
 
 ## 2. Decisões confirmadas
 
@@ -38,6 +40,16 @@ O próximo gate é preparar, para aprovação de Bruno, os instrumentos e as reg
 | INFRA-001 | Vercel como hospedagem preferencial sob custo zero; sem deploy nesta etapa; detalhamento no `ADR-008` | Bruno (29/07/2026) |
 | DOC-004 | Higiene contínua e controlada do repositório; remoção somente com evidência registrada | Bruno (29/07/2026) |
 | DOC-005 | Sincronização canônica da base do Projeto ChatGPT (procedimento manual, espelhando a `main`); complementa `DOC-004` | Bruno (29/07/2026) |
+| DISC-005 | Recrutamento: smartphone como perfil (não elegibilidade); obrigatório ter considerado destino de item em 12 meses; canais só com autorização, sem listas/massa | Bruno (29/07/2026) |
+| DISC-006 | Consentimento verbal por checkbox+código, com folha de informação, sem assinatura; sem incentivo por padrão | Bruno (29/07/2026) |
+| DISC-007 | Primeiro ciclo somente por notas, sem áudio/vídeo; gravação é opção condicionada | Bruno (29/07/2026) |
+| DISC-008 | Pseudonimização temporária por código; tabela `contato ↔ código` separada e eliminada com os contatos | Bruno (29/07/2026) |
+| DISC-009 | Armazenamento em Google Drive privado com MFA, sem compartilhamento; notas/contatos separados; nada no GitHub; nada bruto para IA | Bruno (29/07/2026) |
+| DISC-010 | IA só sobre conteúdo revisado e desidentificado por Bruno; brutos e contatos proibidos | Bruno (29/07/2026) |
+| DISC-011 | Retenção por categoria (contatos ≤30d; notas ≤90d após D6, teto 12 meses); descarte completo | Bruno (29/07/2026) |
+| DISC-012 | Exclusão em ≤7 dias corridos via código; fluxo mínimo de incidente com aviso a Bruno no mesmo dia | Bruno (29/07/2026) |
+| DISC-013 | Roteiro não aprovado; aprovação após incorporar regras e auditar | Bruno (29/07/2026) |
+| DISC-014 | Contato bloqueado; autorização é gate separado após documentação, auditoria e simulação | Bruno (29/07/2026) |
 
 A fonte primária dessas decisões é o [registro de decisões](REGISTRO_DECISOES.md).
 
@@ -159,6 +171,13 @@ Estado autoritativo após o encerramento das PRs (supera as menções "aguardand
 - registro aceito com ressalva de evidência: a composição dos anexos foi comprovada; a substituição do campo de instruções é aceita pelo registro operacional de Bruno, sem comparação independente neste contexto entre o campo e o blob do commit;
 - o repositório permanece a **fonte prevalente**; nenhuma decisão de produto, segurança ou implementação foi alterada.
 
+### EO-DISC-005 — regras de coleta responsável registradas
+
+- Bruno **homologou** em 29/07/2026 o pacote `EO-DISC-004` (PC-01 a PC-10), registrado como `DISC-005` a `DISC-014` em [Registro de decisões](REGISTRO_DECISOES.md);
+- criado o [Protocolo de coleta responsável V1](../descoberta/PROTOCOLO_COLETA_RESPONSAVEL_V1.md) consolidando recrutamento, consentimento, registro por notas, pseudonimização, armazenamento, acesso, IA, retenção, descarte, exclusão e incidente;
+- roteiro, plano, qualidade (§7) e índice sincronizados; **roteiro mantido como proposta** (`DISC-013`);
+- **nenhum contato, recrutamento, entrevista ou coleta autorizado** (`DISC-014`); produto e `H-01` a `H-07` mantidos não validados; decisões 5–10 pendentes.
+
 ## 7. Não iniciado
 
 - recrutamento ou entrevistas;
@@ -197,13 +216,14 @@ Estado autoritativo após o encerramento das PRs (supera as menções "aguardand
 
 ## 9. Próximo passo recomendado
 
-As decisões 1–4 foram respondidas e registradas. O próximo gate é preparar e submeter à aprovação de Bruno:
+As decisões 1–4 (`DISC-001` a `DISC-004`) e as regras de coleta responsável (`DISC-005` a `DISC-014`) foram registradas, e os controles já foram incorporados ao [Roteiro de entrevistas V1](../descoberta/ROTEIRO_ENTREVISTAS_V1.md). Permanecem pendentes, antes de qualquer contato:
 
-1. critérios de recrutamento;
-2. consentimento e forma de registro (e eventual gravação);
-3. anonimização, local de armazenamento, controle de acesso, prazo de retenção e descarte;
-4. revisão e aprovação do roteiro aplicável;
-5. autorização explícita antes de contatar participantes.
+1. definir o **canal operacional de contato/exclusão** (`DISC-006`/`DISC-012`) — decisão de Bruno;
+2. preparar e aprovar o **texto de abordagem inicial** de recrutamento (`DISC-005`) — decisão de Bruno;
+3. **auditar** o roteiro atualizado;
+4. **simular internamente** o fluxo com **dados fictícios**;
+5. submeter o roteiro à **aprovação de Bruno** (`DISC-013`);
+6. só então obter **autorização explícita para contato** (`DISC-014`).
 
 As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** são o próximo gate imediato. Nada de recrutamento, entrevista, contato ou implementação está autorizado nesta etapa.
 
@@ -276,6 +296,12 @@ As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** sã
 - aceito com ressalva de evidência (sem comparação independente do campo de instruções contra o blob do commit);
 - produto e `H-01` a `H-07` mantidos não validados; decisões 5–10 pendentes; próximo gate de produto continua a preparação da coleta responsável;
 - etapa exclusivamente documental; sem nova decisão (`REGISTRO_DECISOES.md` inalterado).
+
+### 29/07/2026 — EO-DISC-005
+
+- Bruno homologou as regras de coleta responsável (pacote `EO-DISC-004`, PC-01 a PC-10), registradas como `DISC-005` a `DISC-014`;
+- criado o [Protocolo de coleta responsável V1](../descoberta/PROTOCOLO_COLETA_RESPONSAVEL_V1.md); roteiro, plano, qualidade (§7) e índice sincronizados;
+- **roteiro mantido como proposta** (`DISC-013`); **contato bloqueado** (`DISC-014`); produto e `H-01` a `H-07` mantidos não validados; decisões 5–10 pendentes.
 
 ## 11. Modelo para próxima atualização
 

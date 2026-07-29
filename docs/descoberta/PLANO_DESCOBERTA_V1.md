@@ -6,7 +6,7 @@
 
 **Objetivo:** reduzir as incertezas que podem inviabilizar ou alterar o MVP antes de UX detalhada, arquitetura ou implementação
 
-**Status:** D0 parcialmente aprovado em 29/07/2026 (regiões, categorias, fronteira da tese e critérios da matriz decididos); preparação de recrutamento, consentimento e registro pendente
+**Status:** D0 parcialmente concluída em 29/07/2026 (regiões, categorias, fronteira da tese, critérios da matriz e regras de coleta responsável `DISC-005` a `DISC-014` aprovados); **roteiro, simulação e autorização de contato pendentes**
 
 ## 1. Resultado esperado
 
@@ -161,14 +161,24 @@ Esses números são parâmetros sugeridos para pré-registro, não métricas obs
 3. ✅ Fronteira da tese confirmada: troca exclusivamente de bens, sem complemento financeiro (restrição da tese testada).
 5. ✅ Matriz `manter / alterar / rejeitar` aprovada e congelada.
 
-**Ações — ainda pendentes:**
+**Ações — concluídas em 29/07/2026 (`DISC-005` a `DISC-012`, etapa `EO-DISC-005`):**
 
-4. Aprovar roteiro aplicável, critérios de recrutamento, consentimento e registro.
-6. Definir anonimização, local de armazenamento, controle de acesso, prazo de retenção e descarte das notas.
+6. ✅ Critérios de recrutamento e canais, consentimento e registro, anonimização/pseudonimização, local de armazenamento, controle de acesso, uso de IA, prazo de retenção e descarte definidos no [Protocolo de coleta responsável V1](PROTOCOLO_COLETA_RESPONSAVEL_V1.md).
 
-**Evidência:** decisões registradas em [Registro de decisões](../governanca/REGISTRO_DECISOES.md); instrumentos ainda a congelar (roteiro, consentimento, ficha de registro).
+**Ações — ainda pendentes (D0 parcialmente concluída):**
 
-**Gate:** nenhuma entrevista começa sem público, consentimento, instrumentos e critérios operacionais aprovados, nem sem autorização específica para contato.
+Os controles de coleta já foram incorporados ao roteiro nesta etapa. Restam:
+
+4. auditoria final do roteiro atualizado;
+7. definição do canal operacional para dúvidas e exclusão (`DISC-006`/`DISC-012`) — decisão de Bruno;
+8. preparação e aprovação do texto de abordagem inicial de recrutamento (`DISC-005`) — decisão de Bruno;
+9. simulação interna com dados fictícios;
+10. aprovação do roteiro por Bruno (`DISC-013`);
+11. autorização específica para contato (`DISC-014`).
+
+**Evidência:** decisões registradas em [Registro de decisões](../governanca/REGISTRO_DECISOES.md); regras consolidadas no [Protocolo de coleta responsável V1](PROTOCOLO_COLETA_RESPONSAVEL_V1.md); roteiro atualizado, ainda a auditar e aprovar.
+
+**Gate:** nenhuma entrevista começa sem canal e abordagem definidos, roteiro auditado e aprovado, simulação interna concluída e autorização específica para contato.
 
 ## Etapa D1 — Entrevistas de problema e comportamento
 
@@ -474,4 +484,4 @@ O percentual de aderência ao roteiro é um controle operacional proposto, não 
 
 ## 12. Próximo passo imediato
 
-As decisões 1 a 4 de `DECISOES_PARA_BRUNO_V1.md` foram respondidas em 29/07/2026 (`DISC-001` a `DISC-004`). O próximo passo é preparar e submeter à aprovação de Bruno os critérios de recrutamento, o consentimento, o registro e a eventual gravação, a anonimização, o local de armazenamento, o controle de acesso e o prazo de retenção e descarte, além do roteiro aplicável — **sem iniciar contato com participantes até autorização específica**.
+As decisões 1 a 4 (`DISC-001` a `DISC-004`) e as regras de coleta responsável (`DISC-005` a `DISC-014`, ver [Protocolo de coleta responsável V1](PROTOCOLO_COLETA_RESPONSAVEL_V1.md)) foram registradas, e os controles já foram incorporados ao [roteiro](ROTEIRO_ENTREVISTAS_V1.md). O próximo passo é definir o canal de contato/exclusão e o texto de abordagem inicial (decisões de Bruno), auditar o roteiro, simular internamente o fluxo com dados fictícios e submeter o roteiro à aprovação de Bruno — **sem iniciar contato com participantes até autorização específica** (`DISC-014`).

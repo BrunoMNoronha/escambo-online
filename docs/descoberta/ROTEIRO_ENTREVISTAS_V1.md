@@ -6,6 +6,8 @@
 
 **Status:** proposta; requer aprovação antes de recrutamento
 
+> **Nota (`EO-DISC-005`, 29/07/2026):** este roteiro foi atualizado para refletir as regras de coleta responsável aprovadas (`DISC-005` a `DISC-014`; ver [Protocolo de coleta responsável V1](PROTOCOLO_COLETA_RESPONSAVEL_V1.md)) — registro **somente por notas** (sem áudio/vídeo no primeiro ciclo), consentimento verbal por **código** e direito de exclusão. **O roteiro continua como proposta e não está aprovado para uso** (`DISC-013`); a aprovação ocorrerá após auditoria e simulação interna com dados fictícios.
+
 **Público:** adultos dentro do recorte regional e dos perfis definidos no plano de descoberta
 
 ## 1. Objetivo do roteiro
@@ -41,18 +43,18 @@ Investigar comportamentos, decisões, obstáculos, confiança e segurança relac
 
 ## 4. Abertura e consentimento — 3 minutos
 
-Texto sugerido:
+Apresentar a folha de informação (`DISC-006`) e obter consentimento verbal antes de qualquer anotação. Texto sugerido:
 
-> Estamos pesquisando como as pessoas decidem o que fazer com bens que não usam mais. Não existe resposta certa e a ideia estudada pode mudar ou nem ser construída. Quero entender situações que realmente aconteceram. Não preciso de endereço, documento, nome de outras pessoas ou detalhes sensíveis. Você pode deixar de responder ou encerrar a qualquer momento.
+> Estamos pesquisando como as pessoas decidem o que fazer com bens que não usam mais. Não existe resposta certa e a ideia estudada pode mudar ou nem ser construída. Quero entender situações que realmente aconteceram. Farei apenas **anotações** — sem áudio e sem vídeo. Não preciso de endereço, documento, nome de outras pessoas ou detalhes sensíveis. Suas respostas serão usadas de forma agrupada e sem identificação, guardadas por prazo limitado e depois descartadas. Você receberá um **código** e pode pedir a exclusão dos seus dados usando esse código. Você pode deixar de responder ou encerrar a qualquer momento.
 
-Confirmar:
+Confirmar e registrar por marcação na ficha (`DISC-006`/`DISC-007`):
 
 1. A pessoa é maior de idade?
 2. Aceita participar da conversa?
-3. Aceita anotações?
-4. Se gravação estiver prevista: aceita gravação e entendeu finalidade e prazo de exclusão?
+3. Aceita que sejam feitas **anotações** (sem áudio e sem vídeo)?
+4. Entendeu que a participação é voluntária, que os dados serão desidentificados e que pode pedir exclusão pelo código?
 
-Se qualquer requisito obrigatório não for atendido, encerrar sem pressão.
+Atribuir o **código do participante** (ex.: `P-CRU-01`) e informá-lo à pessoa, junto do canal de contato para dúvidas ou exclusão. **Não há gravação neste ciclo** (`DISC-007`). Se qualquer requisito obrigatório não for atendido, encerrar sem pressão.
 
 ## 5. Aquecimento e contexto — 5 minutos
 
@@ -337,12 +339,15 @@ Evitar “De 0 a 10, quanto gostou?” como evidência principal.
 ```markdown
 # Sessão [código]
 
+- Código do participante (ex.: P-CRU-01):
 - Data:
 - Região ampla:
 - Perfil de recrutamento:
 - Categorias genéricas:
-- Consentimento:
-- Gravação autorizada: sim / não / não aplicável
+- Consentimento verbal registrado (checkbox): [ ] sim
+- Código entregue ao participante: [ ] sim
+- Canal de exclusão informado: [ ] sim
+- Registro: somente notas (sem áudio/vídeo neste ciclo)
 
 ## Comportamentos relatados
 
