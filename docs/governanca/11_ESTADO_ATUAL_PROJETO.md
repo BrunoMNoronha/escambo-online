@@ -320,8 +320,9 @@ As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** sã
 - revisado `01_INSTRUCOES_PROJETO_CHATGPT.md` (estável, sem snapshot de estado, referenciando `13` e `14` e direcionando as consultas de estado ao GitHub); reescrito `12_BASE_CONHECIMENTO_CHATGPT.md` (manifesto de dois anexos, sem a lista ativa de 18 anexos, com nota histórica sobre `DOC-005`/`DOC-006`); índice (`docs/README.md`) atualizado;
 - `DOC-007` **supera operacionalmente `DOC-005` e `DOC-006`**, que **permanecem preservadas** em `REGISTRO_DECISOES.md` como política anterior; **nenhum documento evolutivo foi removido** do repositório;
 - **substituição manual dos anexos ainda NÃO executada** e não autorizada: atualizar a documentação não executa a troca no Projeto ChatGPT;
-- **próximo gate documental:** auditoria da nova base estável e **autorização específica** de Bruno para substituir os anexos no Projeto ChatGPT;
-- etapa exclusivamente documental; sem commit, push, PR, merge ou deploy; produto, `H-01` a `H-07`, decisões 5–10 e o próximo gate de produto permanecem inalterados.
+- **publicação autorizada (29/07/2026):** branch `docs/eo-doc-007` criada a partir da `main` (`62cd24b6b793bac0d0e78641a6b9b6bd360db924`); **commit inicial** `d6dde02b093aca7564326f52c8d4e8951d1b0887` reunindo os 7 arquivos documentais; push realizado; **PR draft [#10](https://github.com/BrunoMNoronha/escambo-online/pull/10)** aberta com base `main` e head `docs/eo-doc-007`, **aberta e não mesclada**; **sem merge e sem deploy**; **Projeto ChatGPT não modificado** e **substituição manual dos anexos ainda não executada**;
+- **próximo gate documental:** (1) auditoria consolidada da **PR [#10](https://github.com/BrunoMNoronha/escambo-online/pull/10)**; (2) correção de eventuais divergências; (3) **autorização específica** para tornar a PR *ready*; (4) **autorização separada** para o merge; (5) **somente após o merge** e mediante **nova autorização específica**, a substituição manual dos anexos e das instruções no Projeto ChatGPT;
+- produto, `H-01` a `H-07`, decisões 5–10 e o gate de pesquisa permanecem inalterados; **contato com participantes continua bloqueado**.
 
 ## 11. Modelo para próxima atualização
 
