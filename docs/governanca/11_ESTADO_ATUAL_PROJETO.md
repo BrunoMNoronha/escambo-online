@@ -1,6 +1,6 @@
 # Estado atual do projeto
 
-**Atualizado em:** 29/07/2026
+**Atualizado em:** 30/07/2026
 
 **Fase:** 0 — descoberta e validação
 
@@ -320,8 +320,9 @@ As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** sã
 - revisado `01_INSTRUCOES_PROJETO_CHATGPT.md` (estável, sem snapshot de estado, referenciando `13` e `14` e direcionando as consultas de estado ao GitHub); reescrito `12_BASE_CONHECIMENTO_CHATGPT.md` (manifesto de dois anexos, sem a lista ativa de 18 anexos, com nota histórica sobre `DOC-005`/`DOC-006`); índice (`docs/README.md`) atualizado;
 - `DOC-007` **supera operacionalmente `DOC-005` e `DOC-006`**, que **permanecem preservadas** em `REGISTRO_DECISOES.md` como política anterior; **nenhum documento evolutivo foi removido** do repositório;
 - **substituição manual dos anexos ainda NÃO executada** e não autorizada: atualizar a documentação não executa a troca no Projeto ChatGPT;
-- **publicação autorizada (29/07/2026):** branch `docs/eo-doc-007` criada a partir da `main` (`62cd24b6b793bac0d0e78641a6b9b6bd360db924`); **commit inicial** `d6dde02b093aca7564326f52c8d4e8951d1b0887` reunindo os 7 arquivos documentais; push realizado; **PR draft [#10](https://github.com/BrunoMNoronha/escambo-online/pull/10)** aberta com base `main` e head `docs/eo-doc-007`, **aberta e não mesclada**; **sem merge e sem deploy**; **Projeto ChatGPT não modificado** e **substituição manual dos anexos ainda não executada**;
-- **próximo gate documental:** (1) auditoria consolidada da **PR [#10](https://github.com/BrunoMNoronha/escambo-online/pull/10)**; (2) correção de eventuais divergências; (3) **autorização específica** para tornar a PR *ready*; (4) **autorização separada** para o merge; (5) **somente após o merge** e mediante **nova autorização específica**, a substituição manual dos anexos e das instruções no Projeto ChatGPT;
+- **publicação autorizada (29/07/2026):** branch `docs/eo-doc-007` criada a partir da `main` (`62cd24b6b793bac0d0e78641a6b9b6bd360db924`); **commit inicial** `d6dde02b093aca7564326f52c8d4e8951d1b0887`; push realizado; **PR [#10](https://github.com/BrunoMNoronha/escambo-online/pull/10)** aberta **inicialmente como draft**, com base `main` e head `docs/eo-doc-007`; **sem merge e sem deploy**; **Projeto ChatGPT não modificado** e **substituição manual dos anexos ainda não executada**;
+- **revisão concluída até C6 (30/07/2026):** a PR foi **marcada como ready for review**; o **commit de correção C6** `ca4e118957a5d062b6e2990d6476fe8fe2d8494e` tratou os **dois apontamentos P2** da revisão automática (`README.md` deixou de repetir o gate e passou a apontar o registro vivo `11_ESTADO_ATUAL_PROJETO.md`; `14_MAPA_FONTES_CANONICAS_GITHUB.md` passou a exigir a data "quando houver"); o **diff consolidado tem exatamente 8 arquivos**; as **duas threads P2 foram respondidas e resolvidas** e **nenhuma thread não resolvida** constava no momento desta auditoria; a **PR permanece aberta e não mesclada** e o **Projeto ChatGPT segue não modificado**;
+- **próximo gate documental:** (1) **revalidação final** da PR [#10](https://github.com/BrunoMNoronha/escambo-online/pull/10) (aberta, ready, mergeable e sem thread pendente); (2) **autorização específica de Bruno para o merge**; (3) **merge** como gate separado; (4) **atualização pós-merge** do estado documental; (5) **somente depois do merge** e mediante **nova autorização específica**, a substituição manual dos anexos e das instruções no Projeto ChatGPT;
 - produto, `H-01` a `H-07`, decisões 5–10 e o gate de pesquisa permanecem inalterados; **contato com participantes continua bloqueado**.
 
 ## 11. Modelo para próxima atualização
