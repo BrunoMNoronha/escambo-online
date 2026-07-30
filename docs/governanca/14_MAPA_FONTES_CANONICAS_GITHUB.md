@@ -109,7 +109,7 @@ Quando uma fonte lida citar outro documento necessário para entender ou executa
 Antes de confiar em qualquer fonte, confirme:
 
 - que a leitura foi feita no branch **`main`** do repositório oficial;
-- a **data** de atualização declarada no documento;
+- a **data** de atualização declarada no documento, quando houver;
 - o **estado** informado (por exemplo: proposta, confirmado, hipótese, registro vivo);
 - que a versão consultada é a **vigente**, não uma cópia, snapshot ou anexo desatualizado.
 

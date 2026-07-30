@@ -14,7 +14,7 @@ Base oficial de produto, descoberta e governança do projeto provisoriamente cha
 - As quatro decisões iniciais de produto foram aprovadas por Bruno em 29/07/2026 e registradas como `DISC-001` a `DISC-004` (etapa `EO-DISC-002`).
 - Os critérios da matriz de hipóteses foram aprovados e congelados.
 - Nenhuma hipótese `H-01` a `H-07` foi validada por pesquisa.
-- O próximo gate é preparar, para aprovação, as regras de coleta responsável (recrutamento, consentimento, registro, anonimização, armazenamento, acesso e retenção); contato com participantes continua não autorizado.
+- O próximo gate, as pendências, as autorizações e os bloqueios vigentes estão no [estado atual do projeto](docs/governanca/11_ESTADO_ATUAL_PROJETO.md), que prevalece para estágio e próximo gate.
 
 Consulte o [estado atual do projeto](docs/governanca/11_ESTADO_ATUAL_PROJETO.md) antes de iniciar qualquer etapa.
 
