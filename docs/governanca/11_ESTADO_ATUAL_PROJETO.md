@@ -1,6 +1,6 @@
 # Estado atual do projeto
 
-**Atualizado em:** 29/07/2026
+**Atualizado em:** 30/07/2026
 
 **Fase:** 0 — descoberta e validação
 
@@ -51,6 +51,7 @@ O próximo gate reúne as pendências antes de qualquer contato: definir o **can
 | DISC-013 | Roteiro não aprovado; aprovação após incorporar regras e auditar | Bruno (29/07/2026) |
 | DISC-014 | Contato bloqueado; autorização é gate separado após documentação, auditoria e simulação | Bruno (29/07/2026) |
 | DOC-006 | Base de conhecimento do Projeto ChatGPT com 18 anexos; item 7 passa de `RELATORIO_AUDITORIA_PRODUTO_V1` para `PROTOCOLO_COLETA_RESPONSAVEL_V1`; relatório de auditoria permanece no repo, fora dos anexos; substituição manual ainda não autorizada | Bruno (29/07/2026) |
+| DOC-007 | Base estável do Projeto ChatGPT: campo de instruções estável + **exatamente dois anexos** (`13_CONSTITUICAO_OPERACIONAL_CHATGPT` e `14_MAPA_FONTES_CANONICAS_GITHUB`); documentos evolutivos permanecem só no GitHub; consulta ao estado exige leitura da `main`; **supera operacionalmente `DOC-005`/`DOC-006`** (preservadas como histórico); substituição manual ainda não executada nem autorizada | Bruno (29/07/2026) |
 
 A fonte primária dessas decisões é o [registro de decisões](REGISTRO_DECISOES.md).
 
@@ -195,7 +196,7 @@ Estado autoritativo após o encerramento das PRs (supera as menções "aguardand
 - GitHub Actions ou scripts Python persistentes (autorizados por `GOV-007`, mas não criados);
 - configuração de conta, projeto ou integração Vercel (`INFRA-001` registra a direção, sem ativação);
 - deploy de preview, staging ou produção;
-- substituição manual dos anexos da base de conhecimento do Projeto ChatGPT (`DOC-006` redefine a lista canônica, mas a troca ainda **não** está autorizada).
+- substituição manual dos anexos da base de conhecimento do Projeto ChatGPT (`DOC-007` redefine a base para o campo de instruções estável e **dois anexos** — `13` e `14` —, mas a troca ainda **não** foi executada nem autorizada).
 
 ## 8. Riscos abertos
 
@@ -311,6 +312,18 @@ As decisões 5–10 continuam pendentes nos momentos definidos, mas **não** sã
 - relatório de auditoria **preservado no repositório**, fora dos anexos canônicos;
 - atualizados `12_BASE_CONHECIMENTO_CHATGPT.md` (lista, checklist e primeiro uso), `REGISTRO_DECISOES.md` e este estado, refletindo o cenário pós-`EO-DISC-005`;
 - A decisão `DOC-006` não autorizou por si só a substituição manual dos anexos, commit, push ou PR; essas operações exigem autorizações separadas. O roteiro permanece não aprovado e o contato continua bloqueado.
+
+### 29/07/2026 — EO-DOC-007 (base estável do Projeto ChatGPT)
+
+- Bruno aprovou `DOC-007`: a base de conhecimento do Projeto ChatGPT deixa de espelhar os documentos evolutivos e passa a ter um **campo de instruções estável** mais **exatamente dois anexos estáveis**; o GitHub permanece a fonte versionada oficial e concentra todo o estado, decisões, produto, descoberta, arquitetura, qualidade, roadmap, prompts e evidências;
+- criados [`13_CONSTITUICAO_OPERACIONAL_CHATGPT.md`](13_CONSTITUICAO_OPERACIONAL_CHATGPT.md) (regras estáveis: papéis, hierarquia de verdade, ciclo de trabalho, limites, gates e auditoria) e [`14_MAPA_FONTES_CANONICAS_GITHUB.md`](14_MAPA_FONTES_CANONICAS_GITHUB.md) (índice das fontes canônicas e protocolo obrigatório de consulta à `main`, incluindo o comportamento quando o GitHub estiver indisponível);
+- revisado `01_INSTRUCOES_PROJETO_CHATGPT.md` (estável, sem snapshot de estado, referenciando `13` e `14` e direcionando as consultas de estado ao GitHub); reescrito `12_BASE_CONHECIMENTO_CHATGPT.md` (manifesto de dois anexos, sem a lista ativa de 18 anexos, com nota histórica sobre `DOC-005`/`DOC-006`); índice (`docs/README.md`) atualizado;
+- `DOC-007` **supera operacionalmente `DOC-005` e `DOC-006`**, que **permanecem preservadas** em `REGISTRO_DECISOES.md` como política anterior; **nenhum documento evolutivo foi removido** do repositório;
+- **substituição manual dos anexos ainda NÃO executada** e não autorizada: atualizar a documentação não executa a troca no Projeto ChatGPT;
+- **publicação autorizada (29/07/2026):** branch `docs/eo-doc-007` criada a partir da `main` (`62cd24b6b793bac0d0e78641a6b9b6bd360db924`); **commit inicial** `d6dde02b093aca7564326f52c8d4e8951d1b0887`; push realizado; **PR [#10](https://github.com/BrunoMNoronha/escambo-online/pull/10)** aberta **inicialmente como draft**, com base `main` e head `docs/eo-doc-007`; **sem merge e sem deploy**; **Projeto ChatGPT não modificado** e **substituição manual dos anexos ainda não executada**;
+- **revisão concluída até C6 (30/07/2026):** a PR foi **marcada como ready for review**; o **commit de correção C6** `ca4e118957a5d062b6e2990d6476fe8fe2d8494e` tratou os **dois apontamentos P2** da revisão automática (`README.md` deixou de repetir o gate e passou a apontar o registro vivo `11_ESTADO_ATUAL_PROJETO.md`; `14_MAPA_FONTES_CANONICAS_GITHUB.md` passou a exigir a data "quando houver"); o **diff consolidado tem exatamente 8 arquivos**; as **duas threads P2 foram respondidas e resolvidas** e **nenhuma thread não resolvida** constava no momento desta auditoria; a **PR permanece aberta e não mesclada** e o **Projeto ChatGPT segue não modificado**;
+- **próximo gate documental:** (1) **revalidação final** da PR [#10](https://github.com/BrunoMNoronha/escambo-online/pull/10) (aberta, ready, mergeable e sem thread pendente); (2) **autorização específica de Bruno para o merge**; (3) **merge** como gate separado; (4) **atualização pós-merge** do estado documental; (5) **somente depois do merge** e mediante **nova autorização específica**, a substituição manual dos anexos e das instruções no Projeto ChatGPT;
+- produto, `H-01` a `H-07`, decisões 5–10 e o gate de pesquisa permanecem inalterados; **contato com participantes continua bloqueado**.
 
 ## 11. Modelo para próxima atualização
 
